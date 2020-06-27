@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block page_content %}
+    <a href="{{ url_for('main.category') }}" class="button is-dark mb-3">back</a>
+    {#    <p>category : {{ category.category_name }}</p>#}
+    <form action="{{ url_for('main.submit_order') }}" method="post">
+        {{ form.hidden_tag() }}
+        {#        <ul>#}
+        {#            {% for product in products %}#}
+        {#                <li>#}
+        {#                    <label>{{ product.description }}#}
+        {#                        <input type="checkbox" multiple name="product" value={{ product.product_id }}>#}
+        {#                    </label>#}
+        {#                </li>#}
+        {#            {% endfor %}#}
+        {#        </ul>#}
+        {##}
+        <div class="container">
+            <div class="panel">
+                <p class="panel-heading"> {{ category.category_name }} </p>
+                {% for product in products %}
+                    <div class="panel-block">
+                        {#                        {{ product.description }}#}
+                        {#                        <input type="checkbox" name="product" multiple value={{ product.product_id }}>#}
+                        <div class="field">
+                            <div class="control">
+                                <label class="checkbox is-fullwidth">
+                                    <input type="checkbox">
+                                    {{ product.description }}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {#        <div class="field">#}
+        {#            <div class="control">#}
+        {#                <label class="checkbox">#}
+        {#                    <input type="checkbox">#}
+        {#                    {{ product.description }}#}
+        {#                </label>#}
+        {#            </div>#}
+        {#        </div>#}
+
+        <div class="panel-block">
+            <button class="button is-link is-fullwidth" type="submit">Save</button>
+        </div>
+    </form>
+{% endblock %}

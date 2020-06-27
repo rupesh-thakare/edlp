@@ -1,0 +1,16 @@
+.user-account-page__input-card {
+    background-color: #ececec;
+    background-color: rgba(236, 236, 236, 0.8);
+    margin-top: 2.5em;
+}
+
+.login-form > .field + .field {
+    margin-top: 1.5em;
+}
+
+.user-account-page {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: start;
+}
