@@ -1,34 +1,35 @@
 {% extends "base.html" %}
-{% import "bootstrap/wtf.html" as wtf %}
-
-{% block title %}EDLP - Login{% endblock %}
 
 {% block page_content %}
-<div class="card user-account-page__input-card">
-      <header class="card-header">
-        <h1 class="card-header-title is-centered is-size-3 has-text-weight-light"> EDLP - Login </h1>
-      </header>
-      <div class="card-content">
-        <form action="{{ url_for('auth.login') }}" method="post" class="login-form">
-          {{ form.hidden_tag() }}
-          <div class="field">
-            <div class="control has-icons-left">
-              {{ form.shop_id(class="input") }}
-              <span class="icon is-left"> <i class="material-icons">person</i> </span>
-            </div>
+<div class="user-account-page">
+
+  <div class="card user-account-page__input-card">
+    <header class="card-header">
+      <h1 class="card-header-title is-centered is-size-3 has-text-weight-light"> EDLP - Login </h1>
+    </header>
+    <div class="card-content">
+      <form action="{{ url_for('auth.login') }}" method="post" class="login-form">
+        {{ form.hidden_tag() }}
+        <div class="field">
+          <div class="control has-icons-left">
+            {{ form.shop_id(class="input") }}
+            <span class="icon is-left"> <i class="material-icons">person</i> </span>
           </div>
-          <div class="field">
-            <div class="control has-icons-left">
-              {{ form.password(class="input") }}
-              <span class="icon is-left"> <i class="material-icons">lock</i> </span>
-            </div>
+        </div>
+        <div class="field">
+          <div class="control has-icons-left">
+            {{ form.password(class="input") }}
+            <span class="icon is-left"> <i class="material-icons">lock</i> </span>
           </div>
-          <div class="field">
-            <div class="control has-icons-left has-icons-right">
-              <button class="button bg-primary" type="submit">Login</button>
-            </div>
+        </div>
+        <div class="field">
+          <div class="control has-icons-left has-icons-right">
+            <button class="button bg-primary" type="submit">Login</button>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
+  </div>
+
+</div>
 {% endblock %}

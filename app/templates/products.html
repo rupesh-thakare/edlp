@@ -1,29 +1,27 @@
 {% extends 'base.html' %}
 
 {% block page_content %}
-<a href="{{ url_for('main.category') }}" class="button is-dark mb-3">back</a>
-{#    <p>category : {{ category.category_name }}</p>#}
+<!--<a href="{{ url_for('main.category') }}" class="button is-dark mb-3">back</a>-->
 <form action="{{ url_for('main.submit_order') }}" method="post">
   {{ form.hidden_tag() }}
-  <div class="container">
+  <div class="container mt-5">
     <div class="panel">
-      <p class="panel-heading"> {{ category.category_name }} </p>
+      <p class="panel-heading">
+        <a href="{{ url_for('main.category') }}"><i class="material-icons">arrow_back_ios </i></a>
+        {{ category.category_name }}
+      </p>
+
       {% for product in products %}
-      <div class="panel-block">
-        <div class="field">
-          <div class="control">
-            <label class="checkbox is-fullwidth">
+            <label class="checkbox is-fullwidth panel-block">
               <input type="checkbox" name="product" multiple value={{ product.product_id }}>
               {{ product.description }}
             </label>
-          </div>
-        </div>
-      </div>
       {% endfor %}
+      <div class="panel-block">
+        <button class="button is-link is-fullwidth" type="submit">Save</button>
+      </div>
     </div>
   </div>
-  <div class="panel-block">
-    <button class="button is-link is-fullwidth" type="submit">Save</button>
-  </div>
+
 </form>
 {% endblock %}

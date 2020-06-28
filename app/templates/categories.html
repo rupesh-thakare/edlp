@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block page_content %}
-    <div class="container">
+    <div class="container mt-5 mb-5">
         <div class="panel">
             <p class="panel-heading"> Categories </p>
             {% for category in categories %}
-            <a class="panel-block py-3" href="{{ url_for('main.product', category_id=category.category_id) }}"> {{ category.category_name }}</a>
+            <a class="panel-block py-3 pl-5" href="{{ url_for('main.product', category_id=category.category_id) }}"> {{ category.category_name | title }}</a>
             {% endfor %}
         </div>
     </div>
