@@ -38,7 +38,7 @@ class Catalog(db.Model):
 
 class ProductInventory(db.Model):
     __tablename__ = 'product_inventory'
-    proudct_id = db.Column(db.String(128), db.ForeignKey('catalog.product_id'), primary_key=True)
+    product_id = db.Column(db.String(128), db.ForeignKey('catalog.product_id'), primary_key=True)
     inventory = db.Column(db.Integer)
 
 
