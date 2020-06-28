@@ -33,7 +33,7 @@ class Catalog(db.Model):
     category_id = db.Column(db.String(64), db.ForeignKey('categories.category_id'))
     size = db.Column(db.String(128))
     unit = db.Column(db.String(64))
-    inventory = db.relationship('ProductInventory', backref='product', lazy='joined')
+    inventory = db.relationship('ProductInventory', backref='product', lazy='joined', uselist=False)
 
 
 class ProductInventory(db.Model):

@@ -2,7 +2,7 @@
 
 {% block page_content %}
 <div class="container listing-container">
-  <form action="{{ url_for('main.submit_order') }}" method="post">
+  <form action="{{ url_for('main.submit_order') }}" method="post" class="product-form">
     {{ form.hidden_tag() }}
     <div class="panel listing-panel">
       <p class="panel-heading">
@@ -13,16 +13,22 @@
       {% for product in products %}
       <div class="field panel-block product-panel-block">
         <label class="checkbox" style="display: block">
-          <input type="checkbox" name="product" multiple value={{ product.product_id }}>
+          <input multiple name="product" product.product_id type="checkbox" value={{ product.product_id }}>
           <span>{{ product.description }}</span>
         </label>
         <button class="button is-static">Rs {{product.mrp}}</button>
       </div>
       {% endfor %}
 
+      {% if products|length > 0 %}
       <div class="panel-block">
         <button class="button is-link is-fullwidth" type="submit">Save</button>
       </div>
+      {% else %}
+      <div class="panel-block has-text-centered">
+        <p>No entries found</p>
+      </div>
+      {% endif %}
     </div>
   </form>
 </div>
