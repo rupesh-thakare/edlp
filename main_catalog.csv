@@ -1,0 +1,2822 @@
+product_id,brand,description,mrp,category_id,size,unit
+10001,Britannia,Britannia Little Hearts,20,A0701,75,g
+10002,Parle,Parle Bakesmith Marie Biscuits,30,A0701,250,g
+10003,Parle,Monaco Classic,10,A0701,66.7,g
+10004,Oreo,Oreo Cadbury Dipped,20,A0701,50,g
+10005,Cadbury,BournVita Biscuits,10,A0701,46.5,g
+10006,Cadbury,"Oreo Creme Biscuit - Vanilla, Original",30,A0701,120,g
+10007,Cadbury,Oreo Creme Biscuit - Choco creme,30,A0701,120,g
+10008,Cadbury,Oreo Creme Biscuit - Strawberry creme,30,A0701,120,g
+10009,Cadbury,Oreo Creme Biscuit - Strawberry creme,10,A0701,50,g
+10010,Cadbury,"Oreo Creme Biscuit - Vanilla, Original",10,A0701,50,g
+10011,Boomer,Boomer Chewing Gum,230,A0703,1,Jar
+10012,Pim Pom,Wriggley's Pim Pom Lollypop,300,A0703,1,Jar
+10013,Parle,Parle Milano Center Filled Choco Chip,30,A0701,75,g
+10014,Parle,Parle Milano Center Filled Mixed berries,35,A0701,75,g
+10015,Parle,Hide & Seek choco Rolls,30,A0701,75,g
+10016,Parle,Hide & Seek black bourbon,30,A0701,100,g
+10017,Parle,Parle Platina - Nutricrunch Lite Cracker,15,A0701,100,g
+10018,Parle,Parle Platina- Nutricrunch Lite Cracker,30,A0701,200,g
+10019,Parle,Krackjack,10,A0701,66.7,g
+10020,Parle,20-20 Gold Butter Cookies,10,A0701,75,g
+10021,Parle,20-20 Cashew Cookies,5,A0701,40,g
+10022,Parle,20-20 butter Cookies,5,A0701,40,g
+10023,Parle,Parle- G,10,A0701,130,g
+10024,Unibic,Unibic Cookies - Choco Kiss,40,A0701,75,g
+10025,Unibic,Unibic Cookies - Butter (Sugar Free),40,A0701,75,g
+10026,Unibic,Unibic Cookies - Cashew (Sugar Free),40,A0701,75,g
+10027,Unibic,Unibic Cookies - Fruit & Nut,25,A0701,75,g
+10028,Unibic,Unibic Cookies - Oatmeal Digestive B1G1,50,A0701,150+150,g
+10029,Unibic,Unibic Cookies - Choco Nut,25,A0701,75,g
+10030,Unibic,Unibic Cookies - Choco Ripple B1G1,38,A0701,100+100,g
+10031,Unibic,Unibic Cookies - Milk B1G1,38,A0701,100+100,g
+10032,Unibic,Unibic Cookies - Orange Milk B1G1,38,A0701,100+100,g
+10033,Unibic,Unibic Cookies - Doosra Jeera,15,A0701,75,g
+10034,McVities,Mcvities Digestive,50,A0701,250,g
+10035,McVities,Mcvities Cookies - Fruit,40,A0701,120,g
+10036,McVities,Mcvities Marie Bisucits - Whole wheat,35,A0701,200,g
+10037,McVities,Mcvities Digestive Biscuits,20,A0701,100,g
+10038,Britannia,Good Day - Pista Badam Cookies,10,A0701,60,g
+10039,Britannia,Britannia Tiger Biscuits - Glucose,10,A0701,136,g
+10040,Britannia,Britannia Bourbon - Chocolate,20,A0701,120,g
+10041,Britannia,Good Day - Butter Cookies,15,A0701,100,g
+10042,Britannia,Good Day - Pista Badam Cookies,40,A0701,200,g
+10043,Britannia,Nice Time - Sugar Showered Coconut Biscuits,10,A0701,73,g
+10044,Britannia,Good Day - Choco Almond Cookies,30,A0701,100,g
+10045,Britannia,Good Day - Cashew,40,A0701,200,g
+10046,Britannia,Britannia 50 50 - Sweet & Salty,5,A0701,38,g
+10047,Britannia,Britannia 50 50 Jeera,5,A0701,50,g
+10048,ITC,Sunfeast Dark Fantasy - Choco Fills,30,A0701,75,g
+10049,Cadbury,Cadbury Dairy Milk Silk - Heart Pop,300,A0703,250,g
+10050,ITC,Sunfeast Mom's Magic - Chocolate Chip,30,A0701,60,g
+10051,ITC,Sunfeast Mom's Magic - Nuts & Raisins,30,A0701,60,g
+10052,ITC,Sunfeast Bounce - Tangy Orange,5,A0701,41,g
+10053,ITC,Sunfeast Bounce - Elaichi Delight,5,A0701,41,g
+10054,ITC,Sunfeast Farmlite - Oats Almonds,50,A0701,150,g
+10055,ITC,Sunfeast Farmlite Active Oats Raisins,25,A0701,75,g
+10056,ITC,Sunfeast Mom's Magic - Cashew & Almond,40,A0701,200,g
+10057,Britannia,Britannia 50-50 Maska Chaska,10,A0701,50,g
+10058,Britannia,Britannia 50-50 Maska Chaska,30,A0701,120,g
+10059,Parle,Hide & Seek - Caffe Mocha,30,A0701,120,g
+10060,Parle,Hide & Seek - Chocolate Chip,30,A0701,120,g
+10061,Parle,Parle-G Glucose Biscuits,5,A0701,65,g
+10062,Gone Mad - crackers,Gery Gone Mad Crackers - Cheese & Sugar,60,A0701,110,g
+10063,Gone Mad - crackers,Gery Gone Mad Crackers - Coconut,60,A0701,110,g
+10064,Gone Mad - crackers,Gery Gone Mad Crackers - Dark Chocolate,60,A0701,110,g
+10065,Britannia,Britannia Biscuits - Marie Gold,15,A0701,120,g
+10066,Britannia,Britannia Nutri Choice Essentials -Ragi Cookies,65,A0701,150,g
+10067,Britannia,Britannia Nutri Choice Digestive,40,A0701,150+50,g
+10068,Britannia,Britannia Good Day Chunkies - Triple Choco,50,A0701,120,g
+10069,Mars,Bounty - Coconut & Milk Chocolate Bar (Pack of 3),135,A0703,171,g
+10070,Gone Mad - chocolates,Gone mad Stick - Chocolate,5,A0703,12,g
+10071,Gone Mad - chocolates,Gone mad Stick - Choco Strawberry,5,A0703,12,g
+10072,Gone Mad - chocolates,Gone mad Stick - Cashew Mithai,5,A0703,12,g
+10073,Mars,Snickers - Peanut filled Chocolate Pack of 3,110,A0703,150,g
+10074,Dukes,Dukes Wafers - Waffy (Strawberry Flavor),45,A0701,75,g
+10075,Dukes,Dukes Wafers - Waffy (Chocolate Flavor),45,A0701,75,g
+10076,Dukes,Dukes Wafers - Waffy (Pineapple Flavor),45,A0701,75,g
+10077,Dukes,Dukes Wafers - Waffy (Vanilla Flavor),45,A0701,75,g
+10078,Wriggley's,Orbit Sugar Free Chewing Gum - Lemon Flavoured,5,A0703,4.4,g
+10079,Wriggley's,Orbit Sugar Free Chewing Gum - Mixed Fruit Flavoured,5,A0703,4.4,g
+10080,Wriggley's,"Wrigleys Orbit - Spearmint, Sugarfree",5,A0703,4.4,g
+10081,Wriggley's,"Wrigleys Orbit Chewing Gum - Winterfrost , Sugarfree",5,A0703,4.4,g
+10082,Nestle,Nestle Munch - Nuts,20,A0703,35.2,g
+10083,Nestle,Nestle Kitkat 2 fingers - Pack of 7,100,A0703,126,g
+10084,Nestle,Nestle Milky Bar,10,A0703,13.2,g
+10085,Nestle,Kitkat Dessert Delight - Choco Pudding,50,A0703,50,g
+10086,Nestle,Kitkat Dessert Delight - Truffle,50,A0703,50,g
+10087,Nestle,Kitkat Dessert Delight - Brownie Kubes,60,A0703,50,g
+10088,Nestle,Nestle Classic Milk Chocolate,10,A0703,18,g
+10089,Mars,Snickers Cashew,25,A0703,22,g
+10090,Mars,Bounty,25,A0703,28.5,g
+10091,ITC,Fabelle choco deck Fruit & Nut,70,A0703,58,g
+10092,ITC,Fabelle Soft Centres - Choco Mousse,80,A0703,59,g
+10093,Lotte,Lotte Coffy Bite Classic,5,A0703,23,g
+10094,Cadbury,Dairy Milk Silk Hazelnut,160,A0703,143,g
+10095,Cadbury,Dairy Milk Silk Chocolate,160,A0703,150,g
+10096,Cadbury,Dairy Milk Chocolate,100,A0703,130,g
+10097,Cadbury,Cadbury Bournville Rich Cocoa,45,A0703,31,g
+10098,Cadbury,Cadbury Bournville Raisin & Nut,100,A0703,80,g
+10099,Cadbury,Cadbury Bournville Cranberry,100,A0703,80,g
+10100,Cadbury,Cadbury Dairy Milk Roast Almond Chocolate Bar,45,A0703,38,g
+10101,Cadbury,Cadbury Celebrations,50,A0703,66.6,g
+10102,Cadbury,Dairy Milk Chocolate,40,A0703,50,g
+10103,Cadbury,Dairy Milk Chocolate,10,A0703,13.2,g
+10104,Cadbury,Cadbury 5 Star,10,A0703,25,g
+10105,Cadbury,Cadbury Fuse,35,A0703,50,g
+10106,Cadbury,Cadbury Chocolate Bar - Fuse,20,A0703,30,g
+10107,Cadbury,Cadbury Perk - Chocolate Bar,5,A0703,13,g
+10108,Britannia,Britannia Treat - Cool Vanilla,10,A0701,60,g
+10109,Britannia,Britannia Treat - Pineapple Biscuits,10,A0701,60,g
+10110,Britannia,Britannia Treat - Orange Biscuits,30,A0701,120,g
+10111,Britannia,Britannia Treat Stars - Creme & White Choco duo,25,A0701,100,g
+10112,Cadbury,Cadbury Gems Surprise,45,A0703,17.8,g
+10113,Cadbury,Cadbury Perk Double,10,A0703,28,g
+10114,Hershey's,Hershey's Kisses - Milk Chocolate,50,A0703,36,g
+10115,Hershey's,Hershey's Kisses - Almond,50,A0703,33.6,g
+10116,Hershey's,Hershey's Kisses - Cookies & Cream,50,A0703,33.6,g
+10117,Cadbury,Dairy Milk lickables,45,A0703,20,g
+10118,Cadbury,Cadbury Dairy Milk Minis,149,A0703,,
+10119,Chupa Chups,Chupa Chups Sour Belt,27,A0703,82.3,g
+10120,Mars,M&M's - Peanut,75,A0703,45,g
+10121,Ferrero,Kinder Joy For Boys,40,A0703,20,g
+10122,Ferrero,Kinder Joy For Girls,40,A0703,20,g
+10123,Mars,Galaxy Chocolate - Smooth Milk,20,A0703,19.1,g
+10124,Mars,Galaxy Chocolate - Smooth Milk,40,A0703,30,g
+10125,Amul,Amul Madagascar Dark Chocolate,150,A0703,125,g
+10126,Nestle,Nestle Polo Mint,5,A0703,15,g
+10127,Wriggley's,Doublemints,10,A0703,4.8,g
+10128,Nestle,Bar One,5,A0703,13.2,g
+10129,Ferrero,Tic Tac Saunf Flavour,10,A0703,7.7,g
+10130,Ferrero,Tic Tac Strawberry Mix,20,A0703,15.5,g
+10131,Ferrero,Tic Tac Orange,10,A0703,7.7,g
+10132,Ferrero,Tic Tac Mixers Cherry to Cola,25,A0703,16,g
+10133,Ferrero,Tic Tac Mixers Peach to Lemonade,25,A0703,16,g
+10134,Parle,Rola Cola,20,A0703,125+25,g
+10135,Amul,"Amul Colombia Classique Black, Single Origin Dark Chocolate - 55% Dark",150,A0703,125,g
+10136,Wriggley's,Happydent White,195,A0703,195,units
+10137,Wriggley's,Centerfruit,186,A0703,186,units
+10138,Wriggley's,Center fresh,210,A0703,210,units
+10139,Godrej,Luvit Smackers lollypop,5,A0703,48,units
+10140,Pepsico,Lays Classic Salted,10,A0707,28,g
+10141,ITC,Bingo Original Style - Chilli Sprinkled,50,A0707,100,g
+10142,Pepsico,Lays Maxx - Macho Chilli,10,A0707,22.5,g
+10143,Pepsico,Lays Maxx - Macho Chilli,35,A0707,63,g
+10144,Makino,Makino Nacho Chips Sweet Chilly,35,A0707,60,g
+10145,Makino,Makino Nacho Chips Salsa,35,A0707,60,g
+10146,ITC,Bingo Starters - Chatpata,20,A0707,48,g
+10147,Pepsico,Lays Potato Chips - Spanish Tomato Tango,20,A0707,52,g
+10148,Pepsico,Lays Potato Chips - American Style Cream & Onion,20,A0707,52,g
+10149,Pepsico,Lays Hot n Sweet Chilli,10,A0707,28,g
+10150,Pepsico,Pringles Original,99,A0707,107,g
+10151,Pepsico,Pringles Sour Cream and Onion,99,A0707,107,g
+10152,Too Yumm,Too Yumm Set of 3,51,A0707,166,g
+10153,Too Yumm,Too Yumm Karare - Noodle Masala,10,A0707,40,g
+10154,Pepsico,Doritos - Nacho Cheese,20,A0707,44,g
+10155,ITC,Bingo Starters - Masala,20,A0707,48,g
+10156,Too Yumm,Too Yumm Karare - Munchy Masala,10,A0707,40,g
+10157,Pepsico,Lays Joyful Magic Masala,10,A0707,28,g
+10158,ACT II,Act II xtreme butter,30,A0707,70,g
+10159,ACT II,Act || classic salted Pack of 3,50,A0707,60+60+60,g
+10160,Cadbury,Cadbury Dark Milk 72g,99,A0703,72,g
+10161,Cadbury,Cadbury Dark Milk 156g,199,A0703,156,g
+10162,Cadbury,Cadbury Dark Milk Salted Caramel,199,A0703,156,g
+10163,ACT II,ACT|| Golden Sizzle Pack of 3,50,A0707,60+60+60,g
+10164,ACT II,ACT|| Southern Spice,30,A0707,70,g
+10165,ACT II,ACT II Diet Popcorn - Olive Oil,30,A0707,70,g
+10166,ACT II,ACT II Diet Popcorn - Less salt,30,A0707,70,g
+10167,ACT II,ACT || Butter delite,30,A0707,70,g
+10168,ACT II,ACT II Instant Popcorn - Butter Pepper,30,A0707,70,g
+10169,ACT II,ACT II Instant Popcorn - Butter Delite Party pack,120,A0707,450,g
+10170,MTR,MTR 3 Min Breakfast - Magic Masala Upma,50,A0706,80,g
+10171,MTR,MTR Breakfast Mix - Vada,95,A0706,200,g
+10172,MTR,MTR Breakfast Mix - Upma,45,A0706,170,g
+10173,MTR,MTR Mix - Vermicelli Payasam,75,A0706,180,g
+10174,MTR,MTR sambar mix,70,A0706,180,g
+10175,MTR,MTR Masala Upma,65,A0706,180,g
+10176,MTR,MTR 3 min seviyan upma,55,A0706,160,g
+10177,MTR,MTR Ready To Eat - Sambar Rice,80,A0706,300,g
+10178,MTR,MTR Ready To Eat - Pav Bhaji,90,A0706,300,g
+10179,MTR,MTR Ready To Eat - Dal Makhani,110,A0706,300,g
+10180,MTR,MTR Ready To Eat - Chana Masala,110,A0706,300,g
+10181,MTR,MTR bisibele bath,85,A0706,300,g
+10182,Gits,Gits Ready Mix - Khaman Dhokla,85,A0706,500,g
+10183,Gits,Gits Mix - Khaman Dhokla,45,A0706,180,g
+10184,Gits,Gits Breakfast Mix - Dosa,55,A0706,200,g
+10185,MTR,MTR Ready To Eat - Palak Paneer,135,A0706,300,g
+10186,MTR,MTR Ready To Eat - Pongal,85,A0706,300,g
+10187,MTR,MTR 3 Min Khatta Meetha Poha,20,A0706,60,g
+10188,MTR,MTR 3 Minute Kesari Halwa,20,A0706,60,g
+10189,Saffola,Saffola Oats,199,A0702,1,kg
+10190,Saffola,Saffola Masala Oats - Peppy Tomato,190,A0702,500,g
+10191,Saffola,Saffola Masala Oats - Masala & Coriander,190,A0702,500,g
+10192,Saffola,Saffola Masala Oats - Classic Masala,190,A0702,500,g
+10193,Saffola,Saffola Masala Oats - Curry & Pepper,190,A0702,500,g
+10194,Quaker,Quaker Oats,77,A0702,400,g
+10195,Quaker,Quaker Oats Plus - Multigrain Advantage,145,A0702,600,g
+10196,Saffola,Saffola Masala Oats - Veggie Twist,15,A0702,38,g
+10197,Saffola,Saffola Masala Oats - Classic Masala,15,A0702,38,g
+10198,Saffola,Saffola Masala Oats - Chennai Pongal,15,A0702,38,g
+10199,Saffola,Saffola Masala Oats - Curry & Pepper,15,A0702,38,g
+10200,Saffola,"Saffola Oats - Masala, Mumbai Pav Bhaji",15,A0702,38,g
+10201,Kellogg's,Kelloggs Chocos Fills,170,A0702,250,g
+10202,Kellogg's,Kellogs Corn Flakes Thandai Badam,150,A0702,280,g
+10203,Kellogg's,Kelloggs Chocos,165,A0702,375,g
+10204,Kellogg's,Kelloggs Chocos duet,175,A0702,375,g
+10205,Bagrry's,Bagrrys Muesli - Almond Raisin & Honey,305,A0702,500,g
+10206,Kellogg's,Kelloggs Chocos webs,165,A0702,300,g
+10207,Kellogg's,Kelloggs ragi chocos,175,A0702,350,g
+10208,Yoga Bar,Yoga Bar Almond + Quinoa Crunch,299,A0702,400,g
+10209,Yoga Bar,Yoga Bar Dark Chocolate & Cranberry,299,A0702,400,g
+10210,Soulfull,Soulfull Millet Muesli - Crunchy,245,A0702,400,g
+10211,Soulfull,Soulfull Ragi Bites - vanilla Fills,169,A0702,250,g
+10212,Soulfull,Soulfull Ragi Bites - strawberry Fills,169,A0702,250,g
+10213,Soulfull,Soulfull Ragi Bites - Choco Fills,169,A0702,250,g
+10214,Bagrry's,Bagrrys Corn Flakes Plus - With Almond N Honey,165,A0702,300,g
+10215,Soulfull,Soulfull Banana Flavored Ragi Flakes,175,A0702,300,g
+10216,Kellogg's,Kelloggs Corn Flakes - Almond Honey,170,A0702,300,g
+10217,Kellogg's,Kelloggs Corn Flakes - Kesar pista Badam,150,A0702,280,g
+10218,Kellogg's,Kelloggs Corn Flakes Rose badam,150,A0702,280,g
+10219,Soulfull,Soulfull Millet Muesli - Fruit & Nut,275,A0702,400,g
+10220,Kellogg's,Kelloggs Corn Flakes,95,A0702,250,g
+10221,Soulfull,Soulfull Ragi Bites Choco fills,30,A0702,50,g
+10222,Desi,Desi Hakka Noodles - Veg,65,A0705,400,g
+10223,Desi,Desi Hakka Noodles - Egg,70,A0705,400,g
+10224,Desi,Desi Hakka Noodles - Spinach,70,A0705,400,g
+10225,Nestle,MAGGI Masala Noodles 2 pack,24,A0705,140,g
+10226,Nestle,Maggi Masala Oats Noodles 4 pack,98,A0705,290,g
+10227,Nestle,MAGGI Noodles - Masala 4 pack,46,A0705,280,g
+10228,Nestle,Maggi Fusion Hong Kong Spicy Garlic,20,A0705,73,g
+10229,Nestle,Maggi Fusion Bangkok Sweet Chilli,20,A0705,71,g
+10230,Nestle,Maggi Fusion Singaporean,20,A0705,71,g
+10231,Nestle,MAGGI Masala Noodles - Special Masala,15,A0705,70,g
+10232,Nestle,MAGGI Noodles - Chicken,58,A0705,284,g
+10233,Top Ramen,Top Ramen Atta Noodles - Masala,15,A0705,70,g
+10234,Top Ramen,Top Ramen Atta Noodles - Masala,60,A0705,280,g
+10235,Nestle,MAGGI Instant Noodles - Chilly Chow Cuppa,45,A0705,70,g
+10236,Nestle,MAGGI Instant Noodles - Cuppa Masala,45,A0705,70,g
+10237,Top Ramen,Top Ramen Fiery Chilli,10,A0705,70,g
+10238,ITC,Sunfeast Yippee Noodles - Mood Masala,55,A0705,280,g
+10239,Chings,Chings Instant Noodles - Manchurian,60,A0705,240,g
+10240,Chings,Chings Instant Noodles - Hot Garlic,60,A0705,240,g
+10241,Chings,Chings Instant Noodles - Schezwan,60,A0705,240,g
+10242,Chings,Chings Instant Noodles Singapore Curry,60,A0705,240,g
+10243,Top Ramen,Top Ramen Noodles - Masala,11,A0705,70,g
+10244,ITC,Sunfeast Yippee Noodles - Magic Masala,46,A0705,280,g
+10245,Top Ramen,Top Ramen Noodles - Fiery Chilli,60,A0705,280,g
+10246,Top Ramen,Top Ramen Oat Noodles - Masala,80,A0705,280,g
+10247,Nestle,Maggi Pazzta Masala Penne,25,A0705,65,g
+10248,Nestle,Maggi Pazzta Cheese Macaroni,25,A0705,70,g
+10249,ITC,Yippee Magic Masala,23,A0705,140,g
+10250,Nissin Foods,Nissin Cup Noodles - Veggi manchow,45,A0705,70,g
+10251,Nissin Foods,Nissin Cup Noodles - Spiced Chicken,45,A0705,70,g
+10252,Nissin Foods,Nissin Cup Noodles - Mazedaar Masala,45,A0705,70,g
+10253,GRB,Townbus Namkeen - Khara Boondi,40,A0707,120,g
+10254,GRB,Townbus Namkeen - Ribbon Pakoda,40,A0707,120,g
+10255,GRB,Townbus Namkeen - Madras Mixture,40,A0707,120,g
+10256,Parle,Parle Chatkeens Moong Dal,48,A0707,198,g
+10257,Jabsons,Jabsons Soya Sticks - Tangy Tomato,55,A0707,180,g
+10258,Jabsons,Jabsons Soya Sticks - Chinese Chatka,60,A0707,180,g
+10259,Jabsons,Jabsons Soya Sticks - Magic Masala,55,A0707,180,g
+10260,Jabsons,Jabsons Roasted Peanuts - Spicy Masala,60,A0707,140,g
+10261,Jabsons,Jabsons Cocktail Nuts,70,A0707,120,g
+10262,Jabsons,Jabsons Roasted Peanuts - Classic Salted,60,A0707,160,g
+10263,Jabsons,Jabsons Roasted Peanuts - Hing Jeera,55,A0707,140,g
+10264,Haldiram,Haldirams Namkeen - Mathri,50,A0707,200,g
+10265,Haldiram,Haldirams Namkeen - Nimbu Masala,30,A0707,150,g
+10266,Haldiram,Haldirams Namkeen - Punjabi Tadka,30,A0707,150,g
+10267,Haldiram,Haldirams Namkeen - Lite Chiwda,25,A0707,150,g
+10268,Haldiram,Haldirams Namkeen - Dal Biji,34,A0707,150,g
+10269,Haldiram,Haldirams Namkeen - All in One,35,A0707,150,g
+10270,Haldiram,Haldirams Namkeen - Chatpata Dal,35,A0707,150,g
+10271,Haldiram,Haldirams Namkeen - Bhujia Sev,80,A0707,350,g
+10272,Bauli,Bauli Moonfils - Strawberry 100% veg,15,A0103,45,g
+10273,Bauli,Bauli Moonfils - Orange,15,A0103,45,g
+10274,Bauli,Bauli Moonfils - Chocolate,15,A0103,45,g
+10275,Pepsico,"Kurkure Namkeen - Puffcorn, Yummy Cheese",20,A0707,55,g
+10276,Wai Wai,Wai Wai Cup Noodles Veg,35,A0705,65,g
+10277,Wai Wai,Wai Wai Cup Noodles Chicken,35,A0705,65,g
+10278,Wai Wai,Wai wai Veg Noodles,12,A0705,75,g
+10279,Wai Wai,Wai wai Chicken Noodles,12,A0705,75,g
+10280,Pepsico,Doritos Sweet Chilli,20,A0707,44,g
+10281,Britannia,Nutrichoice Essentials - Oat Cookies,60,A0701,150,g
+10282,Britannia,Good Day Pista badam Cookies,20,A0701,100,g
+10283,Britannia,Tiger Kreemz Orange,5,A0701,43,g
+10284,Britannia,Cake Gobbles Butter Blast,15,A0102,55,g
+10285,Britannia,50-50 Time pass Classic Salted,5,A0701,39,g
+10286,Britannia,Good Day Butter Cookies,10,A0701,75,g
+10287,Britannia,Roll Yo Strawberry Swiss Roll,10,A0102,30,g
+10288,Britannia,Good Day Cashew Almond Cookies,5,A0701,33,g
+10289,Britannia,Nutri Choice Thin Arrowroot,22,A0701,150,g
+10290,Britannia,Good Day Cashew Cookies,20,A0701,120,g
+10291,Britannia,Cake Muffills Strawberry,10,A0102,35,g
+10292,Britannia,Marie Gold,23,A0701,200,g
+10293,Britannia,Milk Bikis,15,A0701,120,g
+10294,Britannia,Vita Marie Gold,40,A0701,300,g
+10295,Britannia,BourBon,10,A0701,60,g
+10296,Britannia,Toastea Premium Bake Rusk,40,A0104,273,g
+10297,Britannia,Cake Nut & Raisin Romance,20,A0102,60,g
+10298,Britannia,Cake Gobbles choco chill,30,A0102,120,g
+10299,Britannia,Toastea Milk Rusk,30,A0104,182,g
+10300,Britannia,Tiger Kreemz Elaichi,5,A0701,43,g
+10301,Britannia,Cake Muffills Choco,10,A0102,35,g
+10302,Britannia,Cake Gobbles Milky Masti,15,A0102,55,g
+10303,Britannia,Tiger Kreemz Choco Vanilla,5,A0701,43,g
+10304,Britannia,Little Hearts Classic,10,A0701,34.5,g
+10305,Britannia,Nutri Choice Oats Almond & Milk,20,A0701,75,g
+10306,Britannia,50-50 sweet & Salty,20,A0701,150,g
+10307,Britannia,Nutri Choice Suger Free Cracker,15,A0701,100,g
+10308,Britannia,Cake Gobbles Choco chill,15,A0102,55,g
+10309,Britannia,Cake Gobbles Pineapple Plunge,15,A0102,55,g
+10310,Britannia,Cake Gobbles Orange Bites,15,A0102,55,g
+10311,Britannia,Milk Bikis Milky Sandwich,40,A0701,200,g
+10312,Britannia,Cake Roll Yo Choco swiss Roll,10,A0102,30,g
+10313,Britannia,Cake Gobbles Fruity Fun,30,A0102,120,g
+10314,Britannia,Good Day Cashew Cookies,10,A0701,60,g
+10315,Britannia,Cake Gobbles Fruity Fun,15,A0102,55,g
+10316,Britannia,Milk Bikis,5,A0701,40,g
+10317,Cadbury,Cadbury Celebrations,150,A0703,175,g
+10318,Haldiram,Haldiram's - All In One,80,A0707,350,g
+10319,Haldiram,Haldiram's Namkeen - Aloo Lachha,32,A0707,100,g
+10320,Haldiram,Haldiram's Indian Snacks - Aloo Bhujia,35,A0707,175,g
+10321,Haldiram,Haldiram's Indian Snacks - Bhel Puri,50,A0707,150,g
+10322,Haldiram,Haldiram's Indian Snacks - Bhujia Sev,35,A0707,150,g
+10323,Haldiram,Haldiram's Indian Snacks - Bhujia Sev,135,A0707,600,g
+10324,Haldiram,Haldiram's Chana Choor,35,A0707,150,g
+10325,Haldiram,Haldiram's - Cornflakes Mixture,55,A0707,150,g
+10326,Haldiram,Haldiram's - Dry Fruit Mix,60,A0707,150,g
+10327,Haldiram,Haldiram's Indian Snacks - Phalhari Chiwda,30,A0707,150,g
+10328,Haldiram,Haldiram's Fatafat Bhel,30,A0707,65,g
+10329,Haldiram,Haldiram's Gol Kachauri,40,A0707,150,g
+10330,Haldiram,Haldiram's Indian Snacks - Boondi,34,A0707,150,g
+10331,Haldiram,Haldiram's Indian Snacks - Khatta Meetha,30,A0707,150,g
+10332,Haldiram,Haldiram's Indian Snacks - Lemon Bhel,27,A0707,150,g
+10333,Haldiram,Haldiram's Indian Snacks - Mini Bhakarwadi,55,A0707,200,g
+10334,Haldiram,Haldiram's Indian Snacks - Mixture,30,A0707,150,g
+10335,Haldiram,Haldiram's Indian Snacks - Mixture,65,A0707,350,g
+10336,Haldiram,Haldiram's Moong Dal,40,A0707,150,g
+10337,Haldiram,Haldiram's Moong Dal,85,A0707,350,g
+10338,Haldiram,Haldiram's Indian Snacks - Moorukulu,40,A0707,150,g
+10339,Haldiram,Haldiram's Navratan Mix,45,A0707,150,g
+10340,Haldiram,Haldiram's Nimbu Masala,30,A0707,150,g
+10341,Haldiram,Haldiram's Indian Snacks - Panchratan Mixture,55,A0707,150,g
+10342,Haldiram,Haldiram's Indian Snacks - Soya Sticks,35,A0707,150,g
+10343,Haldiram,Haldiram's - All In One,10,A0707,40,g
+10344,Haldiram,Haldiram's Indian Snacks - Aloo Bhujia,10,A0707,55,g
+10345,Haldiram,Haldiram's Boondi Bhujia,10,A0707,40,g
+10346,Haldiram,Haldiram's Indian Snacks - Bhujia Sev,10,A0707,40,g
+10347,Haldiram,Haldiram's Indian Snacks - Masala Peanuts,10,A0707,45,g
+10348,Haldiram,Haldiram's Moong Dal,10,A0707,30,g
+10349,ITC,Sunfeast Mom's Magic Butter,10,A0701,75,g
+10350,Bauli,Bauli Moonfils Vanilla,15,A0103,45,g
+10351,Nissin Foods,Nissin Cup Noodles Tangy Tomato,45,A0705,70,g
+10352,Top Ramen,Top Ramen Curry,80,A0705,280,g
+10353,Chings,Ching's Hot Garlic Instant Noodles,15,A0705,60,g
+10354,Nissin Foods,Nissin Cup Noodles - Italiano,45,A0705,70,g
+10355,Top Ramen,Top Ramen New Masala Noodles,85,A0705,560,g
+10356,Nissin Foods,Nissin Cup Noodles Paneer Butter Masala,50,A0705,70,g
+10357,Pepsico,Lays Calm Cream & Onion,35,A0707,90,g
+10358,ACT II,Act || Nachoz Salted,25,A0707,60,g
+10359,Pepsico,Kurkure Chilli Chatka,10,A0707,45,g
+10360,Pepsico,Kurkure Hyderabadi Hungama,10,A0707,45,g
+10361,ACT II,Act || Nachoz Tomato,30,A0707,60,g
+10362,ITC,Bingo Starters Minty,20,A0707,48,g
+10363,Yoga Bar,Yoga Bar Multigrain Energy Bar Chocolate Chunk Nut,40,A0702,38,g
+10364,Yoga Bar,Yoga Bar Multigrain Energy Bar Nuts and Seeds,40,A0702,38,g
+10365,Yoga Bar,Yoga Bar 20G Protein Bar Almond Fudge,125,A0702,60,g
+10366,ITC,Sunfeast Glucose Biscuits,2,A0701,21,g
+10367,Unibic,Unibic Butter Cookies,25,A0701,75,g
+10368,ITC,Sunfeast Bounce - Pineapple Zing,5,A0701,41,g
+10369,Parle,Parle - G Gold,25,A0701,200,g
+10370,Bauli,Bauli Moonfill - Mango,15,A0103,47,g
+10371,Nestle,MAGGI 2- Minute Noodles Easy Pea-sy Recipe,12,A0705,70,g
+10372,Pepsico,Kurkure Naughty Tomato,10,A0707,45,g
+10373,Pepsico,Cheetos Cheez Puffs,10,A0707,30,g
+10374,Pepsico,Doritos Sweet Chilli,10,A0707,25,g
+10375,Pepsico,Doritos Nacho Cheese,10,A0707,25,g
+10376,Pepsico,Kurkure Masala Munch,10,A0707,47,g
+10377,Pepsico,Kurkure Puffcorn Yummy Cheese,10,A0707,28,g
+10378,Pepsico,Lays Maxx Sizzling Barbeque,10,A0707,22.5,g
+10379,Pepsico,Lays Calm Cream & Onion,10,A0707,28,g
+10380,Pepsico,Kurkure Masala Munch,20,A0707,90,g
+10381,Pepsico,Kurkure Naughty Tomato,20,A0707,90,g
+10382,Pepsico,Kurkure Green Chutney Style,20,A0707,90,g
+10383,Pepsico,Kurkure Chilli Chatka,20,A0707,90,g
+10384,Pepsico,Doritos Nacho Cheese,35,A0707,75,g
+10385,Pepsico,Doritos Sweet Chilli,35,A0707,75,g
+10386,Pepsico,Lays Maxx - Mexican Chipotle,35,A0707,63,g
+10387,Pepsico,Lays Joyful Magic Masala,35,A0707,90,g
+10388,Pepsico,Lays Tomato Tango,35,A0707,90,g
+10389,Pepsico,Lays Simple Classic Salted,35,A0707,90,g
+10390,Pepsico,Lays Joyful Magic Masala,65,A0707,167,g
+10391,Pepsico,Lays Calm Cream & Onion,65,A0707,167,g
+10392,Britannia,Britannia - Treat Strawberry,10,A0701,60,g
+10393,Britannia,Britannia - Marie Gold,10,A0701,83,g
+10394,Holi Special,Doraemon - Water Syringe,60,A0404,,
+10395,Nutritius,Nutritius Crunchy Peanut Chikki,5,A0704,22,g
+10396,Chitale Bandhu,Chitale bandhu - Bakarwadi,75,A0707,200,g
+10397,Cornitos,Cornitos nacho crisps - Sizzlin jalapeno,35,A0707,60,g
+10398,Cornitos,Cornitos nacho crisps - Barbeque,35,A0707,60,g
+10399,Parle,Monaco Pizza masala Crunch,25,A0701,120,g
+10400,Parle,Nutricrunch Honey & oats,20,A0701,120,g
+10401,Lotte,Lotte Choco Pie,140,A0102,300,g
+10402,Lotte,Lotte Choco Pie,25,A0102,50,g
+10403,ITC,Bingo Mad Angles -Achaari masti,20,A0707,80,g
+10404,ITC,Bingo Mad Angles - Mmmm masala,20,A0707,80,g
+10405,Mcvities,Mcvities Bourbon Delight,30,A0701,100,g
+10406,Dukes,Creme 4 fun -chocolate Now more Creamier,30,A0701,150,g
+10407,ITC,Bingo Mad Angles -Tomato Madness,20,A0707,80,g
+10409,Dukes,Creme 4 fun- Orange sandwich biscuits,30,A0701,150,g
+10410,Dukes,Creme 4 fun- strawberry Now more Creamier,30,A0701,150,g
+10412,Lijjat,Lijjat Udad Papad,60,A0706,200,g
+10413,Lijjat,Lijjat Punjabi Masala Special Papad,72,A0706,200,g
+10414,Jabsons,Jabsons Tandoori Roasted Peanuts,70,A0707,140,g
+10415,Godrej,Luvit Luscious Rich Fruit & Nut,55,A0703,44,g
+10416,Knorr,Knorr Chicken Delite,15,A0706,10,g
+10417,Knorr,Knorr Tomato Chatpata,10,A0706,14,g
+10418,Knorr,Knorr Mixed Vegetable,10,A0706,10,g
+10419,Knorr,Knorr Sweet Corn Veg,10,A0706,10,g
+10420,Cadbury,Cadbury Temptation Almond Treat,90,A0703,72,g
+10421,Cadbury,Cadbury Temptation Rum Raisins,100,A0703,72,g
+10422,Cornitos,Cornitos Nacho Crisps Cheese & Herbs,35,A0707,75,g
+10423,Hershey's,Jolly Rancher Lollipops,30,A0703,63,g
+10424,Parle,Parle Nutricrunch Digestive,20,A0701,120,g
+10425,Parle,Parle Nutricrunch Digestive Marie,15,A0701,120,g
+10426,ITC,Kitchens Of India Palak Paneer,100,A0706,285,g
+10427,ITC,Kitchens Of India Mutter Paneer,100,A0706,285,g
+10428,ITC,Kitchens Of India Dal Makhani,90,A0706,285,g
+10429,ITC,Kitchens Of India Navaratan Korma,90,A0706,285,g
+10430,ITC,Kitchens Of India Aloo Mutter,90,A0706,285,g
+10431,ITC,Kitchens Of India Yellow Dal Tadka,90,A0706,285,g
+10432,ACT II,ACT || Nachoz Sizzling Peri peri,25,A0707,60,g
+10433,GSK,Horlicks Original Taste Biscuits,20,A0701,150,g
+10434,Godrej,Luvit ChocoRich Eclairs Party Pack,124,A0703,384,g
+10435,Jabsons,Jabsons Wasabi Roasted Peanuts,70,A0707,140,g
+10436,Jabsons,Jabsons Roasted Peanuts Chilly Garlic,55,A0707,140,g
+10437,Jabsons,Jabsons Roasted Peanuts Cheese Tomato,55,A0707,140,g
+10438,Cornitos,Cornitos Nacho Crisps Tikka Masala,35,A0707,60,g
+10439,Cornitos,Cornitos Nacho Crisps Tomato Mexicana,35,A0707,60,g
+10440,A-One Tasteking,A-One Tasteking BarBeque - PopCorn,30,A0707,30,g
+10441,A-One Tasteking,A-One Tasteking Magic Masala- PopCorn,30,A0707,30,g
+10442,A-One Tasteking,A-One Tasteking Chilly Cheese- PopCorn,30,A0707,30,g
+10443,A-One Tasteking,A-One Tasteking Spanish Tomato- PopCorn,30,A0707,30,g
+10444,A-One Tasteking,A-One Tasteking Potato Chips,40,A0707,100,g
+10445,A-One Tasteking,A-One Tasteking Rose Coockees,50,A0707,100,g
+10446,A-One Tasteking,A-One Tasteking Greenpeace,60,A0707,180,g
+10447,A-One Tasteking,A-One Tasteking Slice Masala Peanuts,60,A0707,180,g
+10448,A-One Tasteking,A-One Tasteking Plain Peanuts,60,A0707,180,g
+10449,A-One Tasteking,A-One Tasteking Salt peanuts,60,A0707,180,g
+10450,A-One Tasteking,A-One Tasteking Payyoli Mixture,60,A0707,180,g
+10451,A-One Tasteking,A-One Tasteking Oil peanuts,60,A0707,180,g
+10452,A-One Tasteking,A-One Tasteking Karjikai,60,A0707,100,g
+10453,A-One Tasteking,A-One Tasteking Garlic Mixture,60,A0707,180,g
+10454,A-One Tasteking,A-One Tasteking Masala Peanuts,60,A0707,180,g
+10455,A-One Tasteking,A-One Tasteking Rosted Peanuts,60,A0707,180,g
+10456,A-One Tasteking,A-One Tasteking Bombay Mixture,60,A0707,180,g
+10457,A-One Tasteking,A-One Tasteking Silce Peanuts,60,A0707,180,g
+10458,A-One Tasteking,A-One Tasteking Ompudi,60,A0707,180,g
+10459,A-One Tasteking,A-One Tasteking Moong Dhal,60,A0707,180,g
+10460,A-One Tasteking,A-One Tasteking Channadal,60,A0707,180,g
+10461,A-One Tasteking,A-One Tasteking Chilly Mixture,60,A0707,180,g
+10462,A-One Tasteking,A-One Tasteking KaraBoondi,60,A0707,180,g
+10463,MTR,MTR Roasted Vermicelli,55,A0705,400,g
+10464,MTR,MTR Seviyan Vermicelli,42,A0705,400,g
+10465,MTR,MTR Seviyan Vermicelli,80,A0705,850,g
+10466,Cadbury,Cadbury Bourn Vita Banana & Oats,10,A0701,46.5,g
+10467,Cadbury,Cadbury Nutty  5 Star,10,A0703,19,g
+10468,Cadbury,Cadbury Celebrations Party Pack,250,A0703,349,g
+10469,Cadbury,Cadbury Dairy Milk 30% Less Sugar,50,A0703,43,g
+10470,Cadbury,Cadbury Dairy Milk Crispello,30,A0703,35,g
+10471,Cadbury,Cadbury Dairy Milk Fruit & Nut,90,A0703,80,g
+10472,Cadbury,Cadbury Dairy Milk Silk Bubbly,80,A0703,50,g
+10473,Cadbury,Cadbury Dairy milk Silk Oreo,80,A0703,60,g
+10474,Cadbury,Cadbury Dairy Milk Silk Oreo Red Velvet,80,A0703,60,g
+10475,Cadbury,Cadbury Dairy Milk Silk Plain,70,A0703,60,g
+10476,Cadbury,Cadbury Dairy Milk Silk Roast Almond,70,A0703,58,g
+10477,Cadbury,Cadbury Dairy Milk Silk Hazelnut,70,A0703,58,g
+10478,Cadbury,Cadbury Chocobakes Choc Filled Cookies,30,A0701,75,g
+10479,Cadbury,Cadbury 5 Star Value Pack,55,A0703,129,g
+10480,Cadbury,Cadbury 5 Star Value Pack 3D,80,A0703,135,g
+10481,Cadbury,Cadbury Gems Maha Pack,10,A0703,21.36,g
+10482,Cadbury,Cadbury Oreo Cream Biscuit -  Choco Cream,10,A0701,50,g
+10483,Cadbury,Cadbury Dairy Milk Silk Bubbly,170,A0703,120,g
+10484,Cadbury,Cadbury Dairy Milk Silk Fruit & Nut,160,A0703,137,g
+10485,Cadbury,Cadbury Nutties Favourites Forever,40,A0703,30,g
+10486,Unibic,Unibic Fruit & Nut Cookies Super Saver Pack,155,A0701,500,g
+10487,Unibic,Unibic Cashew Badam Cookies Super Saver Pack,120,A0701,500,g
+10488,Unibic,Unibic Milk Cookies Super Saver Pack,125,A0701,500,g
+10489,Unibic,Unibic Choco Chip Cookies Super Saver Pack,165,A0701,500,g
+10490,Jabsons,Jabsons Mini Bhakharwadi,50,A0707,160,g
+10491,Jabsons,Jabsons Roasted Peanuts - Black Pepper,55,A0707,140,g
+10492,Jabsons,Jabsons Spicy Mix - Jhal Chana Chur Mix,50,A0707,140,g
+10493,Jabsons,Jabsons Sabudana Mix,60,A0707,180,g
+10494,Jabsons,Jabsons Roasted Namkeens - Soyabean Masala,60,A0707,180,g
+10495,Ela,Ela-Banana Chips,85,A0707,175,g
+10496,Ela,Ela-Masala Diamond Cut,55,A0707,175,g
+10497,Ela,Ela-Masala Tapioca Chips,60,A0707,150,g
+10498,GoodDiet,GoodDiet-Muliti Millet Flakes Fruits & Nuts,349,A0702,350,g
+10499,GoodDiet,GoodDiet-Quinoa Muesli Nuts & Seeds,389,A0702,350,g
+10500,Pidilite/Rangeela,Pidilite Rangeela Holi Ke Rang Colours-Non Toxic,120,A0404,300,g
+10501,Pillsbury,Pillbury-Cookie Cake Choco Trio,10,A0102,20,g
+10502,Pillsbury,Pillsbury Pastry Cake Strawberry,10,A0102,23,g
+10503,Pillsbury,Pillsbury-Cooke Cake Vannilla,10,A0102,20,g
+10504,Pillsbury,Pillsbury-Cookie Cake Tutti Frutti,10,A0102,20,g
+10505,Timios,"Timios Snacks-Stars, Banana & Honey",20,A0707,30,g
+10506,Timios,"Timios Snacks-Sticks, Carrot & Cumin",20,A0707,30,g
+10507,Ela,Ela-Payyoli Mixture,65,A0707,200,g
+10508,Ela,Ela-Corn Mixture,50,A0707,150,g
+10509,Ela,Ela-Roasted Peanut,60,A0707,150,g
+10510,Ela,Ela-Salted Peanut,60,A0707,200,g
+10511,Ela,Ela- Masala Murukku,55,A0707,175,g
+10512,Ela,Ela-Tomato Murukku,55,A0707,175,g
+10513,Nestle,Nestle-Kit Kat,20,A0703,27.5,g
+10514,Nestle,Maggi - Chicken Cuppa Noodles,50,A0705,67,g
+10515,Nestle,Maggi - Chicken Noodles,15,A0705,71,g
+10516,Nestle,Maggi - 6 pack,68,A0705,420,g
+10517,Nestle,Maggi - Masala Magic,55,A0507,72,g
+10518,Nestle,Maggi - Masala Veg Atta Noodles,78,A0705,290,g
+10519,Fruit-tella,Fruit-tella Vegetable Recipe,30,A0703,45,g
+10520,Fruit-tella,Fruit-tella Vegetable Recipe with Fruit Juice,30,A0703,30,g
+10521,Aura,Aura-Nice ChiKki,40,A0704,100,g
+10522,Nestle,Maggi -Pazzta Cheesy Tomato Twist,25,A0705,64,g
+10523,Nestle,Milkybar,20,A0703,25,g
+10524,Pran,Pran Potata - Spicy Flavoured Biscuit,25,A0701,100,g
+10525,Nestle,Nestle - Munch Maha Cruchilicious,10,A0703,25,g
+10526,Nestle,Nestle - Munch Crunch O Nuts,20,A0703,32,g
+10527,Nestle,Nestle - Classic Berry,10,A0703,18,g
+10528,Lindt,Lindt Chocolate - Excellence Caramel With a Touch of sea salt,300,A0703,100,g
+10529,Nestle,Maggi - Family Delight Recipe,46,A0705,280,g
+10530,Lindt,Lindt Chocolate - Excellence Black Currant,300,A0703,100,g
+10531,Lindt,Lindt Chocolate - Swiss Classic,290,A0703,100,g
+10532,HUL,Knorr Mast Masala Soupy Noodles,15,A0706,75,g
+10533,Mentos,Mentos Orange Chewy Dragees,15,A0703,36.4,g
+10534,Mentos,Mentos Assorted Flavour,50,A0703,156.4,g
+10535,Mentos,Mentos Rainbow Assorted Flavour,15,A0703,36.4,g
+10536,Hershey's,Sofit protein Cookies - Mango & Almond,30,A0701,75,g
+10537,Hershey's,Sofit protein Cookies - Mango & Almond 150g,60,A0701,150,g
+10538,Hershey's,Sofit protein Cookies - Natural Cocoa & Flax Seeds,60,A0701,150,g
+10539,Hershey's,Sofit Protein Cookies - Rasins & Flax Seeds,60,A0701,150,g
+10540,Hershey's,Sofit protein Cookies - Natural Cocoa & Flax Seeds,30,A0701,75,g
+10541,Hershey's,Sofit protein Cookies - Raisins & Flax Seeds,30,A0701,75,g
+10542,Mars,Skittles Bite Size Fruit Candies,10,A0703,9,g
+10543,Mars,Skittles Wild Berry Flavour,150,A0703,45,g
+10544,Mars,Skittles Original Tube,50,A0703,33.6,g
+10545,Mars,Skittles Wild Berry Tube,50,A0703,33.6,g
+10546,Maiyas,Maiyas - Gulab Jamun,240,A0704,1000,g
+10547,Ambika Appalam,Ambika Apppalam Depot 375g,170,A0706,375,g
+10548,Ambika Appalam,Ambika Appalam Depot 325g,160,A0706,325,g
+10549,Maiyas,Maiyas - Mysore Pack Original,150,A0704,250,g
+10550,Lal,Lal Dry Fruit Halwa Bite,150,A0704,200,g
+10551,Ambika Appalam,Ambika Appalam Depot 226g,117,A0706,226,g
+10552,Ambika Appalam,Ambika Appalam Depot 160g,97,A0706,160,g
+10553,Sri Ganeshram,Sri Ganeshram'S Appalam No.3,88,A0706,200,g
+10554,Ambika Appalam,Ambika Appalam Depot 150g,82,A0706,150,g
+10555,Sri Ganeshram,Sri Ganeshram'S Appalam No.5,66,A0706,150,g
+10556,Pepsico,Cheetos Masala Balls,10,A0707,30,g
+10557,Pepsico,Uncle Chipps Spicy Treat,20,A0707,55,g
+10558,ACT II,Act II Nachoz Cheese,65,A0707,150,g
+10559,ACT II,Act II Nachoz Sizzling Peri peri,65,A0707,150,g
+10560,ACT II,Act II Nachoz Tomato,65,A0707,150,g
+10561,ACT II,Act II Nachoz Jalapeno,70,A0707,150,g
+10562,ACT II,Act II Nachoz Salted,65,A0707,150,g
+10563,ACT II,Act II Nachoz Cheese,30,A0707,60,g
+10564,ACT II,ACT II Green Mango Salsa,25,A0707,60,g
+10565,ACT II,Act II Caramel Bliss - Classic Caramel Popcorn,65,A0707,70,g
+10566,ACT II,Act II Caramel Bliss - Nutty Caramel Popcorn,70,A0707,80,g
+10567,ACT II,Act II Golden Sizzle,22,A0707,60,g
+10568,ACT II,Act II Golden Sizzle,44,A0707,150,g
+10569,ACT II,Act II Classic Salted,44,A0707,150,g
+10570,ACT II,Act II Butter Microwave Popcorn,25,A0707,33,g
+10571,ACT II,Act II Diet Pop corn - Zero Added Fat Microwave,25,A0707,28,g
+10572,ACT II,Act II Original Microwave,25,A0707,33,g
+10573,ACT II,Act II Sweet Corn - Chat Masala,20,A0707,121.5,g
+10574,ACT II,Act II Movie Theatre Butter,30,A0707,70,g
+10575,ACT II,Act II Instant Popcorn - Tomato Chilli,30,A0707,59,g
+10576,ACT II,Act II Tandoori Tadka,30,A0707,70,g
+10577,ACT II,Act II Classic Salted,22,A0707,60,g
+10578,ACT II,Act II Classic Salted Family Pack,33,A0707,120,g
+10579,ACT II,Act II Classic Salted,10,A0707,41,g
+10580,ACT II,Act II Golden Sizzle,10,A0707,41,g
+10581,ACT II,Act II Magic Butter,10,A0707,41,g
+10582,ACT II,Act II Chilli Surprise,10,A0707,41,g
+10583,Holi Special,Minons - Water Shooter,40,A0404,,
+10584,Holi Special,No.160 Shimmer and Shine,33,A0404,,
+10585,Himalaya,Himalaya Purehands Hand Sanitizer,65,A0201,,
+10586,Venus,Venus Convex Face  Mask CN95,336,A0204,,
+10587,Venus,Venus V-44++ Face Mask,100,A0204,,
+10588,Dev Snacks,Dev Puffed Rice Ball,45,A0707,100,g
+10589,Dev Snacks,Dev Butter Murukku,80,A0707,350,g
+10590,Dev Snacks,Dev Sweet Banana Spring Chips,85,A0707,150,g
+10591,Dev Snacks,Dev Tapioca Stick,65,A0707,175,g
+10592,Dev Snacks,Dev Thatta,60,A0707,150,g
+10593,Dev Snacks,Dev Sweet Banana Chips,85,A0707,175,g
+10594,Dev Snacks,Dev Masala Tapioca Chips,60,A0707,150,g
+10595,Dev Snacks,Dev Popcorn,27,A0707,50,g
+10596,Dev Snacks,Dev Masala Banana Spring Chips,85,A0707,150,g
+10597,Dev Snacks,Dev Peanut Ball,50,A0707,125,g
+10598,Dev Snacks,Dev Roasted Peanut,60,A0707,150,g
+10599,Dev Snacks,Dev Achappam,65,A0707,10,pcs
+10600,Dev Snacks,Dev Masala Peanuts,55,A0707,150,g
+10601,Dev Snacks,Dev Salt Corn Mixture,60,A0707,175,g
+10602,Dev Snacks,Dev Rice Marukku,70,A0707,225,g
+10603,Dev Snacks,Dev Kuzhalappam,60,A0707,175,g
+10604,Dev Snacks,Dev Sharkara Varatty,65,A0707,150,g
+10605,Dev Snacks,Dev Masala Potato Chips,50,A0707,100,g
+10606,Dev Snacks,Dev Banana Chips,85,A0707,175,g
+10607,Dev Snacks,Dev Kadalamavu Mixture,65,A0707,200,g
+10608,Dev Snacks,Dev Salt Diamond,55,A0707,175,g
+10609,Dev Snacks,Dev Madhura Seva,50,A0707,175,g
+10610,Dev Snacks,Dev Tapioca Chips,60,A0707,150,g
+10611,Dev Snacks,Dev Mullu Murukku,60,A0707,175,g
+10612,Dev Snacks,Dev Tea Time,45,A0707,175,g
+10613,Dev Snacks,Dev Pakkavada,60,A0707,175,g
+10614,Dev Snacks,Dev Sesame Ball,50,A0707,125,g
+10615,GRB,Town Bus Moong Dal,10,A0707,30,g
+10616,GRB,Town Bus Corn Flakes Mixture,10,A0707,35,g
+10617,GRB,Town Bus Butter Mururkku,40,A0707,120,g
+10618,GRB,Town Bus Corn Flakes Mixture,40,A0707,120,g
+10619,GRB,Town Bus Masala Green Peas,40,A0707,120,g
+10620,GRB,Town Bus Butter Mururkku,10,A0707,35,g
+10621,GRB,Town Bus Khara Sev,10,A0707,30,g
+10622,GRB,Town Bus Aloo Bhujia,10,A0707,40,g
+10623,GRB,Town Bus Khara Sev,40,A0707,120,g
+10624,GRB,Town Bus Ompudi,40,A0707,120,g
+10625,GRB,Town Bus Khara Boondi,10,A0707,30,g
+10627,GRB,Town Bus Rice Kodubale,40,A0707,120,g
+10628,GRB,Town Bus Ribbon Pakoda,10,A0707,35,g
+10629,GRB,Town Bus Madras Mixture,10,A0707,35,g
+10630,GRB,Town Bus Madras Mixture,5,A0707,20,g
+10631,GRB,Town Bus Masala Peanut,5,A0707,15,g
+10632,GRB,Town Bus Masala Peanut,10,A0707,35,g
+10633,GRB,Town Bus Masala Peanut,40,A0707,120,g
+10634,GRB,Town Bus Rice Kodubale,10,A0707,35,g
+10635,GRB,Town Bus Moong Dal,5,A0707,15,g
+10636,GRB,Town Bus Aloo Bhujia,5,A0707,20,g
+10637,Haldiram,Haldirams Mini Samosa,50,A0707,200,g
+10638,Haldiram,Haldirams Gulab Jamun,100,A0704,500,g
+10639,Haldiram,Haldirams Soan Papdi,65,A0704,250,g
+10640,Haldiram,Haldirams peanut chikki bar,30,A0704,150,g
+10641,Crax,Crax Corn Rings Chatpata,10,A0707,35,g
+10642,Crax,Crax Corn Rings Mast Cheese,10,A0707,35,g
+10643,Crax,Crax Corn Rings Masala Mania,10,A0707,35,g
+10644,Crax,Crax Corn Rings Pudina Punch,10,A0707,35,g
+10645,Crax,Crax Corn Rings Tangy Tomato,10,A0707,35,g
+10646,Crax,Crax Corn Rings Sweet Chilli,10,A0707,35,g
+10647,Crax,Crax Fritts Corn & Potato Sticks Cream & Onion,10,A0707,40,g
+10648,Crax,Crax Corn & Potato Sticks Noodle Masala,5,A0707,20,g
+10649,Crax,Crax Corn & Potato Cream & Onion,5,A0707,20,g
+10650,Crax,Crax Curls Chatpata Masala,5,A0707,22,g
+10651,Crax,Crax Curls Tomato Treat,5,A0707,22,g
+10652,Crax,Crax Corn Rings Thai Sweet Chilli,5,A0707,14,g
+10653,Crax,Crax Corn & Potato Sticks Red Chilli Chatka,5,A0707,20,g
+10654,Crax,Crax Cheese Balls,5,A0707,20,g
+10655,Crax,Crax Corn Rings Masala Mania,5,A0707,14,g
+10656,Crax,Crax Corn Rings Tangy Tomato,5,A0707,14,g
+10657,Timios,Timios Snacks-Spinach & Lime Puffs,20,A0707,30,g
+10658,Timios,Timios Snacks-Tomato & Cheese,20,A0707,30,g
+10659,Timios,Timios - Berry Bar,35,A0703,30,g
+10660,Timios,Timios - Nutty Bar,35,A0703,30,g
+10661,Timios,Timios - Belligo,100,A0703,60,g
+10662,Ferrero,Tic Tac Intenser Mild Mint & Aromatic Mint,20,A0703,15.5,g
+10663,Ferrero,Tic Tac Strawberry Mix,20,A0703,14.5,g
+10664,Ferrero,Tic Tac CocaCola,10,A0703,7.7,g
+10665,Ferrero,Tic Tac Mint,10,A0703,7.7,g
+10666,Ferrero,Tic Tac Red Apple,10,A0703,7.7,g
+10667,Chitale Bandhu,Chitale Bandhu Shankarpali,45,A0707,200,g
+10668,Chitale Bandhu,Chitale Bandhu Zero Number Sev,70,A0707,200,g
+10669,Chitale Bandhu,Chitale Bandhu Tomato Shev,72,A0707,200,g
+10670,Chitale Bandhu,Chitale Bandhu Special Chivda,75,A0707,200,g
+10671,Haldiram,Haldiram's Fine Sev Bhel Sev,30,A0707,150,g
+10672,Haldiram,Haldiram's Salted Peanuts,33,A0707,150,g
+10673,Haldiram,Haldiram's Tasty Nuts,33,A0707,150,g
+10674,Haldiram,Haldiram's Salted Peanuts,10,A0707,45,g
+10675,ITC,Yippee Magic Masala,12,A0705,70,g
+10676,ITC,Yippee Magic Masala,46,A0705,280,g
+10677,ITC,Yippee Pasta Treat Cheese,25,A0705,65,g
+10678,ITC,Yippee Pasta Treat Masala,25,A0705,65,g
+10679,ITC,Yippee Pasta Treat Tomato Cheese,25,A0705,65,g
+10680,ITC,Yippee Tricolor Pasta Masala,25,A0705,91,g
+10681,ITC,Yippee Tricolor Pasta Creamy Corn,25,A0705,91,g
+10682,ITC,Sunfeast Dark Fantasy - Bourbon,10,A0701,80,g
+10683,ITC,Sunfeast Dark Fantasy - Bourbon,20,A0701,120,g
+10684,ITC,Sunfeast Mom's Magic Choco Chip,30,A0701,120,g
+10685,ITC,Sunfeast Mom's Magic Cashew & Almond,10,A0701,50,g
+10686,ITC,Sunfeast Mom's Magic Choco Chip,10,A0701,46.4,g
+10687,ITC,Sunfeast Mom's Magic Fruit & Milk,10,A0701,60,g
+10688,ITC,Sunfeast Mom's Magic Cashew & Almond,20,A0701,120,g
+10689,ITC,Sunfeast Formilte Active Oats Almonds,25,A0701,75,g
+10690,ITC,Sunfeast Nice Suger Sprinkled Biscuits,10,A0701,75,g
+10691,ITC,Sunfeast Nice Suger Sprinkled Biscuits,25,A0701,150,g
+10692,ITC,Sunfeast Bounce Dream Cream Butterscotch Zing,10,A0701,60,g
+10693,ITC,Sunfeast Bounce Dream Cream Choco Vanilla,10,A0701,60,g
+10694,ITC,Sunfeast Bounce Dream Cream Strawberry Vanilla,10,A0701,60,g
+10695,ITC,Sunfeast Bounce Dream Cream Choco Vanilla,20,A0701,120,g
+10696,ITC,Sunfeast Bounce Dream Cream Strawberry Vanilla,20,A0701,120,g
+10697,ITC,Minto Fresh,160,A0703,630,g
+10698,ITC,Bingo Starters Chatpata,10,A0707,24,g
+10699,ITC,Bingo Starters Masala,10,A0707,24,g
+10700,ITC,Bingo Starters Minty,10,A0707,24,g
+10701,ITC,Bingo Starters Peppery,10,A0707,24,g
+10702,ITC,Bingo Cream & Onion,10,A0707,25,g
+10703,ITC,Bingo Salted,10,A0707,25,g
+10704,ITC,Bingo Tomato,10,A0707,25,g
+10705,ITC,Bingo Mad Angles Tomato Madness,10,A0707,40,g
+10706,ITC,Bingo Mad Angles Pizza-aaaah,10,A0707,36.5,g
+10707,ITC,Bingo Mad Angles Very Peri Peri,10,A0707,40,g
+10708,ITC,Bingo Salted,20,A0707,52,g
+10709,ITC,Bingo Tomato,20,A0707,52,g
+10710,ITC,Bingo Chilli Sprinkled,10,A0707,28,g
+10711,ITC,Bingo Salt Sprinkled,10,A0707,28,g
+10712,ITC,Bingo Mad Angles Cheese Nachos,10,A0707,30,g
+10713,ITC,Fabelle Soft Centers Almond Mouse,80,A0703,58,g
+10714,ITC,Sunfeast Farmlite Active Oats & Chocolate,50,A0701,15,g
+10715,ITC,Bingo Masala,10,A0707,25,g
+10716,Parle,Krack Jack,10,A0701,95.5,g
+10717,Godrej,Luvit Smackers Lollipop,5,A0703,10,g
+10718,Vikki's,Chinese Noodles,45,A0705,450,g
+10719,Lotte,Lotte Choco Pie,10,A0102,25,g
+10720,Chupa Chups,Chupa Chups,5,A0703,10,g
+10721,Wriggley's,Orbit Sweetmint,5,A0703,4.4,g
+10722,Nutritius,Nutritius Peanut Butter Chikki,5,A0704,22,g
+10723,Amul,Amul White Limon Zest,150,A0703,150,g
+10724,Amul,Amul Milk Happy Birthday Chocolate,100,A0703,150,g
+10725,Amul,Amul Best Wishes Dark Chocolate,100,A0703,150,g
+10726,Amul,Amul Suger Free Dark Chocolate,125,A0703,150,g
+10727,Amul,Amul Belgian Smooth & Creamy Chocolate,150,A0703,125,g
+10728,Amul,Amul Dark Cocoa Beans,100,A0703,150,g
+10729,Amul,Amul Raisin N Almond Milk Chocolate,200,A0703,150,g
+10730,Amul,Amul Bitter Chocolate,125,A0703,150,g
+10731,Amul,Amul Ecuador Tropical Dusk Single Origin Dark Chocolate,150,A0703,125,g
+10732,Amul,Amul Hazelnut Richly Nutty,200,A0703,150,g
+10733,Nestle,Nestle Kitkat,20,A0703,27.5,g
+10734,Nestle,Nestle Kitkat,10,A0703,13.2,g
+10735,Nestle,MAGGI Rich Tomato Ketchup,15,A0708,90,g
+10736,Unibic,Unibic Butter Cookies,50,A0701,150,g
+10737,Unibic,Unibic Butter Cookies,10,A0701,37.5,g
+10738,Unibic,Unibic Cashew Badam Cookies,20,A0701,120,g
+10739,Unibic,Unibic Cashew Badam Cookies,10,A0701,60,g
+10740,Unibic,Unibic Choco Chip Cookies,30,A0701,75,g
+10741,Unibic,Unibic Choco Chip Cookies,50,A0701,150,g
+10742,Unibic,Unibic Choco Nut Cookies,50,A0701,150,g
+10743,Unibic,Unibic Choco Ripple Cookies,10,A0701,60,g
+10744,Unibic,Unibic Cashew Cookies,50,A0701,150,g
+10745,Unibic,Unibic Daily Digestive Ajwain Cookies,60,A0701,150+150,g
+10746,Unibic,Unibic Daily Digestive Multigrain Cookies,30,A0701,75,g
+10747,Unibic,Unibic Milk Cookies,10,A0701,60,g
+10748,Unibic,Unibic Cookies - Orange Milk,10,A0701,60,g
+10749,Unibic,Unibic Pista Badam Cookies,25,A0701,75,g
+10750,Unibic,Unibic Sugar Free Multigrain Cookies,50,A0701,75,g
+10751,Unibic,Unibic Sugar Free Oatmeal Cookies,40,A0701,75,g
+10752,Unibic,Unibic Sugar Free Pineapple Cookies,50,A0701,75,g
+10753,Unibic,Unibic Honey Oatmeal Cookies,25,A0701,75,g
+10754,Unibic,Unibic Honey Oatmeal Cookies,10,A0701,37.5,g
+10755,Unibic,Unibic Choco Chip Cookies,10,A0701,37.5,g
+10756,Unibic,Unibic Choco Nut Cookies,10,A0701,37.5,g
+10757,Unibic,Unibic Fruit & Nut Cookies,50,A0701,150,g
+10758,Unibic,Unibic Fruit & Nut Cookies,10,A0701,37.5,g
+10759,Unibic,Unibic Cashew Cookies,25,A0701,75,g
+10760,Unibic,Unibic Pista Badam Cookies,50,A0701,150,g
+10761,Pillsbury,Pillsbury Atta,490,A0501,10,kg
+10762,Pillsbury,Pillsbury Atta,270,A0501,5,kg
+10763,Pillsbury,Pillsbury Atta,57,A0501,1,kg
+10764,Pillsbury,Pillsbury Atta,109,A0501,2,kg
+10765,Sterillium,Sterillium Rub-in hand Disinfectant,657,A0201,500,ml
+10766,Sterillium,Sterillium Rub-in hand Disinfectant,216,A0201,100,ml
+10767,Aquafina,Aquafine Water Bottle,10,A0306,500,ml
+10768,Pepsico - CSD,Lehar Club Soda,20,A0302,750,ml
+10769,Pepsico - CSD,7up,20,A0302,250,ml
+10770,Aquafina,Aquafine Water Bottle,20,A0306,1,ltr
+10771,Pepsico - CSD,Mirinda Orange Flavour,20,A0302,250,ml
+10772,Pepsico - CSD,Mountain Dew,20,A0302,250,ml
+10773,Pepsico - CSD,7up Nimbooz,20,A0302,350,ml
+10774,Pepsico - CSD,Pepsi Swag,20,A0302,250,ml
+10775,Tropicana,Tropicana Pomegranate Delight,20,A0303,200,ml
+10776,Tropicana,Tropicana Slice,20,A0303,250,ml
+10777,Pepsico - CSD,Pepsi black,25,A0302,250,ml
+10778,Tropicana,Tropicana Slice,35,A0303,600,ml
+10779,Pepsico - CSD,7up,40,A0302,750,ml
+10780,Pepsico - CSD,Mountain Dew,40,A0302,750,ml
+10781,Pepsico - CSD,Pepsi Swag,40,A0302,750,ml
+10782,Tropicana,Tropicana Slice,65,A0303,1.2,ltr
+10783,Pepsico - CSD,7up,90,A0302,2.25,ltr
+10784,Pepsico - CSD,Mirinda Orange Flavour,90,A0302,2.25,ltr
+10785,Pepsico - CSD,Mountain Dew,90,A0302,2.25,ltr
+10786,Pepsico - CSD,Pepsi Swag,90,A0302,2.25,ltr
+50001,ITC - Cigarette,ITC Classic Ice Burst,330,A0801,20,s
+50002,ITC - Cigarette,ITC Classic Balanced Taste,330,A0801,20,s
+50003,ITC - Cigarette,ITC Kings Flakes,165,A0801,10,s
+50004,ITC - Cigarette,ITC Kings Flakes Lights,165,A0801,10,s
+50005,ITC - Cigarette,ITC Classic Refined Taste Mild,330,A0801,20,s
+10792,ITC,Aashirvada Superior Atta,57,A0501,1,Kg
+10793,ITC,Aashirvada Superior Atta,109,A0501,2,Kg
+10794,ITC,Aashirvada Superior Atta,270,A0501,5,Kg
+10795,ITC,Aashirvada Superior Atta,490,A0501,10,Kg
+10796,ITC,Aashirvada Select Sharbati Atta,62,A0501,1,Kg
+10797,ITC,Aashirvaad Select Sharbati Atta,300,A0501,5,Kg
+10798,ITC,Aashirvaad Atta With Multigrains,64,A0501,1,Kg
+10799,ITC,Aashirvaad Atta With Multigrains,310,A0501,5,Kg
+10800,ITC,Aashirvaad Chilli Powder,32,A0507,100,g
+10801,Top Ramen,Top Ramen Curry,20,A0705,70,g
+10802,Top Ramen,Top Ramen Chicken Noodles,15,A0705,70,g
+10803,Top Ramen,Top Ramen Oat Noodles,20,A0705,70,g
+10804,Top Ramen,Top Ramen Masala Noodles,22,A0705,140,g
+10805,Ela,Ela Rice Murukku,55,A0707,175,g
+10806,Ela,Ela Kara Sev,55,A0707,175,g
+10807,Ela,Ela Bombay Mixture,50,A0707,175,g
+10808,Ela,Ela Om Podi,55,A0707,175,g
+10809,Jabsons,Wel Baked Jolly Jeera,60,A0707,200,g
+10810,Jabsons,Wel Baked Rice Methi,60,A0707,200,g
+10811,Jabsons,Wel Baked Mast Masala,60,A0707,200,g
+10812,Britannia,Britannia - Stars creme & milk choco duo,25,A0701,100,g
+10813,Britannia,Britannia Cheese for Pizza,150,A0101,200,g
+10814,Britannia,Britannia Cheese Spreadz Asli Pepper,120,A0708,180,g
+10815,Britannia,Britannia Cheese spreadz Peppy Pizza,120,A0708,180,g
+10816,Britannia,Britannia Cheese Cube Classic,150,A0101,200,g
+10817,Britannia,Britannia Tiger Kreemz Choco,5,A0701,43,g
+10818,FunFoods,Funfoods American Mustard,69,A0708,260,g
+10819,FunFoods,Funfoods Garlic Chilli,69,A0708,250,g
+10820,FunFoods,Funfood Cheesy Nacho Dip,99,A0708,275,g
+10821,FunFoods,Funfoods Salsa,99,A0708,300,g
+10822,FunFoods,Funfoods Arrabbiata Spicy Pasta Sauce,89,A0708,325,g
+10823,FunFoods,Funfoods Pasta Alfredo With Cheese,119,A0708,275,g
+10824,FunFoods,Funfoods Pasta & Pizza Sauce,89,A0708,325,g
+10825,FunFoods,Funfoods Thousand Island Eggless,79,A0708,300,g
+10826,FunFoods,Funfoods Sandwich Spread Cheese & Chilli,79,A0708,275,g
+10827,FunFoods,Funfoods Sandwich Spread Cucumber & Carrot Eggless,79,A0708,300,g
+10828,FunFoods,Funfoods Sandwich Spread Cucumber & Carrot,79,A0708,275,g
+10829,FunFoods,Funfoods Veg Mayonnaise,159,A0708,875,g
+10830,Nestle,Maggi Pazzta Cheesy Tomato Twist,25,A0705,64,g
+10831,Nestle,Maggi Hot & Sweet Tomato Chilli Sauce,60,A0708,200,g
+10832,Nestle,Nescafe Sunrise,180,A0301,100,g
+10833,Nestle,Nestle Nescafe Hazelnut,35,A0301,180,ml
+10834,Nestle,Nestle Nescafe Intense cafe,35,A0301,180,ml
+10835,Nestle,Nestle Nescafe Cold Coffe kit,150,A0301,50,g
+10836,Nestle,Nestle Nescafe Classic,75,A0301,25,g
+10837,Nestle,Nestle Sunrise Rich Aroma,190,A0301,100,g
+10838,Nestle,Nestle Special Offer Pack,540,A0301,200,g
+10839,Nestle,Nestle Sunrise Rich Aroma,100,A0301,50,g
+10840,Nestle,Nestle BarOne,20,A0703,40,g
+10841,Nestle,Nestle Iced Tea Peach,25,A0302,200,ml
+10842,FunFoods,Funfoods Veg Mayonnaise Original,69,A0708,250,g
+10843,FunFoods,Funfoods Pizza Toppings,35,A0708,100,g
+10844,FunFoods,Funfoods Veg Mayonnaise For Burger,35,A0708,100,g
+10845,FunFoods,Funfoods Veg Mayonnaise Original,35,A0708,100,g
+10846,Chings,Chings Secret Manchurian,15,A0705,60,g
+10847,Chings,Chings Secret Singapore Curry,15,A0705,60,g
+10848,Chings,Manchow Soup,55,A0706,55,g
+10849,Chings,Hot & Sour Soup,55,A0706,55,g
+10850,Chings,Mix Veg Soup,55,A0706,55,g
+10851,Sri Bhagyalakshmi,Maida,50,A0501,1,kg
+10852,Sri Bhagyalakshmi,Ragi Flour,65,A0502,1,kg
+10853,Sri Bhagyalakshmi,Thick Rice Flakes,40,A0505,500,g
+10854,Sri Bhagyalakshmi,Toor Dal,134,A0503,1,kg
+10855,Sri Bhagyalakshmi,Suji,36,A0501,500,g
+10856,Sri Bhagyalakshmi,Fried Gram,28,A0503,250,g
+10857,Sri Bhagyalakshmi,Chiroti Suji,25,A0501,500,g
+10858,Sri Bhagyalakshmi,Bengal Gram,50,A0503,500,g
+10859,Sri Bhagyalakshmi,Bansi Sooji,40,A0501,500,g
+10860,Sri Bhagyalakshmi,Corn Flour,80,A0502,1,kg
+10861,Sri Bhagyalakshmi,Horse Gram,80,A0503,500,g
+10862,Sri Bhagyalakshmi,Urad Dal,100,A0503,500,g
+10863,Sri Bhagyalakshmi,Toor Dal,82,A0503,500,g
+10864,Sri Bhagyalakshmi,Sugar,29,A0506,500,g
+10865,Sri Bhagyalakshmi,Moong,98,A0503,500,g
+10866,Sri Bhagyalakshmi,Masoor Dal,76,A0503,500,g
+10867,Sri Bhagyalakshmi,Ragi Flour,23,A0502,500,g
+10868,Sri Bhagyalakshmi,Kabuli Channa,58,A0503,500,g
+10869,Sri Bhagyalakshmi,Groundnut,100,A0503,500,g
+10870,Sri Bhagyalakshmi,Gram Flour,52,A0503,500,g
+10871,Sri Bhagyalakshmi,Fried Gram,56,A0503,500,g
+10872,Sri Bhagyalakshmi,Maida,26,A0501,500,g
+10873,Chings,Chings New Tomato Instant Soup,10,A0706,16,g
+10874,Chings,Chings Manchow Instant Soup,10,A0706,15,g
+10875,Chings,Chings Hot & Sour Instant Soup,10,A0706,15,g
+10876,Chings,Chings Mix Veg Instant Soup,10,A0706,15,g
+10877,Chings,Chings Sweet Corn Veg Instant Soup,10,A0706,15,g
+10878,Chings,Chings Chowmein Hakka Noodles Masala,10,A0507,20,g
+10879,Chings,Chings Schezwan Chutney Rocket,10,A0708,40,g
+10880,Chings,Smith & Jones Ginger Garlic Paste,48,A0507,200,g
+10881,Chings,Simth & Jones Masala Noodles,10,A0705,60,g
+10882,Chings,Chings Secret Veg Hakka Noodles,25,A0705,150,g
+10883,Chings,Chings Secret Egg Hakka Noodles,27,A0705,150,g
+10884,Chings,Simth & Jones Tomato Ketchup,15,A0708,90,g
+10885,Chings,Chings Schezwan Stir Fry Sauce,75,A0708,250,g
+10886,Chings,Chings Schezwan Chutney,80,A0708,250,g
+10887,Chings,Chings Dark Soya Sauce,55,A0708,210,g
+10888,Chings,Chings Red Chilli Sauce,50,A0708,200,g
+10889,Chings,Chings Red Chilli Sauce Pouch,20,A0708,90,g
+10890,Chings,Chings Green Chilli Sauce,55,A0708,200,g
+10891,Chings,Chings Green Chilli Sauce Pauch,20,A0708,90,g
+10892,Chings,Chings Chilli Vinegar Synthetic,50,A0708,170,ml
+10893,Colgate,Colgate Active Salt,132,A0205,200+100,g
+10894,Colgate,Colgate Active Salt,97,A0205,200,g
+10895,Colgate,Colgate Active Salt Neem,58,A0205,100,g
+10896,Colgate,Colgate Total Whole Mouth Health,194,A0205,360,g
+10897,Colgate,Colgate MaxFresh Cooling Crystals,164,A0205,300,g
+10898,Colgate,Colgate Strong Teeth,209,A0205,500,g
+10899,Colgate,Colgate Toothpaste for kids Bubble Fruit,40,A0205,40,g
+10900,Colgate,Colgate Toothpaste for kids Strawberry,40,A0205,40,g
+10901,Colgate,Colagte Active Salt,52,A0205,110,g
+10902,Colgate,Colgate Super Freshness For Extra Confidence,92,A0205,150,g
+10903,Colgate,Colgate Sensitive,115,A0205,160,g
+10905,Colgate,Colgate MaxFresh Cooling Crystals,120,A0205,48*6+20,g
+10906,Colgate,Colgate Active Salt,120,A0205,48*6+20,g
+10907,Colgate,Colgate Freshmint Splash,230,A0205,500,ml
+10908,Colgate,Colgate Plax Fresh Tea,120,A0205,250,ml
+10909,Colgate,Colgate Plax Fresh Tea,230,A0205,500,ml
+10910,Colgate,Colagte Plax Complete Care,130,A0205,250,ml
+10911,Colgate,Colgate Plax Gentle Care,130,A0205,250,ml
+10912,Fortune,Fortune Everday Rozana,130,A0505,1,kg
+10913,Fortune,Fortune Everyday Basmati Rice,149,A0505,1,kg
+10914,Pepsico,Lays Potato Chips - Simple Classic Salted,20,A0707,52,g
+10915,Pepsico,Lays Potato Chips - Joyfull Magic Masala,20,A0707,52,g
+10916,Britannia,Treat JimJam,10,A0701,62,g
+10917,Britannia,Treat JimJam,25,A0701,100,g
+10918,Britannia,Britannia 50-50 Sweet & Salty,30,A0701,200,g
+10919,ITC,Yippee Pasta Sour Cream Onion,25,A0705,65,g
+10920,ITC,Aashirvaad Turmeric Powder,32,A0507,100,g
+10921,Jabsons,Jabsons Classic Hand Roasted Peanuts - Vacuum Pack,65,A0707,150,g
+10922,Jabsons,Jabsons Bharuchi - Salted Roasted Peanuts Vacuum Packed,50,A0707,150,g
+10923,Jabsons,Jabsons Sing Chana,50,A0707,200,g
+10924,Jabsons,Jabsons Roasted Chana - Mahabaleshwar Black salt,55,A0707,200,g
+10925,Jabsons,Jabsons Roasted Chana - Mahabaleshwar White salt,60,A0707,200,g
+10926,Jabsons,Jabsons Roasted Chana Spicy Masala,50,A0707,150,g
+10927,Jabsons,Jabsons Kadhi Patta Boondi,25,A0707,90,g
+10928,Jabsons,Jabsons Roasted Cashewnuts,30,A0707,18,g
+10929,Jabsons,Jabsons Banana Chips Black Pepper,25,A0707,75,g
+10930,Jabsons,Jabsons Roasted Peanuts - Thai Sweet Chilli,70,A0707,140,g
+10931,Haldiram,Halke Fulke - Cream & Onion Potato Chips,20,A0707,80,g
+10932,Parle,Parle Milano Choco Delight - Centre filled,35,A0701,75,g
+10933,Parle,Hide & Seek Black Bourbon - Choco,30,A0701,100,g
+10934,Parle,20-20 Butter cookies,10,A0701,80,g
+10935,Parle,Hide & Seek creme Sandwich - chocolate,30,A0701,120,g
+10936,Parle,Parle milano - choco & Hazelnut,35,A0701,60,g
+10937,Nestle,Maggi - Masala Cuppa Noodles,45,A0705,70,g
+10938,Nestle,Nestle Munch - Crisp-Pop,10,A0703,20.1,g
+10939,Chings,Chings Schezwan Instant Noodles,15,A0705,60,g
+10940,Unibic,Unibic Scotch Finger,40,A0701,100,g
+10941,GRB,Townbus Aloo Bhujia,40,A0707,120,g
+10942,Sri Bhagyalakshmi,Bhagyalakshmi Idlli Suji,48,A0501,1,kg
+10943,Chings,Sweet Corn Soup,55,A0706,55,g
+10944,Chings,Tomato Soup,55,A0706,55,g
+10945,Top Ramen,Top Ramen Masala Noodles,43,A0705,280,g
+10946,Lotte,Lotte Fruitz Lollipop,300,A0703,700,g
+10947,Lotte,Lotte Choco Pie 6 pack,70,A0102,168,g
+10948,Lotte,Lotte Choco Pie 12 pack,140,A0102,336,g
+10949,Soulfull,Soulfull Millet Muesli - Diet,245,A0702,400,g
+10950,Haldiram,Haldiram's Ratlami Sev,10,A0707,55,g
+10951,Haldiram,Haldiram's Mixture,10,A0707,55,g
+10952,Haldiram,Haldirams Namkeen - Punjabi Tadka,10,A0707,50,g
+10953,Haldiram,Haldirams Namkeen - Lite Chiwda,10,A0707,57,g
+10954,Haldiram,Haldiram's Instant Bhel,10,A0707,55,g
+10955,Haldiram,Haldiram's Sev Murmura Mirch Masala,10,A0707,50,g
+10956,Haldiram,Haldiram's Tasty Nuts,10,A0707,50,g
+10957,Haldiram,Haldiram's Soya Sticks,10,A0707,50,g
+10958,Haldiram,Haldiram's Lemon Bhel,10,A0707,57,g
+10959,Haldiram,Haldiram's Chatpata Matar,10,A0707,40,g
+10960,Haldiram,Haldiram's Halke Fulke Cream & Onion,10,A0707,35,g
+10961,Haldiram,Haldiram's Halke Fulke Salted,10,A0707,45,g
+10962,Haldiram,Haldiram's Halke Fulke Tangy Tomato,10,A0707,40,g
+10963,Haldiram,Haldiram's Halke Fulke Chatpata Chilli,10,A0707,40,g
+10965,Haldiram,Haldiram's Jal Jeera,15,A0302,180,ml
+10966,ITC,Sunfeast Dark Fantasy - Choco Meltz,25,A0701,50,g
+10967,ITC,Sunfeast Dark Fantasy - Coffee Fills,30,A0701,75,g
+10968,ITC,Sunfeast Bounce Choco creme,5,A0701,41,g
+10969,ITC,Sunfeast Dark Fantasy - Bourbon,28,A0701,150,g
+10970,ITC,Sunfeast Marie Light,10,A0701,81,g
+10971,ITC,Sunfeast Veda Marie Light,10,A0701,75,g
+10972,ITC,Sunfeast HiFi Cashew Butter,5,A0701,36,g
+10973,ITC,Sunfeast HiFi Butter,5,A0701,36,g
+10974,ITC,Sunfeast Snacky simply salted,10,A0701,62,g
+10975,ITC,Sunfeast Snacky sweet n salt,10,A0701,80,g
+10976,Nestle,Maggi Hot & Sweet Tomato Chilli Sauce,20,A0708,90,g
+10977,Nestle,MAGGI Rich Tomato Ketchup,152,A0708,1,kg
+10978,Nestle,Nescafe Sunrise Collectable Mug free,190,A0301,100,g
+10979,Chitale Bandhu,Chitale Bandhu Potato Chivda,100,A0707,200,g
+10980,Chitale Bandhu,Chitale Bandhu Patal Poha Chivda,60,A0707,200,g
+10981,Chitale Bandhu,Chitale Bandhu Shev,70,A0707,200,g
+10982,Chitale Bandhu,Chitale Bandhu Masala Shev,70,A0707,200,g
+10983,Chitale Bandhu,Chitale Instant Khaman Mix,47,A0706,200,g
+10984,Chitale Bandhu,Chitale instant Idli mix,35,A0706,200,g
+10985,Britannia,Britannia Vita Marie Gold,20,A0701,150,g
+10986,Britannia,Britannia Milk Bikis,10,A0701,80,g
+10987,Britannia,Britannia Marie Gold,30,A0701,250,g
+10988,Britannia,Britannia Good Day Chocochip,10,A0701,52,g
+10989,Britannia,Britannia Good Day Chocochip,30,A0701,100,g
+10990,Britannia,Britannia 50-50 Sweet & Salty,10,A0701,76,g
+10991,Britannia,Britannia Toastea,30,A0104,200,g
+10992,Chings,Chings Dark Soy Sauce,20,A0708,90,g
+10993,FunFoods,Funfoods Veg Mayonnaise - Garlic,35,A0708,100,g
+10994,Sri Bhagyalakshmi,Rice Flakes,40,A0505,500,g
+10995,Sri Bhagyalakshmi,Ragi Flour,32,A0502,500,g
+10996,Sri Bhagyalakshmi,Sugar,60,A0506,1,kg
+10997,Sri Bhagyalakshmi,Sona Masoori Rice,1370,A0505,25,kg
+10998,Lion,Lion Qyno Dates,115,A0508,250+250,g
+10999,Lion,Lion Arabian Dates,124,A0508,250+250,g
+11000,Godrej,Good Knight Power Activ+ 50 % More Power,72,A0403,45,ml
+11001,Godrej,Cinthol Confidence+,35,A0201,100,g
+11002,Godrej,Good Knight Silver Power ( Combo Pack),49,A0403,25,ml
+11003,Godrej,Good Knight Active + Coil,34,A0403,10,n
+11004,Godrej,Good Knight Gold Flash (Combo Pack),89,A0403,45,ml
+11005,Godrej,Godrej Shikakai Soap,20,A0201,75,g
+11006,Godrej,New Hit For Mosquitoes & Flies,99,A0403,200,ml
+11007,Godrej,New Hit Anti Roach Gel,249,A0403,20,g
+11008,Pepsico,Lays Hot & Sweet Chilli,20,A0707,52,g
+11009,GSK,Horlicks Biscuits,10,A0701,85,g
+11010,GSK,Sensodyne Fresh Gel,70,A0205,40,g
+11011,GSK,Sensodyne Deep Clean,120,A0205,70,g
+11012,GSK,Sensodyne Fresh Gel,110,A0205,75,g
+11013,Ferrero,Nutella Hazelnut Spread With Cocoa,339,A0708,290,g
+11014,Ferrero,Nutella Hazelnut Spread With Cocoa,200,A0708,160,g
+11015,Cadbury,Cadbury Dairy Milk Crackle,45,A0703,36,g
+11016,Tang,Tang Mango,135,A0303,500,g
+11017,Tang,Tang Orange,135,A0303,500,g
+11018,Bagrry's,Bagrrys Almond & Raisin Healthy Crunch Muesli,305,A0702,500,g
+11019,Mars,Snickers,20,A0703,25,g
+11020,Mars,Snickers,40,A0703,50,g
+11021,Mars,Galaxy Frut & Nut,45,A0703,36,g
+11022,Mars,Bounty Double 2x,50,A0703,57,g
+11023,Wriggley's,Doublemint Mint Orange Flavour,10,A0703,4.8,g
+11024,Wriggley's,Doublemint Spearmint Classic Gum,10,A0703,13,g
+11025,Wriggley's,Orbit Suger Free Chewing Gum - Spearmint,50,A0703,22,g
+11026,Wriggley's,Orbit Suger Free Chewing Gum - Mixed Frut,50,A0703,22,g
+11027,Hershey's,Hershey's Cocoa Powder,95,A0706,70,g
+11028,Hershey's,Brookside Blueberry & Acai,50,A0703,33.3,g
+11029,Hershey's,Hershey's Brookside Pomegranate,50,A0703,33.3,g
+11030,Hershey's,Hershey's Brookside Raspberry & Goji,50,A0703,33.33,g
+11031,Hershey's,Hershey's Syrup - Genuine Chocolate,90,A0708,200,g
+11032,Hershey's,Hershey's Syrup - Genuine Chocolate,200,A0708,623,g
+11033,Hershey's,Hershey's Syrup - Delicious Strawberry,90,A0708,200,g
+11034,Hershey's,Hershey's Milk Shake Chocolate,35,A0101,200,ml
+11035,Hershey's,Hershey's Milk Shake Strawberry,35,A0101,200,ml
+11036,Hershey's,Hershey's Milk Shake Cookies & Creme,35,A0101,200,ml
+11037,Hershey's,Hershey's Milk Shake Almond,35,A0101,200,ml
+11038,Sundrop,Sundrop Lite Blended Edible Vegetable Oil,125,A0504,1,ltr
+11039,Sundrop,Sundrop Super Lite Advanced Refined SunFlower Oil,75,A0504,500,ml
+11040,Chitale Bandhu,Chitale Bandhu Dal Muth,75,A0707,200,g
+11041,Chitale Bandhu,Chitale Bandhu Lite Chivda,75,A0707,200,g
+11042,Chitale Bandhu,Chitale Bandhu Namkeen Mixture,70,A0707,200,g
+11043,Chitale Bandhu,Lakshmi Narayan Best Chiwda,168,A0707,500,g
+11044,Chitale Bandhu,Lakshmi Narayan Best Chiwda,84,A0707,250,g
+11045,Chitale Bandhu,Lakshmi Narayan Best Cornflakes Chiwda,84,A0707,250,g
+11046,Chitale Bandhu,Lakshmi Narayan Special Badam Chiwda,96,A0707,250,g
+11047,Chitale Bandhu,Malpani's Whole Wheat Brown Khari,65,A0104,200,g
+11048,Chitale Bandhu,Malpani's Puneri Khari Special Baked & Toasted,65,A0104,200,g
+11049,Colin,Colin 2X More Shine,89,A0401,500,ml
+11050,Colin,Colin 2X More Shine,58,A0401,250,ml
+11051,Harpic,Harpic 10 X Better Organic Active,86,A0401,500,ml
+11052,Harpic,Harpic Power 10/10 Stain Removal,86,A0401,500,ml
+11053,Harpic,Harpic Power 10/10 Stain Removal,151,A0401,900,ml
+11054,Lizol,Lizol 10X Cleaning & Germ Kill Critrus,93,A0401,500,ml
+11055,Lizol,Lizol Disinfectant Floor Cleaner Lavender,93,A0401,500,ml
+11056,Lizol,Lizol 10X Cleaning & Germ Kill Neem,93,A0401,500,ml
+11057,Lizol,Lizol  Kitchen Power Cleaner,79,A0401,250,ml
+11058,Dettol,Dettol Original,30,A0201,100,g
+11059,Dettol,Dettol Cool,50,A0201,125,g
+11060,Dettol,Dettol Cool,30,A0201,75,g
+11061,Dettol,Dettol Original,50,A0201,125,g
+11062,Parachute,Parachute 100% Pure Coconut Oil,100,A0203,250,ml
+11063,Parachute,Parachute Advanced Gold Coconut Hair Oil,75,A0203,170,ml
+11064,Parachute,Parachute Advanced Jasmine,44,A0203,90,ml
+11065,Saffola - oil,Saffola Gold Blended Edible Oil,139,A0504,1,lit
+11066,Saffola - oil,Saffola Active Blended Edible Oil,99,A0504,750,ml
+11067,Saffola,Saffola Oats 100% Natural,85,A0702,500,g
+11068,Saffola,Saffola Masala Oats Madras Sambar,15,A0702,38,g
+11069,Saffola,Saffola Masala Oats - Veggie Twist,190,A0702,500,g
+11070,Livon,Livon Shake & Spray Serum,150,A0203,50,ml
+11071,Revive,Revive Instant starch,17,A0402,50,g
+11072,Parachute,Parachute Advanced Men Aftershower Hair Cream with Almond,50,A0203,50,g
+11073,Parachute,Parachute Advanced Men Aftershower Hair Cream with Lemon & Neem,50,A0203,50,g
+11074,Saffola - oil,Saffola Tasty Blended Edible Vegetable Oil,610,A0504,5,lit
+11075,Nestle,Nestle Nescafe Chilled Latte,35,A0301,180,ml
+11076,Nestle,Nestle Maggi Pazzta Mushroom Penne,25,A0705,64,g
+11077,Nestle,Nestle Milky Bar,5,A0703,6.5,g
+11078,Nestle,Nestle Nescafe Latte,25,A0301,25,g
+11079,Nestle,Nestle Maggi Fusian Spicy Tomato Asian Style Cuppa Noodles,50,A0705,70,g
+11080,Nestle,Nestle Nestea Lemon Iced Tea,165,A0302,400,g
+11081,Nestle,Nestle Nestea Lemon Iced Tea,25,A0302,200,ml
+11082,Amul - Milk,Amul Taaza Homogenised Toned Milk,64,A0101,1,ltr
+11083,Amul - Milk,Amul Taaza Homogenised Toned Milk,14,A0101,200,ml
+11084,Amul - Dairy,Amul Pasteurised Butter,48,A0101,100,g
+11085,Amul - Dairy,Amul Garlic & Herbs Butter Spread,49,A0101,100,g
+11086,Amul - Dairy,Amul Cheese Slice,71,A0101,100,g
+11087,Amul - Dairy,Amul Pasteurised Butter,235,A0101,500,g
+11088,Amul - Dairy,Amul Cow Ghee Aroma,285,A0504,500,ml
+11089,Amul - Dairy,Amulya Dairy Whitener,197,A0101,500,g
+11090,Amul - Dairy,Amul Mithai Mate,56,A0101,200,g
+11091,Amul,Amul Fruit & Nut Dark Chocolate,100,A0703,150,g
+11092,Amul,Amul Super Fruit Delicious Berrylicious,150,A0703,150,g
+11093,Amul,Amul Chocominis,120,A0703,250,g
+11094,Amul,Amul Masti Spiced Buttermilk,10,A0101,180,ml
+11095,Amul,Amul Lassi,20,A0101,250,ml
+11096,Lion,Lion Date Syrup,196,A0708,500,g
+11097,Lion,Lion Kashmir Honey,46,A0708,100,g
+11098,Lion,Lion Kashmir Honey,137,A0708,250+250,g
+11099,Lion,Lion Mixed Fruit Jam,88,A0708,250+250,g
+11100,Lion,Lion Arabian Dates,235,A0508,500+500,g
+11101,Lion,Lion Qyno Dates,210,A0508,500+500,g
+11102,Kellogg's,Kellogg's Muesli 0% Added Sugar,315,A0702,500,g
+11103,Kellogg's,Kellogg's Muesli Nuts Delight,315,A0702,500,g
+11104,Kellogg's,Kellogg's Chocos Fills,99,A0702,180,g
+11105,Kellogg's,Kellogg's Corn Flakes,180,A0702,475,g
+11106,Kellogg's,Kellogg's Chocos,20,A0702,56,g
+11107,Kellogg's,Kellogg's Chocos,55,A0702,125,g
+11108,Kellogg's,Kellogg's Chocos,299,A0702,700,g
+11109,Fortune,Fortune Pure Mustard Oil,78,A0504,500,ml
+11110,Fortune,Fortune Pure Mustard Oil,153,A0504,1,ltr
+11111,Dabur,Dabur Hommade Lemoneez,75,A0507,250,ml
+11112,Dabur,Dabur Hommade Ginger Garlic Paste Pouch,46,A0507,200,g
+11113,Real,Real Cranberry Fruit Power,110,A0303,1,ltr
+11114,Real,Real Orange Fruit Power,105,A0303,1,ltr
+11115,Real,Real Mango Fruit Power,100,A0303,1,ltr
+11116,Real,Real Apple Fruit Power,100,A0303,1,ltr
+11117,Real,Real Pineapple Fruit Power,100,A0303,1,ltr
+11118,Real,Real Guava Fruit Power,100,A0303,1,ltr
+11119,Real,Real Litchi Fruit Power,105,A0303,1,ltr
+11120,Real,Real Mixed Fruit Power,105,A0303,1,ltr
+11121,Real,Real Mosambi Sweet-lime Fruit Power,110,A0303,1,ltr
+11122,Real,Real Pomegranate Fruit Power,110,A0303,1,ltr
+11123,Real,Real Cranberry Fruit Power,25,A0303,200,ml
+11124,Real,Real Orange Fruit Power,20,A0303,200,ml
+11125,Real,Real Mango Fruit Power,20,A0303,200,ml
+11126,Real,Real Mixed Fruit Power,20,A0303,200,ml
+11127,Real,Real Mixed Berries Fruit Power,20,A0303,200,ml
+11128,Real,Real Grape Fruit Power,20,A0303,200,ml
+11129,Real,Real Mosambi Sweet-lime Fruit Power,20,A0303,200,ml
+11130,Real,Real Apple Fruit Power,20,A0303,200,ml
+11131,Real,Real Guava Fruit Power,20,A0303,200,ml
+11132,Real,Real Litchi Fruit Power,20,A0303,180,ml
+11133,Real,Real Pomegranate Fruit Power,20,A0303,180,ml
+11134,Real,Real Pineapple Fruit Power,20,A0303,180,ml
+11135,GRB,Townbus Avalakki Mixture,40,A0707,120,g
+11136,GRB,Town Bus Moong Dal,40,A0707,120,g
+11137,GRB,Ghee Pouch,136,A0504,200,ml
+11138,GRB,Ghee Jar,142,A0504,200,ml
+11139,GRB,Ghee Pouch,330,A0504,500,ml
+11140,Gits,Sandwich Dhokla,65,A0706,200,g
+11141,Gits,Moong Dal Vada,85,A0706,200,g
+11142,Sri Bhagyalakshmi,Toor Dal,148,A0503,1,kg
+11143,MTR,Mtr 3 Min Magic Masala Upma,20,A0706,60,g
+11144,Manna,Ready To Cook Millet Khichdi,89,A0706,180,g
+11145,Manna,Ready To Cook Millet Upma,89,A0706,180,g
+11146,Manna,Ready To Cook Millet Poha,89,A0706,180,g
+11147,ID,Traditional Filter Coffee Decoction,50,A0301,100,ml
+11148,Minute Maid,Pulpy Orange,20,A0303,250,ml
+11149,Maaza,Maaza Mango,75,A0303,1.5,l
+11150,Mapro,Coolz Rose Sharbat,144,A0303,750,ml
+11151,Thums Up,Thums Up,20,A0302,250,ml
+11152,Rasna,Rasna American Pineapple,42,A0303,20,g
+11153,Rasna,Rasna Alphonso Mango,42,A0303,20,g
+11154,Rasna,Rasna Nagpur Orange,42,A0303,20,g
+11155,Thums Up,Thums Up,45,A0302,750,ml
+11156,Coca Cola,Coca Cola,45,A0302,750,ml
+11157,Coca Cola,Coca Cola,20,A0302,250,ml
+11158,Rasna,Rasna Shikanji Nimbupani,42,A0303,20,g
+11159,ITC,Sunfeast Marie Light Orange,10,A0701,75,g
+11160,ITC,Candyman Fantastik,150,A0703,360,g
+11162,FunFoods,FunFoods Veg Mayonnaise Garlic,69,A0708,250,g
+11163,Del Monte,Del Monte Schezwan Sauce,50,A0708,190,g
+11164,Del Monte,Del Monte Green Chilli Sauce,50,A0708,190,g
+11165,Del Monte,Del Monte Tomato Ketchup Orginal Blend,95,A0708,500,g
+11166,Del Monte,Del Monte Tomato Ketchup Orginal Blend Pouch,130,A0708,950,g
+11167,Del Monte,Del Monte Tomato Ketchup Orginal Blend Bottel,140,A0708,1,kg
+11168,Cadbury,Cadbury Bourn Vita Inner Strength,107,A0304,200,g
+11169,Cadbury,Cadbury Bourn Vita Inner Strength,223,A0304,500,g
+11170,Cadbury,Cadbury Bourn Vita Inner Strength Pouch,204,A0304,500,g
+11171,Sri Bhagyalakshmi,Urad Dal Gola,93,A0503,500,g
+11172,Sri Bhagyalakshmi,Rice Flour,53,A0503,1,kg
+11173,Sri Bhagyalakshmi,Red Rajma,75,A0503,500,g
+11174,Sri Bhagyalakshmi,White Karamani,50,A0503,500,g
+11175,Sri Bhagyalakshmi,Red Karamani,60,A0503,500,g
+11176,McVities,Mcvities Digestive,35,A0701,200,g
+11177,McVities,Mcvities Digestive,68,A0701,400,g
+11178,McVities,Micvities Digestive 0% Added Sugar,20,A0701,75,g
+11179,McVities,Mcvities Marie,30,A0701,250,g
+11180,McVities,Mcvities Digestive 0% Added Sugar,50,A0701,150,g
+11181,Weikfield,Weikfield Baking Powder,20,A0706,50,g
+11182,Weikfield,Weikfield Baking Soda,30,A0706,100,g
+11183,Weikfield,Weikfield Pasta Cheezy Mac,25,A0705,77,g
+11184,Weikfield,Weikfield cooker Cake Mix,95,A0706,150,g
+11185,Weikfield,Weikfield Jelly Crystals Orange,45,A0706,90,g
+11186,Weikfield,Weikfield Jelly Crystals Strawberry,45,A0706,90,g
+11187,Weikfield,Weikfield Caramel Pudding Mix,45,A0706,65,g
+11188,Weikfield,Weikfield Falooda Mix Kesar Pista,75,A0706,200,g
+11189,Weikfield,Weikfield Falooda Mix Mango,75,A0706,200,g
+11190,Weikfield,Weikfield Falooda Mix Rose,75,A0706,200,g
+11191,Weikfield,Weikfield Falooda Mix Strawberry,75,A0706,200,g
+50006,Marlboro,Parliament Tropical Splash,240,A0801,20,s
+50007,Marlboro,Parliament Gold,240,A0801,20,s
+50008,Marlboro,Marlboro Fuse Beyond,326,A0801,20,s
+50009,Marlboro,Marlboro Gold Advance,326,A0801,20,s
+50010,Marlboro,Marlboro Clove Mix,163,A0801,10,s
+50011,Marlboro,Marlboro Gold Lites,163,A0801,10,s
+11192,Dabur,Dabur Amla Hair Oil,44,A0203,90,ml
+11193,Dabur,Dabur Almond Hair Oil,65,A0203,100+50,ml
+11194,Odonil,Odonil Air Freshner Mixed Pack,141,A0403,150+50,g
+11195,Odonil,Odonil Orchid Dew Air Freshner,70,A0403,75,g
+11196,Odonil,Odonil Mysic Rose Air Freshner,70,A0403,75,g
+11197,Odonil,Odonil Lavender Meadows Air Freshner,70,A0403,75,g
+11198,Odonil,Odonil Jasmin Mist Air Freshner,70,A0403,75,g
+11199,Sani Fresh,Sani Fresh Ultra Shine Toilet cleaner,154,A0401,500+500,ml
+11200,Dabur,Dabur Gulabari Rose Water,45,A0207,120,ml
+11201,Odonil,Odonil Zipper Joyful Lavender,55,A0403,10,g
+11202,Odonil,Odonil Zipper Scintllating Rose,55,A0403,10,g
+11203,Odonil,Odonil Zipper Alluring Daffodil,55,A0403,10,g
+11204,Dabur,Dabur Chyawanprash 2X Immunity,325,A0204,1,kg
+11205,Dabur,Dabur Honey Purity Guaranteed,62,A0708,100,g
+11206,Dabur,Dabur Squeezy Purity Guaranteed,160,A0708,225+225,g
+11207,Odomos,Odomos Nanturals Mosquito Repellent,50,A0403,50,g
+11208,Dabur,Dabur Glucose - D Energy Boost,58,A0304,250,g
+11209,Dabur,Dabur Glucose - D Energy Boost,105,A0304,500,g
+11210,Tata Tea,Tata Agni Leaf,25,A0305,100,g
+11211,Tata Tea,Tata Gold Tea,110,A0305,250,g
+11212,Tata Tea,Tata Gold Tea,259,A0305,500,g
+11213,Tata Tea,Tetley Green Tea Ginger Mint & Lemon,145,A0305,25,n
+11214,Tata Tea,Tata Coffee Grand Fillter Coffee,37,A0301,100,g
+11215,Tata Tea,Tata Coffee Grand Fillter Coffee,190,A0301,500,g
+11216,Tata Sampann,Tata Sampann Urad Whole,200,A0503,1,kg
+11217,Tata Sampann,Tata Sampann Moong Dal,96,A0503,500,g
+11218,Tata Sampann,Tata Channa Dal Besan,64,A0503,500,g
+11219,Tata Sampann,Tata Sampann Toor Dal,76,A0503,500,g
+11220,Tata Sampann,Tata Sampann Poha,42,A0505,500,g
+11221,Tata Sampann,Tata Salt,20,A0506,1,kg
+11222,Tata Sampann,Tata Sampann Chana Dal,125,A0503,1,kg
+11223,Tata Sampann,Tata Sampann Masoor Dal,120,A0503,1,kg
+11224,Tata Sampann,Tata Sampann Moong Dal,190,A0503,1,kg
+11225,Tata Sampann,Tata  I - Shakti Cooking Soda,10,A0507,100,g
+11226,Jabsons,Jabsons Moong Dal ,50,A0707,140,g
+11227,Jabsons,Jabsons Banana Chips Simple Salted,60,A0707,150,g
+11228,Jabsons,Jabsons Halka Fulka Diet Mix,30,A0707,120,g
+11229,Jabsons,Jabsons Ratlami Sev ,50,A0707,160,g
+11230,Jabsons,Jabsons Alu Lachha Orginal ,55,A0707,180,g
+11231,Jabsons,Jabsons Falahari Mixture,50,A0707,140,g
+11232,Jabsons,Jabsons Tandoori Roasted Chana,70,A0707,140,g
+11233,Haldiram,Haldiram's Soya Chips ,10,A0707,50,g
+11234,Haldiram,Haldiram's Masala Moong Dal,10,A0707,38,g
+11235,Haldiram,Haldiram's Aloo Sev Plain,10,A0707,55,g
+11236,Britannia,Britannia Nutri Choice Degestive ,20,A0701,100,g
+11237,Britannia,Britannia Bourbon - Chocolate,30,A0701,150,g
+11238,Britannia,Britannia Dairy Whitener ,110,A0101,200,g
+11239,Parle,Parle Rusk Real Elaichi ,10,A0104,63,g
+11240,Parle,Parle Multi Vita Marie,10,A0701,75,g
+11241,Parle,Parle - G Orginal Gluco Biscuits,70,A0701,800,g
+11242,Parle,Parle Krackjack Butter Masala,25,A0701,120,g
+11243,Parle,Parle Hide & Seek Black Bourbon,100,A0701,300,g
+11244,Nestle,Nestle Maggi Rich Tomato Sauce ,152,A0708,1,kg
+11245,Nestle,Nestle Everyday Dairy Whitener ,490,A0101,1,kg
+11246,Nestle,Nestle A+ Nourish ,83,A0101,1,ltr
+11247,Brooke Bond,Brooke Bond 3 Roses ,58,A0305,100,g
+11248,Brooke Bond,Brooke Bond 3 Roses ,155,A0305,250,g
+11249,Brooke Bond,Brooke Bond 3 Roses ,300,A0305,500,g
+11250,Annapurna,Annapurna Farm Fresh Atta ,490,A0501,10,kg
+11251,Annapurna,Annapurna Farm Fresh Atta ,55,A0501,1,kg
+11252,Annapurna,Annapurna Farm Fresh Atta ,110,A0501,2,kg
+11253,Annapurna,Annapurna Farm Fresh Atta ,270,A0501,5,kg
+11254,Bru,Bru Instant ,180,A0301,100,g
+11255,Domex,Domex Floor Cleaner ,80,A0401,500,ml
+11256,Domex,Domex Disinfectant Toilet Expert ,85,A0401,500,ml
+11257,Dove,Dove Cream Beauty Bathing Bar ,45,A0201,100,g
+11258,Hamam,Hamam Neem Tulsi & Aloe Vera,32,A0201,100,g
+11259,HUL,Knorr Hot & Sour Veg Cup a Soup,10,A0706,11,g
+11260,Kissan,Kissan Mixed Fruit Jam,20,A0708,100,g
+11261,Lifebuoy,Lifebuoy Cool Fresh Active Silver Hand Wash,82,A0201,190,ml
+11262,Lifebuoy,Lifebuoy Silver Shield Fromula Soap,25,A0201,125,g
+11263,Lipton,Lipton Green Tea Tulsi Natural,60,A0305,10,n
+11264,Lux,Lux Creamy Perfection ,30,A0201,75,g
+11265,Lux,Lux Soft Touch ,25,A0201,100,g
+11266,Pears,Pears Soft And Fresh ,41,A0201,100,g
+11267,Pears,Pears Oil Clear & Glow ,41,A0201,75,g
+11268,Pears,Pears Pure & Gentle ,38,A0201,100,g
+11269,Rin,Rin Bar,10,A0402,185,g
+11270,Rin,Rin Powder ,39,A0402,500,g
+11271,Surf excel,Surf Excel Bar ,25,A0402,250,g
+11272,Surf excel,Surf Excel Easy Wash ,124,A0402,1,kg
+11273,Surf excel,Surf Excel Easy Wash ,62,A0402,500,g
+11274,Surf excel,Surf Excel Matic Liquid ,209,A0402,1.02,ltr
+11275,Surf excel,Surf Excel Matic Liquid ,105,A0402,500,ml
+11276,Surf excel,Surf Excel Quick Wash ,180,A0402,1,kg
+11277,Surf excel,Surf Excel Quick Wash ,90,A0402,500,g
+11278,Surf excel,Surf Excel Matic,112,A0402,500,g
+11279,Vim,Vim Bar ,27,A0402,250,g
+11280,Vim, Vim Liquid ,20,A0402,155,ml
+11281,Wheel,Wheel Active 2 in 1 ,53,A0402,1,kg
+11282,Hershey's,Hersheys Cocoa 100% Cocoa ,245,A0706,225,g
+11283,MTR,MTR Puliogare Paste ,90,A0507,200,g
+11284,MTR,MTR Dhokla Mix ,60,A0706,200,g
+11285,MTR,MTR Idly/Dosa/Chilly Chutney Powder ,58,A0507,100,g
+11286,MTR,MTR Gulab Jamun,75,A0704,100,g
+11287,MTR,MTR Laban Stretchy Man ,10,A0703,22,g
+11288,MTR,MTR Upma ,90,A0706,500,g
+11289,MTR,MTR Rava Idli Mix ,40,A0706,190,g
+11290,MTR,MTR Rice Idly Mix ,65,A0706,200,g
+11291,MTR,MTR Puliogare Powder ,95,A0507,200,g
+11292,MTR,MTR Poha ,20,A0706,60,g
+11293,MTR,MTR Elbow Macaroni ,25,A0705,180,g
+11294,MTR,MTR Gulab Jamun Portion Pack ,35,A0704,100,g
+11295,MTR,MTR Bhajji Bonda (Pakoda) Mix ,55,A0706,200,g
+11296,MTR,MTR Khaman Dhokla ,110,A0706,500,g
+11297,MTR,MTR Jeera Rice ,85,A0706,250,g
+11298,MTR,MTR Gulab Jamun Tin ,230,A0704,1,kg
+11299,MTR,MTR Oats Idly ,135,A0706,500,g
+11300,MTR,MTR Chana Masala ,75,A0507,100,g
+11301,MTR,MTR Navratan Kurma ,105,A0706,300,g
+11302,MTR,MTR Gulab Jamun Mix ,220,A0706,500,g
+11303,MTR,MTR Gulab Jamun,115,A0704,500,g
+11304,MTR,MTR Pav Bhaji Masala Powder,85,A0507,100,g
+11305,MTR,MTR Lemon Rice ,85,A0706,250,g
+11306,MTR,MTR Uttappan Mix ,110,A0706,500,g
+11307,Ariel,Ariel Colour Care Detergent Powder,135,A0402,500+200,g
+11308,Ariel,Ariel Matic Liquid Detergent ,115,A0402,500,ml
+11309,Tide,Tide Detergent Bar ,10,A0402,120+50,g
+11310,Tide,Tide Jasmine & Rose Extra Power Detergent Powder,53,A0402,500,g
+11311,Tide,Tide Lemon & Chandan Naturals Detergent Powder,58,A0402,800+200,g
+11312,Tide,Tide Lemon & Mint Extra Power Detergent Powder,106,A0402,1,kg
+11313,Tide,Tide Lemon & Chandan Naturals Detergent Powder,37,A0402,500,g
+11314,Head & Shoulders,Head & Shoulders Anti - Hairfall Shampoo,145,A0203,180,ml
+11315,Head & Shoulders,Head & Shoulders Smooth & Silky Anti - Dandruff Shampoo,145,A0203,180,ml
+11316,Head & Shoulders,Head & Shoulders Anti - Hairfall Conditioner ,75,A0203,80,ml
+11317,Pantene,Pantene Advanced Hairfall Solution + Long Black,115,A0203,180,ml
+11318,Pantene,Pantene Advanced Hairfall Solution Pro - V Hair Fall Control Conditioner,180,A0203,180,ml
+11319,Pantene,Pantene Advanced Hairfall Solution + Silky Smooth Care Conditioner,85,A0203,80,ml
+11320,Ariel,Ariel Complete Detergent Powder ,45,A0402,200,g
+11329,Nestle,Nescafe Gold Blend Coffee Jar,290,A0301,50,g
+11321,FunFoods,Funfoods Peanut Butter Creamy,159,A0708,400,g
+11322,FunFoods,Funfoods Peanut Butter All Natural Ground,159,A0708,400,g
+11323,Ela,Ela Sweet Banana Chips ,85,A0707,175,g
+11324,Ela,Ela-Salted Tapioca Chips,60,A0707,150,g
+11325,Ela,Ela-Pakkavada ,55,A0707,175,g
+11326,Ela,Ela-Sesame Ball ,50,A0707,120,g
+11327,Ela,Ela-Madhura Seva,55,A0707,175,g
+11328,Britannia,Britannia Funky Choco,10,A0701,60,g
+11330,ITC,Fabelle Soft Centres - Choco Mousse,170,A0703,128,G
+11331,ITC,Fabelle choco deck Fruit & Nut,160,A0703,128,g
+11332,ITC,Fabelle Soft Centers Almond Mouse,170,A0703,126,g
+11333,ITC,Fiama Gel Bar Peach & Avocado ,65,A0201,125,g
+11334,ITC,Savlon Antiseptic Liquid ,44,A0204,100,ml
+11335,ITC,Savlon Moisture Shield ,99,A0201,750,ml
+11336,ITC,Fiama Shower Gel Blackcurrant & Bearberry,55,A0201,100,ml
+11337,ITC,Fiama Scents Juniper & Geranium,55,A0201,100,ml
+11338,ITC,Fiama Gel Bar Peach & Avocado ,25,A0201,75,g
+11339,ITC,Fiama Gel Pachouli & Macadamia ,25,A0201,75,g
+11340,ITC,Fiama Gel Blackcurrant & Bearberry ,25,A0201,75,g
+11341,ITC,Fiama Gel Bar Lemongrass & Jojoba ,25,A0201,75,g
+11342,Dabur,Dabur Almond Hair Oil,20,A0203,50,ml
+11343,Wheel,Wheel Active 2 in 1 ,27,A0402,500,g
+11344,Vim,Vim Gel Liquid,105,A0402,500,ml
+11345,Vim,Vim Gel Liquid Pouch ,40,A0402,225,ml
+11346,Vim,Vim Bar Tub,48,A0402,600,g
+11347,Taj Mahal,Taj Mahal Rich & Flavourful ,62,A0305,100,g
+11348,Taj Mahal,Taj Mahal Rich & Flavourful ,155,A0305,250,g
+11349,Surf excel,Surf Excel Matic Liquid Front Load,120,A0402,500,ml
+11350,Surf excel,Surf Excel Matic Liquid Front Load,235,A0402,1.02,ltr
+11351,Sunsilk,Sunsilk Black Shine Shampoo,45,A0203,80,ml
+11352,Rin,Rin Refresh Powder ,40,A0402,500,g
+11353,Rin,Rin Big Bar,17,A0402,250,g
+11354,Brooke Bond,Red Label,35,A0305,100,g
+11355,Pears,Pears Pure & Gentle ,105,A0201,300,g
+11356,Pears,Pears Naturals Aloe Vera,40,A0201,100,g
+11357,Lux,Lux Velvet Touch,38,A0201,150,g
+11358,Lipton,Lipton Green Tea ,130,A0305,100,g
+11359,Lipton,Lipton Pure & lite ,60,A0305,13,g
+11360,Lipton,Lipton Honey Lemon,60,A0305,14,g
+11361,Lifebuoy,Lifebuoy Total Bodywash,89,A0201,240,ml
+11362,Lifebuoy,Lifebouy Mild Care Bodywash,89,A0201,240,ml
+11363,Lifebuoy,Lifebouy Nature Handwash,119,A0201,750,ml
+11364,Lifebuoy,Lifebouy Care,22,A0201,125,g
+11365,Kissan,Kissan Mixed Fruit Jam,150,A0708,500,g
+11366,Kissan,Kissan Mixed Fruit Jam,65,A0708,200,g
+11367,Knorr,Knoor Hot & Sour Soup,55,A0706,43,g
+11368,Dove,Dove Hair Fall Conditioner,90,A0203,80,ml
+11369,Dove,Dove Hair Fall Rescue Shampoo,110,A0203,180,ml
+11370,Dove,Dove Anti Dandruff ,145,A0203,180,ml
+11371,Ponds,Ponds magic Talc,15,A0201,30,g
+11372,Clinic Plus,Clinic Plus Strong & Long,84,A0203,175,ml
+11373,Clinic Plus,Clinic Plus Strong Scalp,79,A0203,175,ml
+11374,Bru,Bru Instant,60,A0301,50,g
+11375,Bru,Bru Gold ,135,A0301,50,g
+11376,Mysore Sandal,Mysore Sandal Soap ,38,A0201,75,g
+11377,Mysore Sandal,Mysore Sandal Soap ,62,A0201,125,g
+11378,Godrej,Good Night Fabric Roll-on,75,A0403,8,ml
+11379,Amul - Dairy,Amul Butter ,98,A0101,200,g
+11380,Amul - Dairy,Amul Butter ,25,A0101,50,g
+11381,Amul - Dairy,Amul Gold Milk,68,A0101,1,ltr
+11382,Amul,Amul Kool Rose,20,A0101,180,ml
+11383,Amul,Amul Kool Badam,20,A0101,200,ml
+11384,Amul,Amul Kool Elaichi,20,A0101,200,ml
+11385,Amul,Amul Milk Shake Double Chocolate,30,A0101,180,ml
+11386,Amul,Amul Dark Chocolate Drink,25,A0101,180,ml
+11387,Amul,Amul processed cheese,204,A0101,400,g
+11388,Amul,Amul Cheese Blocks ,106,A0101,200,g
+11389,Kissan,Kissan Mango Jam,160,A0708,490,g
+11390,Parle,Parle G Gold ,115,A0701,1,kg
+11391,Parle,Parle Krackjack,60,A0701,400,g
+11392,ID,ID Filter Coffee Decoction,10,A0301,20,ml
+11393,Godrej,Good Night Silver Refill Liquid Vapouriser,63,A0403,45,ml
+11394,Godrej,Hit Lime Fresh - Mosquito & Flies,269,A0403,625,ml
+11395,Godrej,Power Activ+ Twin Pack,134,A0403,90,ml
+11396,Dettol,Dettol Orginal Liquid Handwash ,218,A0201,750+750,ml
+11397,Dettol,Dettol Orginal Liquid Handwash ,134,A0201,175*3,ml
+11398,Harpic,Harpic Organic Active Citrus 10x Better Cleaning,89,A0401,500,ml
+11399,Lizol,Lizol Floral Disinfectant Surface Cleaner ,93,A0401,500,ml
+11400,Lizol,Lizol Pine Disinfectant Surface Cleaner ,98,A0401,500,ml
+11401,Lizol,Lizol Sandal Disinfectant Surface Cleaner ,93,A0401,500,ml
+11402,Amul - Dairy,Amul Cheese Spread Yummy Plain,85,A0708,200,g
+11403,Amul - Dairy,Amul Cheese Spread Creami,85,A0708,180,g
+11404,Amul - Dairy,Amul Lite Milk Fat,85,A0101,200,g
+11405,Amul - Dairy,Amul Pasteurised Butter,485,A0101,1,kg
+11406,Amul - Milk,Amul Pure Ghee,265,A0504,500,ml
+11407,Amul - Dairy,Amul Mithai Mate,106,A0101,400,g
+11408,Amul - Dairy,Amul Taaza Homogenised Toned Milk,33,A0101,500,ml
+11409,Amul - Dairy,Amul Cheese Spread Spicy Garlic,85,A0708,200,g
+11410,Amul,Amul Kool Kesar,20,A0101,180,ml
+11411,Amul,Amul Fresh Cream,197,A0101,1,ltr
+11412,Nivea,Nivea Refreshing Fash Wash Normal Skin,85,A0207,55,ml
+11413,Nivea,Nivea Face Wash Fine Gramflour,85,A0207,50,ml
+11414,Nivea,Nivea Fash Wash Precious Saffron,85,A0207,50,ml
+11415,Nivea,Nivea All In One Charcoal Face Wash,125,A0207,50,g
+11416,Nivea,Nivea Purifying Face Wash,175,A0207,150,ml
+11417,Nivea,Nivea Deep Impact Face Wash,199,A0207,100,g
+11418,Nivea,Nivea Dark Spot Reduction Face Wash,199,A0207,100,g
+11419,Nivea,Nivea Oil Control Face Wash ,199,A0207,100,g
+11420,Nivea,Nivea Men CoolKick Shower Gel,199,A0201,250,ml
+11421,Nivea,Nivea Men Vitality Fresh Shower Gel,199,A0201,250,ml
+11422,Nivea,Nivea Men Energy Shower Gel,199,A0201,250,ml
+11423,Nivea,Nivea Men Power Fresh Shower Gel,199,A0201,250,ml
+11424,Nivea,Nivea Men Pure Impact Shower Gel ,199,A0201,250,ml
+11425,Nivea,Nivea Lemon & Oil Shower Gel,199,A0201,250,ml
+11426,Sri Bhagyalakshmi,Sona Masoori Rice,300,A0505,5,kg
+11428,Cadbury,Cadbury CoCoa Powder,223,A0706,150,g
+11429,Cadbury,Cadbury Hot Chocolate Powder,175,A0304,200,g
+11430,Cadbury,Cadbury Temptations Almond Treat,100,A0703,72,g
+11431,Tang,Tang Lemon Instant Drinking Mix,135,A0303,500,g
+11432,Tang,Tang Mango Instant Drinking Mix,135,A0303,500,g
+11433,Tang,Tang Orange Instant Drinking Mix,135,A0303,500,g
+11434,Saffola,Saffola Otas ,77,A0702,400,g
+11435,Parachute,Parachute Advansed Aloe Vera Coconut Hair Oil,75,A0203,150,ml
+11436,Parachute,Parachute 100% Pure Coconut Oil ,20,A0203,50,ml
+11437,Parachute,Parachute 100% Pure Coconut Oil ,39,A0203,100,ml
+11438,Parachute,Parachute 100% Pure Coconut Oil ,199,A0203,500,ml
+11439,Himalaya,Himalaya Deep Cleansing Apricot Face Wash ,70,A0207,50,ml
+11440,Himalaya,Himalaya Men Face & Beard Wash ,95,A0207,40,ml
+11441,Himalaya,Himalaya Moisturizing Aloe Vera Face Wash,120,A0207,100,ml
+11442,Himalaya,Himalaya Purifying Neem Face Wash,120,A0207,100,ml
+11443,Himalaya,Himalaya Almond & Rose Soap ,30,A0201,75,g
+11444,Himalaya,Himalaya Anti - Dandruff Shampoo,140,A0203,200,ml
+11445,Himalaya,Himalaya Anti - Hair Fall Shampoo Bhringaraja,62,A0203,80,ml
+11446,Himalaya,Himalalya Anti - Hair Fall Conditioner Bhringaraja ,90,A0203,100,ml
+11447,Himalaya,Himalaya Dryness Defense Detangler & Conditioner ,90,A0203,100,ml
+11448,Himalaya,Himalaya Neem & Turmeric Soap ,45,A0201,125,g
+11449,Pepsico,Lays Maxx Maxican Chips,10,A0707,22.5,g
+11451,Real,Real Mango Fruit Power ,100,A0303,1,ltr
+11452,Real,Real Apple Fruit Power,100,A0303,1,ltr
+11453,Dabur,Dabur Amla Hair Oil ,44,A0203,90,ml
+11454,Dabur,Dabur Red Toothpaste,10,A0205,20,g
+11455,Dabur,Dabur Meswak Complete Oral Care,50,A0205,100,g
+11456,Dabur,Dabur Meswak Complete Oral Care,125,A0205,150+150,g
+11457,Dabur,Dabur Red Toothpaste,50,A0205,100,g
+11458,Dabur,Dabur Red Toothpaste,125,A0205,150+150,g
+11459,Maiyas,Maiyas Khara Boondi ,10,A0707,35,g
+11460,Maiyas,Maiyas Rice Kodubale,10,A0707,40,g
+11461,Maiyas,Maiyas Butter Murukku ,55,A0707,185,g
+11462,Maiyas,Maiyas Chow Chow Mixture,55,A0707,150,g
+11463,Maiyas,Maiyas Khara Boondi ,55,A0707,150,g
+11464,Maiyas,Maiyas Rice Kodubale,55,A0707,185,g
+11465,Maiyas,Maiyas Methi Sticks ,65,A0707,185,g
+11466,Maiyas,Maiyas Dry Samosa,55,A0707,185,g
+11467,Maiyas,Maiyas Bhakarawadi ,55,A0707,185,g
+11468,Maiyas,Maiyas Palak Sticks ,65,A0707,185,g
+11469,Maiyas,Maiyas Orange Soan Papdi,75,A0704,200,g
+11470,Maiyas,Maiyas Orginal Soan Papdi,75,A0704,200,g
+11471,Maiyas,Maiyas Rasgulla Ready to Eat,75,A0704,275,g
+11472,Amul,Amul Banana Milk Shake,25,A0101,200,ml
+11473,Amul,Amul Kool Cafe Hazelnut Can,30,A0101,200,ml
+11474,Sofit,Sofit Soya Milk Chocolate,35,A0101,200,ml
+11475,Sofit,Sofit Soya Milk Vanilla,35,A0101,200,ml
+11476,Sunpure,Sunpure Sunflower Oil,125,A0504,1,ltr
+11477,Madhur,Madhur Sugar,55,A0506,1,kg
+11478,Tata Q,Tata Q Hot & Spicy Schezwan Noodles With Chicken,125,A0706,305,g
+11479,Tata Q,Tata Q Hot & Spicy Scheawan Noodles With Veggies,99,A0706,290,g
+11480,Tata Q,Tata Q Saucy Tomato Pasta With Veggies,99,A0706,290,g
+11481,Tata Q,Tata Q Saucy Tomato Pasta With Chicken,125,A0706,305,g
+11482,Tata Q,Tata Q Cheesy Pasta With Black Olives,99,A0706,290,g
+11483,Tata Q,Tata Q Spicy Vegetable Biryani,99,A0706,330,g
+11484,Tata Q,Tata Q Spicy Chicken Biryani,125,A0706,330,g
+11485,Weikfield,Weikfield Jelly Crystals Raspberry,45,A0706,90,g
+11486,Parle,Parle Krack Jack,30,A0701,200,g
+11487,Parle,Parle Hide & Seek Black Bourbon,100,A0701,300,g
+11488,Parle,Parle Hide & Seek Choco Rolls,100,A0701,250,g
+11489,Parle,Parle Frooti Mango Drink,10,A0303,160,ml
+11490,Hamdard,Hamdard Roohafza Sharbat,150,A0303,750,ml
+11491,Surf excel,Surf Excel Easy Wash,180,A0402,1.5,kg
+11492,Ariel,Ariel Complete Care,135,A0402,700,g
+11493,Dabur,Dabur Red Toothpaste,20,A0205,45,g
+11494,Manna,Manna Millet Pongal,89,A0706,180,g
+11495,Lion,Lion Kashmir Honey,28,A0708,50,g
+11496,Lion,Lion Mixed Fruit Jam,159,A0708,500+500,g
+11497,Lion,Lion Desert King Dates,222,A0508,500,g
+11498,Mars,Snickers,10,A0703,15,g
+11499,Mars,Snickers Almond,50,A0703,45,g
+11500,Mars,Snickers Cashew,50,A0703,45,g
+11501,Parle,Parle Rusk Real Elaichi,30,A0104,200,g
+11502,Surf excel,Surf excel Easy Wash Liquid,165,A0402,1,ltr
+11503,Gold Winner,Gold Winner Sunflower Oil,116,A0504,1,ltr
+11504,Parle,Parle-G,20,A0701,250,g
+11505,Parle,Parle Monaco,30,A0701,200,g
+11506,ACT II,ACT II Butter Lover's,70,A0707,99,g
+11507,ACT II,ACT II Butter Lover's,25,A0707,33,g
+11508,Nestle,Nestle Maggie Party Time 8 Pack,91,A0705,560,g
+11509,Nestle,Nestle Nescafe Classic Coffee Jar,150,A0301,50,g
+11510,MTR,MTR Rava Idli Mix ,110,A0706,500,G
+11511,MTR,MTR Gulab Jamun,130,A0704,160,g
+11512,MTR,MTR Rasogolla Portion Pack,35,A0704,45,g
+11513,MTR,MTR Badam Drink,55,A0101,180,ml
+11514,MTR,MTR Hing,42,A0507,25,g
+11515,MTR,MTR Chilli Powder,40,A0507,100,g
+11516,MTR,MTR Chilli Powder,17,A0507,50,g
+11517,MTR,MTR Turmeric Powder,32,A0507,100,g
+11518,MTR,MTR Turmeric Powder,17,A0507,50,g
+11519,MTR,MTR Turmeric Powder,10,A0507,30,g
+11520,MTR,MTR Coriander Powder,32,A0507,100,g
+11521,MTR,MTR Coriander Powder,10,A0507,30,g
+11522,MTR,MTR Jeera Powder,55,A0507,100,g
+11523,MTR,MTR Jeera Powder,28,A0507,50,g
+11524,MTR,MTR Black Pepper,85,A0507,50,g
+11525,MTR,MTR Lemon Rice Powder,20,A0507,50,g
+11526,MTR,MTR Tomato Rice Powder,20,A0507,50,g
+11527,MTR,MTR Puliogare Powder,53,A0507,100,g
+11528,MTR,MTR Vangi Bhath Masala,58,A0507,100,g
+11529,MTR,MTR Sambar Powder,10,A0507,20,g
+11530,MTR,MTR Sambar Powder,53,A0507,100,g
+11531,MTR,MTR Rasam Powder,10,A0507,20,g
+11532,MTR,MTR Rasam Powder,53,A0507,100,g
+11533,MTR,MTR Bisibele Bhath Masala,10,A0507,20,g
+11534,MTR,MTR Bisibele Bhath Masala,58,A0507,100,g
+11535,MTR,MTR Pulao Masala,90,A0507,100,g
+11536,MTR,MTR Garam Masala,50,A0507,50,g
+11537,MTR,MTR Spicy Sambar Powder,10,A0507,20,g
+11538,MTR,MTR Spicy Sambar Powder,58,A0507,100,g
+11539,MTR,MTR Chaat Masala,80,A0507,100,g
+11540,MTR,MTR Mango Sliced Pickle,12,A0709,60,g
+11541,MTR,MTR Lime Sliced Pickle,12,A0709,60,g
+11542,MTR,MTR Mixed Vegetables Pickles,12,A0709,60,g
+11543,Kellogg's,Kellogg's Chocos ,10,A0702,26,g
+11544,Kellogg's,Kellogg's Chocos,470,A0702,1.2,kg
+11545,Parachute,Parachute Coconut Oil,10,A0203,25,ml
+11546,Parachute,Parachute Advansed Jasmine,44,A0203,90,ml
+11547,Godrej,Godrej No.1 Lime Aloe Vera Soap,0,A0201,52,g
+11548,Parachute,Parachute Advanced Men Hair Cream Classic,45,A0203,50,g
+11549,Savlon,Savlon Herbal Senstive Hand Wash,99,A0201,750,ml
+11550,ITC,Bingo Mad Angales Mmmm Masala,10,A0707,36.5,g
+11551,Amul,Amul Kool Koko Can - chocolate milk,30,A0101,200,ml
+11552,Amul,Amul Kool Milkshake Badam Shakers,35,A0101,200,ml
+11553,Amul,Amul Kool cafe Milk n Coffee Classic ,30,A0101,200,ml
+11554,Amul,Amul Double Chocolate Milk Shake,40,A0101,200,ml
+11555,Tang,Tang Mosambi,135,A0303,500,g
+11556,Amul,Amul Cacao 99% Ultimate Dark Chocolate,150,A0703,125,g
+11557,Amul - Milk,Amul Pure Ghee Pouch,255,A0504,500,ml
+11558,Rin,Rin Bar,10,A0402,175,g
+11559,Surf excel,Surf Excel Quick Wash ,180,A0402,1,kg
+11560,Lipton,Lipton Green Tea,125,A0305,100,g
+11561,Lipton,Lipton Green Tea Pure & Lite Pouch,20,A0305,6.5,g
+11562,Haldiram,Haldiram's Ratlami Sev ,32,A0707,150,g
+11563,Haldiram,Haldiram's Khatta Meetha,65,A0707,350+50,g
+11564,Haldiram,Haldiram's Khatta Meetha,10,A0707,60,g
+11565,Harpic,Harpic Disinfectant Bathroom Cleaner Floral,44,A0401,200,ml
+11566,Harpic,Harpic Disinfectant Bathroom Cleaner Lemon,44,A0401,200,ml
+11567,Pepsico,Lays Classic Salted,10,A0707,60,g
+11568,Pepsico - CSD,7Up,35,A0302,600,ml
+11569,Tropicana,Tropicana Mixed Fruit Delight,100,A0303,1,ltr
+11570,Maaza,Maaza Mango Drink,40,A0303,600,ml
+11571,Tropicana,Tropicana Litchi Delight,20,A0303,200,ml
+11572,Tropicana,Tropicana Guava Delight,20,A0303,200,ml
+11573,Cadbury,Cadbury Choclairs Gold,200,A0703,632.5,g
+11574,Parle,Parle Kismi Meetha Paan,100,A0703,500.82,g
+11575,Britannia,Britannia Toastea,10,A0104,72,g
+11576,Colgate,Colgate Strong Teeth Toothpaste,10,A0205,19,g
+11577,Santoor,Santoor Sandal & Turmeric,26,A0201,100,g
+11578,Wheel,Wheel 2 In 1,10,A0402,155,g
+11579,Surf excel,Surf Excel Quick Wash Bar,10,A0402,80,g
+11580,ITC,Sunfeast Yippee Noodles,5,A0705,32,g
+11581,MTR,MTR Vangi Bhath Masala,10,A0507,20,g
+11582,Aachi,Aachi Chilli Powder,10,A0507,25,g
+11583,Aachi,Aachi Chicken Masala,10,A0507,18,g
+11584,Aachi,Aachi Fish Curry Masala,10,A0507,20,g
+11585,Aachi,Aachi Chicken Kabab/65 Masala,10,A0507,20,g
+11586,Aachi,Aachi Fish Fry Masala,10,A0507,20,g
+11587,Aachi,Aachi Mutton Masala,10,A0507,20,g
+11588,Aachi,Aachi Lemon Rice Powder,10,A0507,20,g
+11589,Aachi,Aachi Sambar Powder,10,A0507,20,g
+11590,Aachi,Aachi Egg Curry Masala,10,A0507,20,g
+11591,Aachi,Aachi Garam Masala,10,A0507,20,g
+11592,Aachi,Aachi Biryani Masala,10,A0507,20,g
+11593,Comfort,Comfort Fabric Conditioner,3,A0402,20,ml
+11594,Pepsodent,Pepsodent Cavity Protection Germi Check,85,A0205,200,g
+11595,Pepsodent,Pepsodent cavity Protection 2 In 1,97,A0205,150,g
+11596,Pepsodent,Pepsodent Cavity Protection 2 in 1,50,A0205,80,g
+11597,Dabur,Dabur Chyawanprash Sugar Free ,205,A0204,500,g
+11598,Red Bull,Red Bull Energy Drink,115,A0302,250,ml
+11599,Godrej,Good Kinght Fast Card,10,A0403,10,n
+11600,Godrej,Godrej Ezee Liquid Detergent,49,A0402,200+50,g
+11601,Godrej,Godrej Fabric Roll - On ,75,A0403,8,ml
+11602,Godrej,Godrej No.1 Rosewater Almond Soap,40,A0201,4*63,g
+11604,Mangaldeep,Mangaldeep Rose Puja Agarbattis,10,A0405,14,n
+11605,Mangaldeep,Mangaldeep Lavender Premium Agarbattis,10,A0405,14,n
+11606,Mangaldeep,Mangaldeep Bouquet Puja Agarbattis,10,A0405,14,n
+11607,Mangaldeep,Mangaldeep Mogra Puja Agarbattis,10,A0405,14,n
+11608,ITC,Fabelle Choco Deck Frut & Nut,45,A0703,34.5,g
+11609,Savlon,Savlon Deep Clean Germ Protection,99,A0201,725,ml
+11610,AIM,AIM Match Box,10,A0405,350,s
+11611,Home Lites,Home Lites Match Box Pack of 10,10,A0405,250,s
+11612,Home Lites,Home Lites Match Box Pack of 5,10,A0405,250,s
+11613,ITC,Bingo Mad Angles Achaari Masti,10,A0707,36.5,g
+11614,ITC,Bingo Mad Angles Very Peri Peri,20,A0707,72.5,g
+11615,ITC,Bingo Mad Angles Pizza - aaaah,20,A0707,72.5,g
+11616,ITC,Bingo Mad Angles Pizza - aaaah,5,A0707,18,g
+11617,ITC,Fiama Gel Bar Lemongrass & Jojoba,60,A0201,125,g
+11618,ITC,Fiama Cooling Gel Bar Menthol & Magnolia,60,A0201,125,g
+11619,ITC,Fiama Men Gel Energising Sport Bar,60,A0201,125,g
+11620,Santoor,Santoor Sandal & Turmeric Mega Offer ,40,A0201,48*4,g
+11621,Colgate,Colgate MaxFresh Cooling Crystals,164,A0205,300,g
+11622,Mysore Sandal,Mysore Sandal Gold,80,A0201,125,g
+11623,Gillette,Gillette Foam Sensitive Shave Gel,199,A0206,418,g
+11624,Gillette,Gillette Foam Regular,199,A0206,418,g
+11625,Gillette,Gillette Fusion Sensitive Skin Hyrda Gel,375,A0206,195,g
+11626,Old Spice,Old Spice Orginal After Shave Lotion,120,A0206,50,ml
+11627,Gillette,Gillette Foam Lemon Lime,185,A0206,196,g
+11628,Nissin Foods,Nissin Rogan Josh Rich Mutton Curry Cup Noodles,50,A0705,70,g
+11629,Sundrop,Sundrop Peanut Butter Cream Regular,30,A0708,32+32+32,g
+11630,Anil,Anil Happala,76,A0706,200,g
+11631,Anil,Anil Happala,57,A0706,150,g
+11632,Garden,Garden Testy Nuts,45,A0707,150,g
+11633,Bikaji,Bikaji Navratna Mix Sub - Kuch ,260,A0707,1,kg
+11634,Bikaji,Bikaji Bikaneri Bhujia Sev,260,A0707,1,kg
+11635,Bikaji,Bikaji Soya Sticks Masala Munch,50,A0707,150,g
+11636,Bikaji,Bikaji Falahari Mixture,50,A0707,150,g
+11637,Makino,Makino Nacho Chips Cheese,35,A0707,60,g
+11638,ACT II,ACT ll Sweet Corn Chaat Masala,38,A0707,153,g
+11639,Garden,Garden Kara Boondi,35,A0707,100,g
+11640,Garden,Garden Thenkuzhal ,35,A0707,100,g
+11641,Garden,Garden Corn Flakes Mixture,40,A0707,100,g
+11642,Garden,Garden Ribbon Pakoda,35,A0707,100,g
+11643,Garden,Garden Madaras Mixture ,40,A0707,100,g
+11644,Garden,Garden Kara Sev,35,A0707,100,g
+11645,Ferrero Rocher,Ferrero Rocher Hazelnut & Milk Chocolate,529,A0703,200,g
+11646,Cadbury,Oreo Double Stuf Biscuits,35,A0701,120,g
+11647,Parle,Parle - G Orginal Gluco Biscuits,3,A0701,38.5,g
+11648,Parle,Parle Monaco Classic Regular,60,A0701,400,g
+11649,Center Fresh,Center Fresh sweet Mint ,210,A0703,672,g
+11650,Ferrero,Tic Tac Seed Elachi & Ginger ,10,A0703,7.7,g
+11652,ID,ID Traditional Filter Coffee Decoction,80,A0301,150,ml
+11653,Sprite,Sprite Frends Pack,45,A0302,750,ml
+11654,Sprite,Sprite Party Pack,95,A0302,2.25,ltr
+11655,Ariel,Ariel Matic Liquid Detergent,230,A0402,1,ltr
+11656,Everest,Everest Black Pepper Powder,150,A0507,100,g
+11657,Everest,Everest Black Pepper Powder,80,A0507,50,g
+11658,Everest,Everest Chaat masala,62,A0507,100,g
+11659,Everest,Everest Chhole masala,63,A0507,100,g
+11660,Everest,Everest Chhole masala,33,A0507,50,g
+11661,Everest,Everest Chicken masala,72,A0507,100,g
+11662,Everest,Everest Chicken masala,38,A0507,50,g
+11663,Everest,Everest Cumin powder,51,A0507,100,g
+11664,Everest,Everest Cumin powder,28,A0507,50,g
+11665,Everest,Everest Garam masala,78,A0507,100,g
+11666,Everest,Everest Garam masala,41,A0507,50,g
+11667,Everest,Everest Kashmirilal chilli powder,58,A0507,100,g
+11668,Everest,Everest Kashmirilal chilli powder,32,A0507,50,g
+11669,Everest,Everest Kasuri methi ,84,A0507,100,g
+11670,Everest,Everest Kasuri methi ,25,A0507,50,g
+11671,Everest,Everest Kitchen king,65,A0507,100,g
+11672,Everest,Everest Kitchen king,34,A0507,50,g
+11673,Everest,Everest kutilal chilli powder,38,A0507,100,g
+11674,Everest,Everest meat masala,72,A0507,100,g
+11675,Everest,Everest meat masala,38,A0507,50,g
+11676,Everest,Everest Pav Bhaji Masala,66,A0507,100,g
+11677,Everest,Everest Pav Bhaji Masala,35,A0507,50,g
+11678,Everest,Everest Rajma Masala,58,A0507,100,g
+11679,Everest,Everest Royal Garam masala,78,A0507,100,g
+11680,Everest,Everest Sabji Masala,54,A0507,100,g
+11681,Everest,Everest Sabji Masala,29,A0507,50,g
+11682,Everest,Everest Saffron,280,A0507,1,g
+11683,Everest,Everest sambhar masala,63,A0507,100,g
+11684,Everest,Everest sambhar masala,34,A0507,50,g
+11685,Everest,Everest Shahi biryani masala,70,A0507,50,g
+11686,Everest,Everest Shahi Paneer masala,78,A0507,100,g
+11687,Everest,Everest Shahi Paneer masala,42,A0507,50,g
+11688,Everest,Everest super garam masala,80,A0507,200,g
+11689,Everest,Everest Tandoori Masala,72,A0507,100,g
+11690,Everest,Everest Tandoori Chicken Masala,38,A0507,50,g
+11691,Everest,Everest tea masala,98,A0507,100,g
+11692,Everest,Everest tea masala,55,A0507,50,g
+11693,Everest,Everest Tikhalal red chilli powder,38,A0507,100,g
+11694,Everest,Everest white pepper,200,A0507,100,g
+11695,Krack,Krack Heel Repair Cream ,83,A0204,25,g
+11696,Moov,Moov Pain Relief Spray,185,A0204,50,g
+11697,Moov,Moov Pain Relief Gel,59,A0204,15,g
+11698,Moov,Moov Pain Relief Gel,109,A0204,30,g
+11699,Moov,Moov Pain Relief Spray,130,A0204,35,g
+11700,Dettol,Dettol Skincare Balanced Handwash,79,A0201,200,ml
+11701,Dettol,Dettol Fresh Pleasant Fragrance Lather Shaving Cream,75,A0206,78,g
+11702,Godrej,Godrej Aer Cool Surf Blue Spray,149,A0403,240,ml
+11703,Godrej,Godrej Aer Fresh Lush Green Spray,149,A0403,240,ml
+11704,Godrej,Godrej Aer Monsoon Odour Refresh Spray,149,A0403,240,ml
+11705,Godrej,Godrej Aer Morning Misty Meadows Spray,149,A0403,240,ml
+11706,Godrej,Godrej Aer Musk After Smoke Spray,149,A0403,240,ml
+11707,Godrej,Godrej Aer Petal Crush Pink Spray,149,A0403,240,ml
+11708,Godrej,Godrej Cinthol Shaving Cream Sensitive,25,A0206,20,g
+11709,Godrej,Godrej Cinthol Shaving Cream Lime Fresh,25,A0206,20,g
+11710,Godrej,Godrej Cinthol Shaving Cream Sensitive,65,A0206,78,g
+11711,Godrej,Godrej Cinthol Shaving Cream Cool Cream,65,A0206,78,g
+11712,Godrej,Godrej No.1 Kesar Milk Cream,40,A0201,63*4,g
+11713,Godrej,Godrej Nupur Henna ,15,A0203,25,g
+11714,Godrej,Godrej Nupur Pure Henna ,199,A0203,400,g
+11715,Siddhi,Siddhi chiroti sooji,50,A0501,1,kg
+11716,Siddhi,Siddhi rice flour,50,A0505,1,kg
+11717,Siddhi,Siddhi sooji,70,A0501,1,kg
+11718,Britannia,Treat JimJam,35,A0701,150,g
+11719,Britannia,Treat Burst Choco Creme,15,A0701,60,g
+11720,Britannia,Good Day Butter Cookies,5,A0701,38,g
+11721,Britannia,Winkin Cow,30,A0101,180,Ml
+11722,Haldiram,Haldiram's Halke Fulke Salted Potato Chips,20,A0707,100,g
+11723,Haldiram,Haldiram's Bhujia Sev,5,A0707,17,g
+11724,Mother's,Mother's Andhra Avakaya Pickle,45,A0709,200,g
+11725,Mother's,Mother's Mixed Pickle ,42,A0709,200,g
+11726,Mother's,Mother's Lime Pickle ,42,A0709,200,g
+11727,Mother's,Mother's Choondo Pickle,49,A0709,200,g
+11728,Mother's,Mother's Mango Pickle,42,A0709,200,g
+11729,Mother's,Mother's Garlic Pickle,52,A0709,200,g
+11730,Mother's,Mother's Green Chilli Pickle,82,A0709,300,g
+11731,Mother's,Mother's Thokku Pickle,85,A0709,300,g
+11732,Mother's,Mother's Sweet Lime Pickle,89,A0709,300,g
+11733,Mother's,Mother's Gorkeri Pickle,89,A0709,300,g
+11734,Mother's,Mother's Mango Pickle,82,A0709,300,g
+11735,Mother's,Mother's Ginger Garlic Paste,48,A0507,200,g
+11736,Mother's,Mother's Ginger Garlic Paste Tin,73,A0507,300,g
+11737,Mother's,Mother's Red Chilli Pickle ,52,A0709,200,g
+11738,Pepsico,Kurkure Herapheri Hungama,10,A0707,45,g
+11739,Tata Sampann,Tata sampann Toor dal(Arhar Dal),149,A0503,1,kg
+11740,Tata Sampann,Tata sampann Moong dal,96,A0503,500,g
+11741,Tata Sampann,Tata sampann Rajma,96,A0503,500,g
+11742,Tata Sampann,Tata sampann Green Moong,88,A0503,500,g
+11743,Pepsico,Kurkure Gazab Golmaal,10,A0707,45,g
+11744,Pepsico,Lays American Style Cream & Onion,10,A0707,30,g
+11745,Pepsico,Lays Spanish Tomato Tango,10,A0707,30,g
+11746,Pepsico,Lay's Cream & Onion Special Pack Special Pack,18,A0707,29.5,g
+11747,Pepsico,Lay's Whacky Hot n Sweet Chilli Special Pack,18,A0707,29.5,g
+11748,Pepsico,Lay's Joyfull Macic Masala Special Pack,18,A0707,29.5,g
+11749,Pepsico,Lay's Tomato Tango Special Pack,18,A0707,29.5,g
+11750,Cothas,Cothas Coffee Speciality Blend,230,A0301,500,g
+11751,Cothas,Cothas Coffee Speciality Blend,94,A0301,200,g
+11752,Kissan,Kissan Chilli Tomato Sauce,105,A0708,500,g
+11753,Kissan,Kissan Sweet Spicy Sauce,105,A0708,500,g
+11754,Kissan,Kissan Fresh Tomato Ketchup,130,A0708,950,g
+11755,Luvit,Luvit Chocwich White Chocolate,10,A0703,20,g
+11756,Luvit,Luvit Chocwich More Chocolate,10,A0703,23,g
+11757,Ferrero,Ferrero Rocher the Golden Experience Chocolate,149,A0703,50,g
+11758,Kellogg's,Kellogg's Corn Flakes Orginal,99,A0702,290,g
+11759,Kellogg's,Kellogg's Corn Flakes Orginal,310,A0702,875,g
+11760,Kellogg's,Kellogg's Corn Flakes Orginal,425,A0702,1.2,kg
+11761,Kellogg's,Kellogg's Chocos,5,A0702,30,g
+11762,Sundrop,Sundrop Peanut Spread Creamy,50,A0708,100,g
+11763,Sundrop,Sundrop Peanut Spread Crunchy,50,A0708,100,g
+11764,Tata,Tata Chakra Gold premium tea,300,A0305,500,g
+11765,Tata,Tata Chakra Gold premium tea,150,A0305,250,g
+11766,Tata,Tata Kanan Devan Classic,153,A0305,500,g
+11767,Lotte,Lotte Choco Pie,25,A0102,56,g
+11768,Fortune,Fortune Sun Lite Oil,130,A0504,1,ltr
+11769,Fortune,Fortune Biryani Special Basmati Rice,175,A0505,1,kg
+11770,Madhur,Madhur Sugar ,55,A0506,1,kg
+11771,All Out,All Out Anti Dengue Coil,33,A0403,14,n
+11772,Dhara,Dhara Nourish Sunflower Oil,130,A0504,1,ltr
+11773,Siddhi,Siddhi Aval Thick,35,A0505,500,g
+11774,Siddhi,Siddhi Sooji,35,A0501,500,g
+11775,Siddhi,Siddhi chiroti sooji,28,A0501,500,g
+11776,Siddhi,Siddhi Sugar,34,A0506,500,g
+11777,Siddhi,Siddhi Gram Flour,55,A0503,500,g
+11778,Siddhi,Siddhi Maida,26,A0501,500,g
+11779,Siddhi,Siddhi rice flour,25,A0505,500,g
+11780,Bauli,Bauli Moonfils - Vanilla 100% veg,15,A0103,45,g
+11781,Bauli,Bauli Moonfils - Strawberry,15,A0103,45,g
+11782,Bauli,Bauli SpyRoll,10,A0102,33,g
+11783,Colgate,Colgate Active Salt,20,A0205,46,g
+11784,Colgate,Colgate Strong Teeth Amino Shakti,10,A0205,18,g
+11785,Colgate,Colgate MaxFresh Cooling Crystals,20,A0205,38+8,g
+11786,Colgate,Colgate Maxfresh Cooling Crystals Blue,92,A0205,150,g
+11787,Colgate,Colgate Super Flexi Tooth Brush,240,A0205,12+2,n
+11788,Colgate,Colgate Zig Zag Tooth Brush,180,A0205,6+2,n
+11789,Colgate,Colgate Sensitive + Ultra Soft Tooth Brush,99,A0205,4,n
+11790,Colgate,Colgate Neo Tooth Brush,240,A0205,6,n
+11791,Tropicana,Tropicana Slice Mango Juice,10,A0303,125,ml
+11792,Tropicana,Tropicana Apple Delight Juice,20,A0303,200,ml
+11793,Tropicana,Tropicana Mango Delight Juice,20,A0303,200,ml
+11794,Tropicana,Tropicana Pomegranate Delight Juice,20,A0303,200,ml
+11795,Tropicana,Tropicana Apple Juice,135,A0303,1,ltr
+11796,Nestle,Nestle Milkmaid ,125,A0101,400,g
+11797,Nestle,Nestle Everyday Dairy Whitener ,200,A0101,400,g
+11798,Nestle,Nestle Nescafe Sunrise Rich Aroma,5,A0301,1.3,g
+11799,Bisleri,Bisleri  With Minerals Water Bottle,20,A0306,1,ltr
+11800,Bisleri,Bisleri Club Soda Extra Power,20,A0302,750,ml
+11801,Bisleri,Bisleri Limonata Limey Minty cooler,20,A0302,250,ml
+11802,Bisleri,Bisleri Fonzo Mango With Fizzz,20,A0302,250,ml
+11803,Bisleri,Bisleri Spyci Masala Maar Ke,20,A0302,250,ml
+11806,Haldiram,Haldiram Namkeen Moong Dal,50,A0707,200,g
+11807,Top Ramen,Top Ramen Masala Noodles,64,A0705,420,g
+11808,Bru,Bru Instant Coffee Powder,5,A0301,5.5,g
+11809,Bru,Bru Instant New Rich aroma,3,A0301,3.4,g
+11810,Clinic Plus,Clinic Plus+ strong & long Shampoo,1,A0203,6.5,ml
+11811,Clear,Clear Anti - Dandruff Shampoo,1,A0203,5.5,ml
+11812,Dove,Dove Hair Fall Rescue Shampoo,2,A0203,4.2,ml
+11813,Knorr,Knorr Mexican Tomato Corn Soup,15,A0706,13,g
+11814,Knorr,Knorr Sweet Corn Chicken Soup,15,A0706,11,g
+11815,Lifebuoy,Lifebuoy Cool Fresh Hand Wash,189,A0201,750,ml
+11816,Lipton,Lipton Green Tea Tulsi Natura ,145,A0305,25,n
+11817,Rin,Rin Detergent Powder,10,A0402,140,g
+11818,Brooke Bond,Brooke Bond Red Label Natural Care,135,A0305,250,g
+11819,Sunsilk,Sunsilk Co - Creations Shampoo,1,A0402,6,ml
+11820,Comfort,Comfort Fabric Conditioner Blue,56,A0402,220,ml
+11821,Comfort,Comfort Fabric Conditioner Blue,120,A0402,430,ml
+11822,Comfort,Comfort Fabric Conditioner Fragrance Pearls,56,A0402,220,ml
+11823,Comfort,Comfort Fabric Conditioner Lily Fresh Pink,56,A0402,220,ml
+11824,GRB,Ghee Pouch,41,A0504,50,ml
+11825,Livon,Livon Serum,150,A0203,50,ml
+11826,Gillette,Gillette Mach3 Start 2,220,A0206,2,n
+11827,Gillette,Gillette Presto Readyshaver Sata Sat,88,A0206,5,n
+11828,Gillette,Gillette Vector+,120,A0206,4,n
+11829,Gillette,Oral-B CrissCross Gum Care Tooth Brush,150,A0205,4,n
+11830,Oral - B,Oral - B Neem Pro Health Tooth Brush,130,A0205,2+2,n
+11831,Oral - B,Oral - B Senitive Ultrathin Tooth Brush,60,A0205,1,n
+11832,Oral - B,Oral - B Ultrathin Black Sensitive Brush,70,A0205,1,n
+11833,Oral - B,Oral - B Ultrathin Black Sensitive Brush,140,A0205,2+1,n
+11834,Oral - B,Oral - B Gum Pretect Tooth Brush,32,A0205,1,n
+11835,Old Spice,Old Spice After Shave Lotion Musk,190,A0206,100,ml
+11836,Old Spice,Old Spice After Shave Lotion Musk,120,A0206,50,ml
+11837,Old Spice,Old Spice Lather Shaving Cream Fresh Lime,30,A0206,30,g
+11838,Old Spice,Old Spice Lather Shaving Cream Fresh Lime,60,A0206,70,g
+11839,Old Spice,Old Spice Lather Shaving Cream Musk,60,A0206,70,g
+11840,Britannia,Britannia -Treat O'som Orange,10,A0701,60,g
+11841,Britannia,Britannia Nutri Choice Digestive ,10,A0701,58,g
+11843,Britannia,Britannia Good Day Butter Cookies,20,A0701,120,g
+11845,Santoor,Santoor Gentle Hand Wash,99,A0201,750,ml
+11846,Giffy,Giffy Lemon & Active Salt Dish Wash Liquid,48,A0402,310+155,ml
+11847,Giffy,Giffy Lemon & Active Salt Dish Wash Liquid,20,A0402,155,ml
+11848,Chandrika,Chandrika Ayurvedic Soap,26,A0201,75,g
+11849,Max Kleen,Max Kleen Disinfectant Floor Cleaner Citrus Joy,93,A0401,500,ml
+11850,Max Kleen,Max Kleen Disinfectant Floor Cleaner Floral Bliss,93,A0401,500,ml
+11851,Amul,Amul Almondo Chocolate Coated Almonds,200,A0703,100+100,g
+11852,Amul,Amul Belgian Chocolate Smooth & Creamy ,40,A0703,35,g
+11853,Amul - Dairy,Amul Cheese Processed Cubes,260,A0101,500,g
+11854,Amul - Dairy,Amul Cheese Processed Cubes,114,A0101,200,g
+11855,Amul - Dairy,Amul Choco Buttery Spread,89,A0708,200,g
+11856,Amul - Dairy,Amul Pure Ghee,520,A0504,1,ltr
+11857,Amul - Dairy,Amul Cow Ghee Tin,560,A0504,1,ltr
+11858,Amul - Dairy,Amul Slim Trim Skimmed Milk,75,A0101,1,ltr
+11859,Amul - Dairy,Amul Butter Unsalted,49,A0101,100,g
+11860,Amul - Dairy,Amulya Dairy Whitener ,410,A0101,1,kg
+11861,Jabsons,Jabsons Roasted Chana Black Pepper,50,A0707,150,g
+11862,Dettol,Dettol co Created with Moms with Jasmine,30,A0201,75,g
+11863,Dettol,Dettol Original Soap,200,A0201,125*5,g
+11864,Dettol,Dettol Orginal Soap,10,A0201,45,g
+11865,Dettol,Dettol Intense Cool X Menthol Soap,99,A0201,75*4,g
+11866,Dettol,Dettol Aloe Vera Trusted Soap,25,A0201,60,g
+11867,Dettol,Dettol & Moms Sandal Soap,40,A0201,75,g
+11868,Dettol,Dettol Orginla Liquid Hand Wash,45,A0201,175,ml
+11869,Dettol,Dettol Skin Care Hand Wash,109,A0201,750,ml
+11870,Dettol,Dettol Skin Care Soap,50,A0201,125,g
+11871,Harpic,Harpic Power Pluse Orginal Disinfectant Toilet Cleaner,37,A0401,200,ml
+11872,Lizol,Lizol Disinfectant Surface Cleaner Citrus,38,A0401,200,ml
+11873,Lizol,Lizol Disinfectant Surface Cleaner Floral,38,A0401,200,ml
+11874,Lizol,Lizol Disinfectant Surface Cleaner,39,A0401,200,ml
+11875,Nutritius,Nutritius Crunchy Peanut Chikki ,30,A0704,100,g
+11876,Nutritius,Nutritius Crush Peanut Chikki,40,A0704,125,g
+11877,Nutritius,Nutritius Peanut Butter Chikki,40,A0704,125,g
+11878,Nutritius,Nutritius Sesame Crunch Chikki,50,A0704,100,g
+11879,Nutritius,Nutritius Sukha Mewa Chikki,60,A0704,125,g
+11880,Nutritius,Nutritius Cocoa Butter Chikki,10,A0704,45,g
+11881,Nutritius,Nutritius Crush Peanut Chikki,10,A0704,45,g
+11882,Nutritius,Nutritius Peanut Butter Chikki,10,A0704,45,g
+11883,Clean & Clear,Clean & Clear Morning Energy Lemon Face Wash,145,A0207,100,ml
+11884,Clean & Clear,Clean & Clear Foaming face Wash,165,A0207,150,ml
+11885,Monginis,Monginis Swiss Roll Strawberry Cake,10,A0102,40,g
+11886,Monginis,Monginis Swiss Roll Choco Cake,10,A0102,40,g
+11887,Monginis,Monginis Choco Bar Cake,15,A0102,60,g
+11888,Karveer,Karveer Jaggery,40,A0506,400,g
+11889,Bambino,Bambino Premium Pasta Penne,70,A0705,250,g
+11890,Weikfield,Weikfield Pasta Elbow,175,A0705,500,g
+11891,Fine Life,Fine Life Hakka Noodles,105,A0705,900,g
+11892,Lijjat,Lijjit Papad ,90,A0706,250,g
+11893,Mother's,Mother's Tamarind Paste ,46,A0507,200,g
+11894,Too Yumm,Too Yumm Chilli Chataka,10,A0707,26,g
+11895,Makino,Makino Corn Chips Cream & Onion,35,A0707,60,g
+11896,Dukes,Dukes - Waffy (Orange Flavor),45,A0701,75,g
+11897,Too Yumm,Too Yumm Chinese Hot & Sour ,10,A0707,28,g
+11898,Too Yumm,Too Yumm Dahi Papdi Chaat,10,A0707,28,g
+11899,Too Yumm,Too Yumm Tangy Tomato,10,A0707,28,g
+11900,ITC,Sunfeast Dark Fantasy Choco Fills,10,A0701,20,g
+11901,ITC,Savlon Moisture Shield,36,A0201,175,ml
+11903,Siddhi,Siddhi Maida,50,A0501,1,kg
+11904,Siddhi,Siddhi Ragi Flour,55,A0502,1,kg
+11905,Siddhi,Siddhi Bansi Rava,35,A0501,500,g
+11906,Siddhi,Siddhi Ragi Flour,29,A0502,500,g
+11907,Tata Tea,Tata Grand Coffee Powder Pouch,90,A0301,50,g
+11908,Levista,Levista Instant Coffee Powder Tin,170,A0301,100,g
+11909,Levista,Levista Instant Coffee Powder Tin,88,A0301,50,g
+11910,Maaza,Maaza Gold Mango Juice Tetra Pack,120,A0303,1,ltr
+11911,Thums Up,Thums Up Party Bottle,95,A0302,2.25,ltr
+11912,Vim,Vim Lemon Dish Wash Liquid,45,A0402,250,ml
+11913,Sunpure,Sunpure Sun Flower Oil,600,A0504,5,ltr
+11914,Parle,Parle - Krackjack Sweet & Salty,5,A0701,37.8,g
+11915,Parle,Parle - Happy Happy Choco Chip Cookies,5,A0701,40,g
+11916,Tata Sampann,Tata Sampann Masoor Dal ,120,A0503,1,kg
+11917,Fortune,Fortune Pure Mustard Oil,153,A0504,1,ltr
+11918,Fortune,Fortune Everday Rozana Basamati Rice,130,A0505,1,kg
+11919,Fortune,Fortune Rice Bran Healthy Oil,130,A0504,1,ltr
+11920,Dhara,Dhara Filtered Groundnut Oil,195,A0504,1,ltr
+11921,All Out ,All Out Ultra Power+ Slider,72,A0403,45,ml
+11922,All Out ,All Out Ultra Power+ Fan,134,A0403,90,ml
+11923,Kiwi,Kiwi Instant Polish Black Leather,49,A0406,40,ml
+11924,Kiwi,Kiwi Instant Polish Brown Leather,49,A0406,40,ml
+11925,Kiwi,Kiwi Polish Renews & Protects Black Leather,33,A0406,15,g
+11926,Kiwi,Kiwi Polish Renews & Protects Dark Tan Leather,27,A0406,155,g
+11927,Kiwi,Kiwi Polish Renews & Protects Dark Tan Leather,59,A0406,40,g
+11928,Kiwi,Kiwi 2 In 1 Brush,80,A0406,1,n
+11929,Kiwi,Kiwi Shoe Brush,65,A0406,1,n
+11930,Hit,Hit for Hidden Cockroaches,172,A0403,320,ml
+11931,Colgate,Colgate MaxFresh Cooling Crystals,10,A0205,19,g
+11932,Colgate,Colgate Super Shine Tooth Brush,240,A0205,12,n
+11933,Colgate,Colgate Cibaca Tooth Brush,180,A0205,12,n
+11934,Weikfield,Weikfield White Pasta Sauce Mix,30,A0708,25,g
+11935,Weikfield,Weikfield Red Pasta Sauce,40,A0708,200,g
+11936,Weikfield,Weikfield Corn Flour,80,A0502,500,g
+11937,Weikfield,Weikfield Pasta Wheat Ki Shakti,175,A0705,500,g
+11938,McVities,Mcvities Ginger Cookies,40,A0701,120,g
+11939,McVities,Mcvities Hobnobs Oats ,40,A0701,120,g
+11940,McVities,Mcvities Marie,10,A0701,90,g
+11941,Cadbury,Cadbury Bourn Vita Jar,110,A0304,200,g
+11942,Cadbury,Cadbury Bourn Vita,223,A0304,500,g
+11943,Cadbury,Cadbury Dairy Milk Chocolate,5,A0703,6.6,g
+11944,Cadbury,Cadbury Silk Roast Almond,160,A0703,143,g
+11945,Cadbury,Cadbury Choclairs Gold Chocolate,50,A0703,137.5,g
+11946,Cadbury,Cadbury Oreo Orginal Biscuits,5,A0701,20,g
+11947,Tang,Tang Lemon Instant Drinking Mix,5,A0303,18,g
+11948,Tang,Tang Orange Instant Drinking Mix,5,A0303,18,g
+11949,Heinz,Heinz Tomato Ketchup,65,A0708,300,g
+11950,Heinz,Heinz Chilli Sauce,85,A0708,310,g
+11951,Bindu,Bindu Fizz Jeera Masala,12,A0302,200,ml
+11952,Bindu,Bindu Fizz Jeera Masala,18,A0302,300,ml
+11953,Bindu,Bindu Fizz Jeera Masala,80,A0302,2,ltr
+11954,Dabur,Vatika Shampoo,1,A0203,1,n
+11955,Dabur,Dabur Amla Hair Oil,44,A0203,60,ml
+11956,Dabur,Dabur Amla Hair Oil,10,A0203,30,ml
+11957,Aura,Aura Peanut Chikki,40,A0704,100,g
+11958,Aura,Aura Badam,160,A0508,100,g
+11959,Aura,Aura Badam,80,A0508,50,g
+11960,Aura,Aura Anjeer,220,A0508,100,g
+11961,Aura,Aura Anjeer,110,A0508,50,g
+11962,Aura,Aura Black Raisin,68,A0508,100,g
+11963,Aura,Aura Black Raisin,34,A0508,50,g
+11964,Aura,Aura Cashew Nuts Splits,175,A0508,100,g
+11965,Aura,Aura Cashew Nuts Splits,88,A0508,50,g
+11966,Aura,Aura Cashew & Grapes Mix,53,A0508,50,g
+11967,Aura,Aura Dry Dates,76,A0508,100,g
+11968,Aura,Aura Dry Grapes,60,A0508,100,g
+11969,Aura,Aura Dry Grapes,30,A0508,50,g
+11970,Aura,Aura Raisin Kabul,112,A0508,100,g
+11971,Aura,Aura Raisin Kabul,56,A0508,50,g
+11972,Aura,Aura Premium Cashewnut,184,A0508,100,g
+11973,Aura,Aura Premium Cashewnut,92,A0508,50,g
+11974,Aura,Aura Pistachios,378,A0508,100,g
+11975,Aura,Aura Pistachios,189,A0508,50,g
+11976,Aura,Aura Salted Pistachios,254,A0508,100,g
+11977,Aura,Aura Salted Pistachios,127,A0508,50,g
+11978,Aura,Premium Wallnut,242,A0508,100,g
+11979,Aura,Ajwain Seeds,64,A0507,100,g
+11980,Aura,Ajwain Seeds,32,A0507,50,g
+11981,Aura,Barley Rice,17,A0505,100,g
+11982,Aura,Big Mustard,18,A0507,100,g
+11983,Aura,Big Mustard,45,A0507,250,g
+11984,Aura,Black Pepper,108,A0507,100,g
+11985,Aura,Black Pepper,54,A0507,50,g
+11986,Aura,Cooking Soda,12,A0706,100,g
+11987,Aura,Cumin Seeds,52,A0507,100,g
+11988,Aura,Cumin Seeds,130,A0507,250,g
+11989,Aura,Cumin Seeds,26,A0507,50,g
+11990,Aura,Fenugreek,26,A0507,100,g
+11991,Aura,Fenugreek,13,A0507,50,g
+11992,Aura,Poppy Seeds,258,A0507,100,g
+11993,Aura,Poppy Seeds,129,A0507,50,g
+11994,Aura,Sago Rice,22,A0505,100,g
+11995,Aura,Saunf,41,A0507,100,g
+11996,Aura,Saunf,21,A0507,50,g
+11997,Aura,Small Mustard,20,A0507,100,g
+11998,Aura,Small Mustard,9,A0507,50,g
+11999,Aura,Black Til,40,A0507,100,g
+12000,Aura,Nylon Til,50,A0507,100,g
+12001,Aura,White Til,44,A0507,100,g
+12002,Everest,Everest Royal Garam masala,41,A0507,50,g
+12003,Everest,Everest Dry Ginger Powder,40,A0507,50,g
+12004,Everest,Everest Chicken 65 Kabab Masala,25,A0507,50,g
+12005,Everest,Everest Egg Curry Masala,40,A0507,50,g
+12006,Everest,Everest Jaljira Powder,50,A0507,100,g
+12007,Everest,Everest Jaljira Powder,27,A0507,50,g
+12008,Everest,Everest Dry Mango Powder,70,A0507,100,g
+12009,Everest,Everest Chaat masala,33,A0507,50,g
+12010,Everest,Everest Meat Masala Sachet,10,A0507,15,g
+12011,Everest,Everest Chicken 65 Kabab Masala Sachet,10,A0507,20,g
+12012,Everest,Everest Shahi Biryani Masala Sachet,10,A0507,10,g
+12013,Everest,Everest Shahi Paneer Masala Sachet,10,A0507,15,g
+12014,Everest,Everest Sambar Masala Sachet,10,A0507,15,g
+12015,Everest,Everest Turmeric Powder Sachet,10,A0507,25,g
+12016,Everest,Everest Chicken Masala Sachet,10,A0507,15,g
+12017,Everest,Everest Garam Masala Sachet,10,A0507,15,g
+12018,Exo,Exo Dishwash Bar Ginger Twist,20,A0402,300,g
+12019,Exo,Exo Dishwash Bar Ginger Twist,5,A0402,90,g
+12020,Exo,Exo Dishwash Bar Ginger Twist,48,A0402,500,g
+12021,Exo,Exo Safari Steel Scrubber,15,A0407,1,n
+12022,Margo,Margo Soap Original Neem,120,A0201,500,g
+12023,More Light,More Light Detergent Powder,10,A0402,150,g
+12024,Pril,Pril Lime Dishwash Liquid,45,A0402,225,ml
+12025,Pril,Pril Dishwash Bar,10,A0402,125,g
+12026,Ujala,Ujala Supreme Liquid,65,A0402,250,ml
+12027,Ujala,Ujala Supreme Liquid,22,A0402,75,ml
+12028,Ujala,Ujala Supreme Liquid,8,A0402,30,ml
+12029,Volini,Volini Pain Relief Gel,31,A0204,10,g
+12030,Volini,Volini Pain Relief Gel,155,A0204,50,g
+12031,Volini,Volini Joint Xpert Gel,89,A0204,20,g
+12032,Volini,Volini Max Pain Relief Spray,99,A0204,25,g
+12033,Volini,Volini Pain Relief Spray,60,A0204,15,g
+12034,Volini,Volini Pain Relief Spray,175,A0204,30,g
+12035,Brooke Bond,3 Roses Tea Powder,10,A0305,17,g
+12036,Brooke Bond,3 Roses Tea Powder,5,A0305,8.5,g
+12037,Bru,Bru Instant Coffee Powder,2,A0301,2.2,g
+12038,Bru,Bru Instant Coffee Powder,10,A0301,11,g
+12039,Comfort,Comfort Fabric Condtioner Green,3,A0402,20,ml
+12040,Comfort,Comfort Fabric Condtioner Pink,3,A0402,20,ml
+12041,CloseUp,CloseUp Ever Fresh + Tooth Paste,10,A0205,26,g
+12042,Dove,Dove Cream Beauty Bar,22,A0201,50,g
+12043,Dove,Dove Intense Repair Shampoo + Conditioner,5,A0203,12,ml
+12044,Fair & Lovely,Fair & Lovely Advanced Multi Vitamin,9,A0207,9,g
+12045,Hamam,Hamam Neem Tulsi & Aloe Vera,10,A0201,45,g
+12046,Kissan,KIssan Fresh Toamto Ketchup,2,A0708,12,g
+12047,Kissan,Kissan Mixed Fruit Jam,2,A0708,11,g
+12048,Kissan,Kissan Tomato Fresh Ketchup,150,A0708,1,kg
+12049,Lifebuoy,Lifebuoy Total 10 Silver Shield Formula,10,A0201,56,g
+12050,Ponds,Ponds Dream Flower,10,A0201,25,g
+12051,Ponds,Ponds Sandal Radiance Talc,20,A0201,30,g
+12052,Red Label,Red Label Natural Care,10,A0305,25,g
+12053,Surf Excel,Surf Excel Bar,10,A0402,95,g
+12054,Brooke Bond,Brooke Bond Taj Mahal,10,A0305,17,g
+12055,Vim,Vim Lemon Dish Wash Bar,5,A0402,85,g
+12056,Vaseline,Vaseline Orginal Skin Protecting Jelly,5,A0207,7,g
+12057,MTR,MTR Elbow Macaroni,55,A0705,400,g
+12058,MTR,MTR Lemon Rice Powder,10,A0507,25,g
+12059,MTR,MTR Tomato Rice Powder,10,A0507,25,g
+12060,MTR,MTR Puliogare Powder,10,A0507,30,g
+12061,MTR,MTR Pulao Masala Powder,10,A0507,10,g
+12062,MTR,MTR Special Garam Masala Powder,10,A0507,10,g
+12063,MTR,MTR Biryani Masala Powder,10,A0507,20,g
+12064,Lays,Lays Spanish Tangy Tomato,10,A0707,28,g
+12065,Quaker,Quaker Oats,114,A0702,600,g
+12066,FR Foods,FR Sweet Orange Essence,45,A0706,20,ml
+12067,FR Foods,FR Chocolate Essence,75,A0706,20,ml
+12068,FR Foods,FR Badam Milk Mix,75,A0101,20,ml
+12069,FR Foods,FR Foods White Vanilla Essence,45,A0706,20,ml
+12070,FR Foods,FR Foods Mango Pudding Mix,75,A0706,100,g
+12071,FR Foods,FR Foods Vanila Pudding Mix,75,A0706,100,g
+12072,FR Foods,FR Foods Strawberry Pudding Mix,75,A0706,100,g
+12073,FR Foods,FR Foods Jelly Strawbery,60,A0706,100,g
+12074,FR Foods,FR Foods Jelly Kaccha Mango,60,A0706,100,g
+12075,FR Foods,FR Foods Jelly Pineapple,60,A0706,100,g
+12076,FR Foods,FR Foods Jelly Raspberry,60,A0706,100,g
+12077,FR Foods,FR Foods Jelly Orange,60,A0706,100,g
+12078,FR Foods,FR Foods Jelly Litchi,60,A0706,100,g
+12079,FR Foods,FR Foods Vanila Custard Powder,40,A0706,100,g
+12080,FR Foods,FR Foods Pineapple Custard Power,40,A0706,100,g
+12081,FR Foods,FR Foods Mango Custard Powder,40,A0706,100,g
+12082,FR Foods,FR Foods Strawberry Custard Powder,40,A0706,100,g
+12083,FR Foods,FR Foods Raspberry Custard Powder,40,A0706,100,g
+12084,FR Foods,FR Foods Pista Custard Powder,40,A0706,100,g
+12085,FR Foods,FR Foods Baking Powder,40,A0706,100,g
+12086,FR Foods,FR Foods Cocoa Powder,75,A0706,50,g
+12087,FR Foods,FR Foods Cocoa Powder,140,A0706,100,g
+12088,FR Foods,FR Foods Corn Flour,25,A0502,100,g
+12089,FR Foods,FR Foods Dry Yeast,45,A0706,25,g
+12090,FR Foods,FR Foods Gelatine Non Veg,75,A0706,50,g
+12091,FR Foods,FR Foods 100% Veg Gelatine,90,A0706,50,g
+12092,FR Foods,FR Foods Agar Agar Veg Gelatine,100,A0706,25,g
+12093,FR Foods,FR Foods Icing Sugar,40,A0706,100,g
+12094,FR Foods,FR Foods Sodium Benzoate,40,A0706,50,g
+12095,FR Foods,FR Foods Whipped Cream,100,A0706,50,g
+12096,FR Foods,FR Foods Vanila Icing Sugar,60,A0706,100,g
+12097,FR Foods,FR Foods Blue Liquid Food Colour,40,A0706,20,ml
+12098,FR Foods,FR Foods Tomato Red Food Colour,40,A0706,20,ml
+12099,FR Foods,FR Foods Apple Green Food Colour,40,A0706,20,ml
+12100,FR Foods,FR Foods Strawberry Red Food Colour,40,A0706,20,ml
+12101,FR Foods,FR Foods Rose Pink Food Colour,40,A0706,20,ml
+12102,FR Foods,FR Foods Lemon Yellow Food Colour,40,A0706,20,ml
+12103,FR Foods,FR Foods Orange Red Food Colour,40,A0706,20,ml
+12104,FR Foods,FR Foods Chocolate Food Colour,40,A0706,20,ml
+12105,FR Foods,FR Foods Raspberry Food Colour,40,A0706,20,ml
+12106,FR Foods,FR Foods Pista Milk Mix,35,A0101,20,ml
+12107,FR Foods,FR Foods Rose Milk Mix,35,A0101,20,ml
+12108,FR Foods,FR Foods Cardamom Essence,35,A0706,20,ml
+12109,FR Foods,FR Foods Badam Pista Milk Mix,45,A0101,20,ml
+12110,FR Foods,FR Foods Rose Essence,25,A0706,20,ml
+12111,FR Foods,FR Foods Strawberry Essence,35,A0706,20,ml
+12112,FR Foods,FR Foods Vanilla Essence,25,A0706,20,ml
+12113,FR Foods,FR Foods Pineapple Essence,25,A0706,20,ml
+12115,FR Foods,FR Foods Mixed Fruit,40,A0508,20,ml
+12116,FR Foods,FR Foods Grape Emulsion,45,A0706,20,ml
+12117,FR Foods,FR Foods Butterscoth Essence,55,A0706,20,ml
+12118,Nestle,Nestle Nescafe Sunrise Rich Aroma,2,A0301,2.2,g
+12119,Nestle,Nestle Nescafe Sunrise Rich Aroma,10,A0301,11,g
+12120,Nestle,Maggi Masala Magic,5,A0507,6,g
+12121,Nestle,Nestle Milky Bar Mix Fruit,5,A0703,11,g
+12122,Nestle,Nestle Milky Bar Choo Classic,5,A0703,11,g
+12123,Nestle,Nestle Milky Bar Strawberry,5,A0703,11,g
+12124,Nestle,Nestle Munch Maha,5,A0703,11.1,g
+12125,Nivea,Nivea Strawberry Shine Lip Balm,185,A0207,4.8,g
+12126,Nivea,Nivea Pomegranate Shine Lip Blam,185,A0207,4.8,g
+12127,Nivea,Nivea Pink Guava Shine Lip Blam,185,A0207,4.8,g
+12128,Nivea,Nivea Body Milk Nourishing Lotion,230,A0207,200,ml
+12129,Nivea,Nivea Melt - in Moisture & Color Pop Red Lip Blam,249,A0207,3.3,ml
+12130,Nivea,Nivea Coldron Crayon Coral Crush Lip Blam,249,A0207,3.3,ml
+12131,Nivea,Nivea Whitening Even Tone Body Lotion,249,A0207,200,ml
+12132,Nivea,Nivea Shea Smooth Body Milk,249,A0207,200,ml
+12133,Nivea,Nivea Whitening Cooling Sensation Body Lation,260,A0207,200,ml
+12134,Nivea,Nivea Aloe Protection Body Lotion,275,A0207,200,ml
+12135,Nivea,Nivea Express Hydration Body Lotion,375,A0207,400,ml
+12136,Nivea,Nivea Whitening Cooling Sensation Body Lation,399,A0207,400,ml
+12137,Nivea,Nivea Cocoa Nourish Deep Moisture Serum Oil in Lotion,399,A0207,400,ml
+12138,Nivea,Nivea Orginal Care Lip Blam,140,A0207,4.8,g
+12139,Nivea,Nivea Active Care Lip Blam,140,A0207,4.8,g
+12140,Nivea,Nivea Soft Cream Body Wash,199,A0201,250,ml
+12141,Nivea,Nivea Fragipani & Oil Shower Gel,199,A0201,250,ml
+12142,Nivea,Nivea Express Hydration Body Lotion Deep Moiture,220,A0207,200,ml
+12143,Britannia,Britannia Milk Bikis Milk Sandwich,20,A0701,100,g
+12144,Britannia,Britannia Milk Bikis,25,A0701,150,g
+12145,Britannia,Britannia Little Hearts Classic,5,A0701,18,g
+12146,Britannia,Britannia Winkin Cow Vanillicious Thick Shakes,30,A0101,180,ml
+12147,Britannia,Britannia Winkin Cow Strawberry Thick Shakes,30,A0101,180,ml
+12148,Britannia,Britannia Winkin Cow Mango Thick Shakes,30,A0101,180,ml
+12149,FR Foods,FR Baking Soda ,25,A0706,100,g
+12150,Eno,Eno Cola Fruit Salt,240,A0204,150,g
+12151,Eno,Eno Lemon Flavour,480,A0204,300,g
+12152,Eno,Eno Regular Flavour,240,A0204,150,g
+12153,Eno,Eno Regular Flavour Bottle,120,A0204,100,g
+12154,Eno,Eno Orange Flavour ,240,A0204,150,g
+12155,Eno,Eno Orange Flavour Bottle,120,A0204,100,g
+12156,Boost,Boost ,5,A0304,15,g
+12157,Boost,Boost,10,A0304,30,g
+12158,Boost,Boost 3X More Stamina Jar,110,A0304,200,g
+12159,Boost,Boost 3X More Stamina Box,105,A0304,200,g
+12160,Boost,Boost 3X More Stamina Jar,247,A0304,500,g
+12161,Horlicks,Horlicks Classic Malt,5,A0304,18,g
+12162,Horlicks,Horlicks Chocolate Delight Jar,105,A0304,200,g
+12163,Horlicks,Horlicks Classic Malt,242,A0304,500,g
+12164,Horlicks,Horlicks Royal Kesar Badam Jar,263,A0304,400,g
+12165,Horlicks,Horlicks Chocolate Delight Jar,215,A0304,500,g
+12166,Horlicks,Horlicks Classic Malt Box,105,A0304,200,g
+12167,Horlicks,Horlicks Junior Chocolate Jar,288,A0304,500,g
+12168,Horlicks,Horlicks Junior Vanilla Jar,288,A0304,500,g
+12169,Horlicks,Horlicks Women's Caramel Jar,299,A0304,400,g
+12170,Horlicks,Horlicks Women's Chocolate Jar,299,A0304,400,g
+12171,Horlicks,Horlicks Mother's Vanilla Box,199,A0304,200,g
+12172,Horlicks,Horlicks Oats ,99,A0304,500,g
+12173,Horlicks,Horlicks Protein + Plus Vanilla,535,A0304,400,g
+12174,Sensodyne,Sensodyne Repair & Protect Tooth Paste,210,A0205,100,g
+12175,Sensodyne,Sensodyne Fresh Neem Tooth Paste,110,A0205,75,g
+12176,Sensodyne,Sensodyne Fresh Mint Tooth Paste,190,A0205,150,g
+12177,Sensodyne,Sensodyne Whitening Tooth Paste,125,A0205,70,g
+12178,Sensodyne,Sensodyne Herbal Multi Care Tooth Paste,120,A0205,70,g
+12179,Horlicks,Horlicks Mother's Kesar Box,525,A0304,500,g
+12180,Lion,Lion Muscat dates,222,A0508,500,g
+12181,Lion,Lion Desert King Dates Box,122,A0508,250,g
+12182,Tata Sampann,Tata Sampann Moong Dal,190,A0503,1,kg
+12183,Tata Sampann,Tata Sampann Kala Channa ,64,A0503,500,g
+12184,Tata Sampann,Tata Sampann Kabooli Chana,76,A0503,500,g
+12185,Ferrero,Tic Tac CocaCola,25,A0703,16,g
+12186,Ferrero,Kinder Schoko Bons Crispy,120,A0703,67.2,g
+12187,Lipton,Lipton Green Tulasi Natural Tea,150,A0305,25,n
+12188,Colgate,Colgate Active Salt ,52,A0205,100,g
+12189,Colgate,Colgate Senstive With Clove Oil,115,A0205,160,g
+12190,Colgate,Colgate for Little Teeth ,40,A0205,40,g
+12191,Amrutanjan,Amrutanjan Pain Balm Extra Power,38,A0204,7.4,g
+12192,Amrutanjan,Amrutanjan Pain Balm Ultra XL,100,A0204,23.3,g
+12193,Amrutanjan,Amrutanjan Kick Out Pain Strong Balm,38,A0204,7.2,g
+12194,Amrutanjan,Amrutanjan Roll-On for Headaches,35,A0204,5,ml
+12195,Amrutanjan,Amrutanjan Joint Muscle + Spray,100,A0204,30,g
+12196,Amrutanjan,Amrutanjan Advanced Back Pain Lotion,70,A0204,30,ml
+12197,Amrutanjan,Amrutanjan Relief Inhaler,45,A0204,0.75,g
+12198,Amrutanjan,Amrutanjan Strong Pain Balm,95,A0204,24.75,g
+12199,Moov,Moov Pain Relief Gel,40,A0204,10,g
+12200,Moov,Moov Advance Diclofenac Gel,149,A0204,40,g
+12201,Parle Agro,Appy Apple Juice Drink,10,A0303,150,ml
+12202,Parle Agro,FROOTI Mango Drink,35,A0303,600,ml
+12203,Parle Agro,FROOTI Mango Drink,99,A0303,2,l
+12204,Parle Agro,Appy Fizz Apple Juice Based Drink,55,A0303,1,l
+12205,Parle Agro,Appy Fizz Apple Juice Based Drink,30,A0303,600,ml
+12206,VVD,VVD Gold Coconut Oil,150,A0504,500,ml
+12207,VVD,VVD Gold Coconut Oil,290,A0504,1,ltr
+12208,GRB,GRB Ghee Pouch,10,A0504,13,ml
+12209,Odonil,Odonil Air Freshner Mix 3,141,A0403,150,g
+12210,Bauli,Bauli Moonfils - Chocolate Veg 100%,15,A0103,45,g
+12211,Mother's,Mother's Tamarind Paste,25,A0507,100,g
+12212,Mother's,Mother's Panjabi Masala Papad,72,A0706,200,g
+12213,Mother's,Mother's Ginger Garlic Paste Pouch,25,A0507,100,g
+12214,Mother's,Mother's Rice Papad Jeera,21,A0706,75,g
+12215,Mother's,Mother's Rice Papad Ajwain,21,A0706,75,g
+12216,Mother's,Mother's Rice Sabudana Papad,27,A0706,70,g
+12217,Mother's,Mother's Potato Papad,27,A0706,70,g
+12218,Mother's,Mother's Green Chilli Pickle Pouch,45,A0709,200,g
+12219,Mother's,Mother's Madras Thokku Pickle ,46,A0709,200,g
+12220,Mother's,Mother's Avakaya Pickle Bottle,85,A0709,300,g
+12221,Mother's,Mother's Lime Pickle Bottle,85,A0709,300,g
+12222,Mother's,Mother's Cut Mango Pickle Bottle,82,A0709,300,g
+12223,Mother's,Mother's Ginger Pickle Bottle,85,A0709,300,g
+12224,Mother's,Mother's Mixed Pickle Bottle,80,A0709,300,g
+12225,Real,Real Mixed Fruit Power,105,A0303,1,ltr
+12226,Pepsico - CSD,Mountain Dew,35,A0302,600,ml
+12227,Pepsico - CSD,Pepsi Swag,35,A0302,600,ml
+12228,Tata,Tata Gluco+ Orangy Burst,10,A0302,200,ml
+12229,Tata,Tata Gluco+ Lemony Zing,10,A0302,200,ml
+12230,Siddhi,Siddhi White Corn Flour,40,A0502,500,g
+12231,Amul,Amul Milk Chocolate,100,A0703,150,g
+12232,Godrej,Godrej Aer Violet Vally Bloom Spray,149,A0403,240,ml
+12233,Godrej,Godrej No1 Lime Aloe Vera,40,A0201,252,g
+12234,Godrej,Godrej No1 Kesar Milk Cream,76,A0201,500,g
+12235,Godrej,Godrej Protekt Handwash,49,A0201,180,ml
+12236,Saffola,Saffola Active Oil,135,A0504,1,ltr
+12237,Wriggley's,Wriggley's Double Mints,10,A0703,4.8,g
+12238,Santoor,Santoor Sandal & Almond Milk,40,A0201,250,g
+12239,Eastern,Eastern Bisibele Bhath Mix,45,A0507,100,g
+12240,Eastern,Eastern Chilli Powder,35,A0507,100,g
+12241,Eastern,Eastern Chilli Powder,18,A0507,50,g
+12242,Eastern,Eastern Chicken Pickle,115,A0709,150,g
+12243,Eastern,Eastern Chicken Masala,37,A0507,50,g
+12244,Eastern,Eastern Coriander Powder,30,A0507,100,g
+12245,Eastern,Eastern Coriander Powder,16,A0507,50,g
+12246,Eastern,Eastern Coriander Powder,60,A0507,200,g
+12247,Eastern,Eastern Garam Masala,38,A0507,50,g
+12248,Eastern,Eastern Meat Masala,37,A0507,50,g
+12249,Eastern,Eastern Turmeric Powder,30,A0507,100,g
+12250,Eastern,Eastern Turmeric Powder,60,A0507,200,g
+12251,Eastern,Eastern Vangi Bhath Mix,48,A0507,100,g
+12252,Eastern,Eastern Biryani Masala,33,A0507,50,g
+12253,Eastern,Eastern Cumin Powder,28,A0507,50,g
+12254,Eastern,Eastern Egg Masala,38,A0507,100,g
+12255,Eastern,Eastern Kitchen King Masala,53,A0507,100,g
+12256,Eastern,Eastern Mutton Masala,24,A0507,50,g
+12257,Eastern,Eastern Pepper Powder,60,A0507,50,g
+12258,Eastern,Eastern Sambar Powder,26,A0507,50,g
+12259,Kim's,Kim's Egg Hakka Noodles,85,A0705,500,g
+12260,Kim's,Kim's Veg Hakka Noodles,75,A0705,500,g
+12261,Sparsh,Sparsh Chicken Kabab Masala,10,A0507,40,g
+12262,Sparsh,Sparsh Chicken Masala,10,A0507,20,g
+12263,Sparsh,Sparsh Garam Masala,10,A0507,20,g
+12264,Sparsh,Sparsh Ginger Garlic Paste,5,A0507,25,g
+12265,Sparsh,Sparsh Ginger Garlic Paste,10,A0507,50,g
+12266,Sparsh,Sparsh Mutton Masala,5,A0507,10,g
+12267,Sparsh,Sparsh Mutton Masala,10,A0507,20,g
+12268,Sparsh,Sparsh Puliyogare Powder,10,A0507,35,g
+12269,Sparsh,Sparsh Sambar Powder,10,A0507,20,g
+12270,Unibic,Unibic Choco Ripple Cookies,5,A0701,36,g
+12271,Unibic,Unibic Milk Cookies,5,A0701,36,g
+12272,Domex,Domex Fresh Guard Ocean Fresh Disinfectant Toilet Cleaner,87,A0401,500,ml
+12273,Dove,Dove Cream Beauty Bathing Bar,45,A0201,100,g
+12274,Lifebuoy,Lifebouy Nature Pack Of 3 Handwash,113,A0201,185,ml
+12275,Lifebuoy,Lifebuoy Total Pack Of 3 Handwash,113,A0201,185,ml
+12276,Lifebuoy,Lifebouy Total Handwash,119,A0201,750,ml
+12277,Lux,Lux Velvet Touch,25,A0201,100,g
+12278,Ponds,Pond's White Beauty,79,A0207,50,g
+12279,Ponds,Ponds Cold Cream,5,A0207,6,g
+12280,Brooke Bond,Brooke Bond Red Label,120,A0305,250,g
+12281,Brooke Bond,Brooke Bond Red Label,240,A0305,500,g
+12282,Rin,Rin Refresh Detergent Powder,79,A0402,1,kg
+12283,Del Monte,Del Monte Tomato Ketchup,75,A0708,500,g
+12284,Vicks,Vicks Vapo Rub,75,A0204,25,ml
+12285,Vicks,Vicks Vapo Rub,20,A0204,5,ml
+12286,Gillette,Gillette Shave Brush,54,A0206,1,n
+12287,Parle,Parle-G,2,A0701,24.5,G
+12288,Parle,Parle Kaccha Mango Bite,50,A0703,277,g
+12289,Parle,Monaco Classic,5,A0701,37.7,g
+12290,Parle,Parle Kismi Elaichi,50,A0703,245.5,g
+12291,Parle,Parle Kissmi Assorted Toffees,50,A0703,270,g
+12292,Parle,Parle Rola Cola,5,A0703,30,g
+12293,Nestle,Nestle-Kit Kat,10,A0703,12.8,g
+12294,Dettol,Dettol Antiseptic Liquid,105,A0204,250,ml
+12295,Dettol,Dettol Antiseptic Liquid,55,A0204,125,ml
+12296,Park Avenue,Park Avenue Beer Shampoo,155,A0203,180,ml
+12297,Park Avenue,Park Avenue Beer Shampoo,250,A0203,350,ml
+12298,Park Avenue,Park Avenue Cool Blue Fragrant Soap,47,A0201,125,g
+12299,Park Avenue,Park Avenue Good Morning Lather Shaving Cream,69,A0206,84,g
+12300,Park Avenue,Park Avenue Shaving Brush,60,A0206,1,n
+12301,ITC,Aashirvaad Iodized Salt,20,A0506,1,kg
+12302,ITC,Sunfeast Glucose Biscuits,3,A0701,32,g
+12303,ITC,Savlon Herbal Sensitive,99,A0201,500,ml
+12304,ITC,Fiama shower Gel Lemongrass & Jojoba,55,A0201,100,ml
+12305,ITC,Fiama Double Delight Shower Gel & Handwash,199,A0201,250,ml
+12306,ITC,Bingo Chilli Sprinkled,20,A0707,52,g
+12307,ITC,Fiama Gel Lemongrass & Jojoba,180,A0201,375,g
+12308,ITC,Fiama Gel Pachouli & Macadamia ,180,A0201,125,g
+12309,ITC,Bingo Mad Angles Chees Nachos,20,A0707,60,g
+12310,ITC,Bingo Tedhe Medhe,10,A0707,50,g
+50012,ITC - Cigarette,ITC Wills Classic's,330,A0801,20,n
+12312,Nandini,Nandini Goodlife Milk,53,A0101,1,ltr
+12313,Nandini,Nandini Goodlife Milk,25,A0101,500,ml
+12314,Nandini,Nandini Pasteurised Butter Unsalted,230,A0101,500,g
+12315,Nandini,Nandini Pure Ghee,120,A0504,200,ml
+12316,Nandini,Nandini Pure Ghee,110,A0504,200,ml
+12317,Nandini,Nandini Butter Salted,52,A0101,100,g
+12318,Nandini,Nandini Cheese Slice,125,A0101,200,g
+12319,FR Foods,FR Foods Cocoa Chocolate Essence,95,A0706,20,ml
+12320,Cycle,Cycle Goodluck Champa Agarbathies,60,A0405,135,g
+12321,Cycle,Cycle Goodluck Rose Agarbathies,60,A0405,135,g
+12322,Cycle,Cycle Vasu 100 Tube Agarbathies,10,A0405,17,g
+12323,Cycle,Cycle Mahavasu Agarbathies,22,A0405,44,g
+12324,Cycle,Cycle Vasu Family Pack Agarbathies,40,A0405,82,g
+12325,Cycle,Cycle Lia Chandanam Agarbathies,20,A0405,41,g
+12326,Cycle,Cycle Lia Samtrupti Agarbathies,20,A0405,41,g
+12327,Cycle,Cycle Lia Prime Rose Agarbathies,20,A0405,41,g
+12328,Cycle,Cycle Lia Nature's Gift Agarbathies,20,A0405,41,g
+12329,Cycle,Cycle Lia Rainbow Agarbathies,20,A0405,41,g
+12330,Cycle,Cycle Lia Jas Agarbathies,20,A0405,41,g
+12331,Cycle,Cycle 3 In 1 Agarbathies,10,A0405,16,g
+12332,Cycle,Cycle 3 In 1 Agarbathies,20,A0405,41,g
+12333,Cycle,Cycle Rhythm Amber Agarbathies,55,A0405,116,g
+12334,Cycle,Cycle Heritage Chandanam Agarbathies,50,A0405,100,g
+12335,Cycle,Cycle Godhuli Agarbathies,50,A0405,116,g
+12336,Cycle,Cycle Vasu Bansuri Agarbathies,50,A0405,126,g
+12337,Cycle,Cycle HoneyRose Sweet & Pure Agarbathies,50,A0405,125,g
+12338,Cycle,Cycle Morning Glory Agarbathies,50,A0405,116,g
+12339,Cycle,Cycle Sandalum Agarbathies,50,A0405,109,g
+12340,Cycle,Cycle Heritage Prayer Agarbathies,50,A0405,100,g
+12341,Cycle,Cycle Vasu 100 Agarbathies,50,A0405,122,g
+12342,Cycle,Cycle Lia Prime Rose Agarbathies,50,A0405,115,g
+12343,Cycle,Cycle Lia Jas Agarbathies,50,A0405,115,g
+12344,Cycle,Cycle Lia Chandanam Agarbathies,50,A0405,115,g
+12345,Cycle,Cycle Lia Applee Agarbathies,50,A0405,115,g
+12346,Cycle,Cycle Woods Agarbathies,75,A0405,20,n
+12347,Cycle,Cycle Yagna Natural Incense Agarbathies,50,A0405,14,n
+12348,Cycle,Cycle Om Shanti Pure Camphor,90,A0405,52,n
+12349,Cycle,Cycle Om Shanti Pure Camphor,50,A0405,25,n
+12350,Cycle,Cycle Om Shanti Pure Turmeric,15,A0405,50,g
+12351,Cycle,Cycle Om Shanti Pure Kumkum,15,A0405,40,g
+12352,Cycle,Cycle Om Shanti Shining Powder,12,A0402,50,g
+12353,Cycle,Cycle Naivedya Sambrani,72,A0405,12,n
+12354,Cycle,Cycle Om Shanti Puja Oil Jasmine,160,A0405,1,ltr
+12355,Cycle,Cycle Om Shanti Puja Oil Parijata,160,A0405,1,ltr
+12356,Cycle,Cycle Om Shanti Puja Oil Parijata,85,A0405,500,ml
+12357,Cycle,Cycle Om Shanti Puja Oil Jasmine,85,A0405,500,ml
+12358,Kohinoor,Kohinoor Charminar Select Basmati Rice,569,A0505,5,Kg
+12359,Kohinoor,Kohinoor Dubar Basmati Rice,620,A0505,5,kg
+12360,Kohinoor,Kohinoor Charminar Long Grain Rice,499,A0505,5,kg
+12361,Kohinoor,Kohinoor Charminar Rozana Rice,515,A0505,5,kg
+12362,Kohinoor,Kohinoor Dubar Basmati Rice,125,A0505,1,kg
+12363,Kohinoor,Kohinoor Tiber Basmati Rice,135,A0505,1,kg
+12364,Kohinoor,Kohinoor Super Value Basmati Rice,169,A0505,1,kg
+12365,Kohinoor,Kohinoor Charminar Rozana Rice,99,A0505,1,kg
+12366,Cothas,Cothas Coffee Speciality Blend,48,A0301,100,g
+12367,Vijay Appalam,Vijay Plain Appalam,55,A0706,200,g
+12368,Vijay Appalam,Vijay Masala Appalam,60,A0706,200,g
+12369,Vijay Appalam,Vijay Plain Appalam,30,A0706,100,g
+12370,Vijay Appalam,Vijay Masala Appalam,32,A0706,100,g
+12371,Vijay Appalam,Vijay Plain Appalam,10,A0706,30,g
+12373,Manna,Ready To Cook Badam Mix,105,A0101,200,g
+12374,Manna,Manna Health Mix,49,A0304,90,g
+12375,Mysore Sandal,Mysore Sandal Trio Pack,220,A0201,450,g
+12376,Mysore Sandal,Mysore Sandal Soap,75,A0201,150,g
+12377,Godrej,Luvit Smackers Watermelon Flavour,5,A0703,1,n
+12378,Godrej,Luvit Smackers Mango Flavour,5,A0703,1,n
+12379,Godrej,Luvit Smackers Green Apple Flavour,5,A0703,1,n
+12380,Godrej,Luvit Smackers Chocolate Strawberry,5,A0703,1,n
+12381,Cavin's,Cavin's Strawberry Milkshake,30,A0101,180,ml
+12382,Cavin's,Cavin's Chocolate Milkshake,30,A0101,180,ml
+12383,Cavin's,Cavin's Butterscotch Milkshake,30,A0101,180,ml
+12384,Cavin's,Cavin's Mango Milkshake,30,A0101,180,ml
+12385,Cavin's,Cavins's Banana Milkshake,30,A0101,180,ml
+12386,Cavin's,Cavin's Mango Lassi,25,A0101,200,ml
+12387,Cavin's,Cavin's Strawberry Lassi,25,A0101,200,ml
+12388,Garden,Garden Crispy Murukku,45,A0707,160,g
+12389,Garden,Garden Yellow Banana Chips,60,A0707,90,g
+12390,Garden,Garden Mahalakshmi Chivda Maharashtra Special,45,A0707,140,g
+12391,Indica,"Indica Easy Natural Black With Amla,Henna & Hibiscus",40,A0203,25,ml
+12392,Indica,Indica 10 Minutes Hair Colour With Amla & Henna,19,A0203,5,g
+12393,Meera,Meera Hair Fall Care Shampoo With Shikakai & Badam,118,A0203,180,ml
+12394,Meera,Meera Anti Dandruff With Small Onion Fenugreek,150,A0203,180,ml
+12395,Nyle Naturals,Nyle Dryness Hydration Shampoo,95,A0203,180,ml
+12396,Nyle Naturals,Nyle Damage Repair,95,A0203,180,ml
+12397,Nyle Naturals,Nyle Pollution Shield Shampoo,95,A0203,180,ml
+12398,Nyle Naturals,Nyle Anti HairFall Shampoo With Natural Extracts,95,A0203,180,ml
+12399,Daawat,Daawat Brown Basmati Rice,165,A0505,1,kg
+12400,Daawat,Daawat Biryani Basmati Rice,220,A0505,1,kg
+12401,Daawat,Daawat Traditional Basmati Rice,210,A0505,1,kg
+12402,Daawat,Daawat Super Basmati Rice,165,A0505,1.25,kg
+12403,Daawat,Daawat Super Basmati Rice,820,A0505,6.25,kg
+12404,Daawat,Daawat Pulav Basmati Rice,120,A0505,1,kg
+12405,Daawat,Daawat Pulav Basmati Rice,600,A0505,5,kg
+12406,Daawat,Daawat Rozana Gold Basmati Rice,99,A0505,1,kg
+12407,Daawat,Daawat Rozana Gold Basmati Rice,495,A0505,5,kg
+12408,Daawat,Daawat Rozana Super Basmati Rice,88,A0505,1,kg
+12409,Daawat,Daawat Rozana Super Basmati Rice,435,A0505,5,kg
+12410,Daawat,Daawat Devaaya Basmati Rice,110,A0505,1,kg
+12411,Daawat,Daawat Devaaya Basmati Rice,545,A0505,5,kg
+12412,Daawat,Daawat Dubar Basmati Rice,120,A0505,1,kg
+12413,Daawat,Daawat Dubar Basmati Rice,595,A0505,5,kg
+12414,Elina,Elina Long Grain Rice,160,A0505,1,kg
+12415,Elina,Elina Long Grain Rice,780,A0505,5,kg
+12416,Modern Coffee,Modern Coffee P.B Blend,10,A0301,20,g
+12417,Modern Coffee,Modern Coffee Royal Blend,5,A0301,15,g
+12418,Modern Coffee,Modern Coffee ,2,A0301,7,g
+12419,Modern Coffee,Modern Coffee P.B Blend,47,A0301,100,g
+12420,Bauli,Bauli Moonfils Orange,15,A0103,45,g
+12421,Silver Coin,Silver Coin Chakki Fresh Atta,53,A0501,1,kg
+12422,Silver Coin,Silver Coin Chakki Fresh Atta,248,A0501,5,kg
+12423,Silver Coin,Silver Coin Chakki Fresh Atta,445,A0501,10,kg
+12424,Rasna,Rasna Nagpur Orange,1,A0303,1.25,g
+12425,Rasna,Rasna Instant Orange,5,A0303,18,g
+12426,Rasna,Rasna Instant Mango,5,A0303,18,g
+12427,Heinz,Heinz Tomato Ketchup,175,A0708,1,kg
+12428,Makino,Makino Nacho Chips Jalapeno,35,A0707,60,g
+12429,Thums Up,Thums Up,65,A0302,1.25,ltr
+12430,Kinley,Kinley Soda,20,A0302,750,ml
+12431,Nandini,Nandini Pure Ghee Jar,65,A0504,100,ml
+12432,Koya's,Koya's Vishnu Leela Flora Agarbathies,5,A0405,12,g
+12433,Koya's,Koya's Vishnu Leela Herbal Incense Sticks,10,A0405,21,n
+12434,Koya's,Koya's Vishnu Leela Herbal Incense Sticks,35,A0405,70,n
+12435,Koya's,Koya's Vishnu Leela Flora Agarbathies,55,A0405,125,n
+12436,Koya's,Koya's Vishnu Leela Sambrani Dhoop,180,A0405,18,n
+12437,Eva,Eva Sandal Premium Incence Agarbathies,55,A0405,110,g
+12438,Eva,Eva Jasmine Premium Incense Agarbathies,55,A0405,115,g
+12439,Koya's,Koya's Maya Supreme Sambrani Agarbathies,55,A0405,105,g
+12440,Koya's,Koya's Wild Stone Agarbathies,55,A0405,105,g
+12441,Dettol,Dettol Intense Cool Soap,30,A0201,75,g
+12442,Dettol,Dettol Original Handwash,149,A0201,900,ml
+12443,Dettol,Dettol Skincare Ph Balanced Handwash,149,A0201,900,ml
+12444,Medimix,Medimix Handmade Soap,14,A0201,40,g
+12445,Del Monte,Del Monte Red Chilli Sauce,50,A0708,190,g
+12446,Pepsico,Lays India's Magic Masala,5,A0707,15,g
+12447,Pepsico,KurKure Naughty Tomato,5,A0707,21.5,g
+12448,Pepsico,KurKure Masala Munch,5,A0707,22.25,g
+12449,Pepsico,Lays Classic Salted,5,A0707,15,g
+12450,Nandini,Nandini Pure Ghee,245,A0504,500,ml
+12451,HIT,New Red Hit for Cockroaches,182,A0403,400,ml
+12452,Dabur,Dabur Immunity Kit - Small,299,A0204,795,g
+12453,Dabur,Dabur Sat Isabgol,50,A0204,50,g
+12454,Dabur,Dabur Sharbat-E-Azam,140,A0303,750,ml
+12455,Dabur,Dabur Hajmola Anardana Jar,160,A0703,352,g
+12456,Dabur,Dabur Hajmola Chatcola Jar,160,A0703,352,g
+12457,Dabur,Dabur Hajmola Imli Bottle,40,A0703,120,n
+12458,Dabur,Dabur Hajmola Imli Jar,160,A0703,352,g
+12459,Dabur,Dabur Hajmola Pudina Jar,160,A0703,352,g
+12460,Dabur,Dabur Hajmola Pudina Bottle,40,A0703,120,n
+12461,Dabur,Dabur Hajmola Regular Jar,160,A0703,352,g
+12462,Dabur,Dabur Honitus Cough Drops Ginger Jar,100,A0204,280,g
+12463,Dabur,Dabur Pudin Hara Active,49,A0204,30,ml
+12464,Dabur,Dabur Pudin Hara Pearls Jar,300,A0204,30,n
+12465,FunFoods,Funfoods Peanut Butter Crunchy,159,A0708,340+60,g
+12466,Fortune,Fortune Soya Chunk's,45,A0502,225,g
+12467,Bambino,Bambino Pasta Cup Cheese,50,A0705,68,g
+12468,Bambino,Bambino Pasta Cup Masala,50,A0705,62,g
+12469,Bambino,Bambino Premium Pasta Spaghetti,70,A0705,250,g
+12470,Bambino,Bambino Premium Pasta Spaghetti,150,A0705,500,g
+12471,Bambino,Bambino Premium Pasta Penne,150,A0705,500,g
+12472,Bambino,Bambino Vermicelli,16,A0705,150,g
+12473,Bambino,Bambino Golden Elbow,21,A0705,170,g
+12474,Kopiko,Kopiko,50,A0502,161,g
+12475,Nutritius,Nutritius Cocoa Butter Chikki,40,A0704,125,g
+12476,Nutritius,Nutritius Rajgira Peanut Chikki,30,A0704,100,g
+12477,Kissan,Kissan Chotu Fresh Tomato Ketchup,15,A0708,130,g
+12478,Amul,Amulya Dairy Whitener,197,A0101,500,g
+12479,Nandini,Nandini Pasteurised Butter Salted,230,A0101,500,g
+12480,Kingfisher,Kingfisher Radler Lemon Tin,45,A0302,300,ml
+12481,Kingfisher,Kingfisher Radler Mint & Lime Tin,45,A0302,300,ml
+12482,Kingfisher,Kingfisher Radler Ginger & Lime Bottle,70,A0302,330,ml
+12483,Kingfisher,Kingfisher Radler Lemon Bottle,70,A0302,330,ml
+12484,Kingfisher,Kingfisher Radler Mint & Lime Bottle,70,A0302,330,ml
+12485,Heineken,Heineken 0.0 Beer Tin,75,A0302,330,ml
+12486,Kellogg's,Kellogg's Chocos Fills,99,A0702,180,g
+12487,Pringles,Pringles Pizza,99,A0707,107,g
+12488,Whisper,Whisper Ultra Clean XL,165,A0202,15,n
+12489,Whisper,Whisper Ultra Soft XL,64,A0202,7,n
+12490,Popular Essentials,Popular Green Moong Whole,90,A0503,500,g
+12491,Popular Essentials,Popular Regular Kabuli Chana,65,A0503,500,g
+12492,Popular Essentials,Popular White Lobia,55,A0505,500,g
+12493,Popular Essentials,Popular Avalakki Thick,35,A0505,500,g
+12494,Popular Essentials,Popular Sabudana,59,A0505,500,g
+12495,Popular Essentials,Popular Corn Flour,35,A0502,500,g
+12496,Popular Essentials,Popular Gram Flour,60,A0506,500,g
+12497,Popular Essentials,Popular Red Ragi Flour,60,A0503,1,kg
+12498,Popular Essentials,Popular Upma Sooji,30,A0501,500,g
+12499,Popular Essentials,Popular Bansi Sooji,35,A0501,500,g
+12500,Popular Essentials,Popular Maida,60,A0501,1,Kg
+12501,Popular Essentials,Popular Broken Wheat,35,A0501,500,g
+12502,Popular Essentials,Popular Chiroti Sooji,35,A0501,500,g
+12503,Ponds,Ponds WB Cream,70,A0207,23,g
+12504,TRESemme,Tresemme Smooth & Shine Shampoo ,3,A0203,7.5,ml
+12505,Parle,Parle Monaco Pizza,10,A0701,50,g
+12506,Parle Agro,Appy Fizz Apple Juice Based Drink,15,A0303,250,ml
+12507,Nissin Foods,Nissin Cup Noodles Chicken Spicy,50,A0705,70,g
+12508,Soulfull,Soulfull Ragi Bites Loopies,135,A0702,200,g
+12509,Yoga Bar,Yoga Bar 20G Protein Bar Baked Brownie,125,A0601,60,g
+12510,Yoga Bar,Yoga Bar 20G Protein Bar Cranberry Blast,125,A0601,60,g
+12511,Yoga Bar,Yoga Bar 20G Protein Bar Hazelnut Toffee,125,A0601,60,g
+12512,Yoga Bar,Yoga Bar 8G Protein Bar Almond Coconut,50,A0601,50,g
+12513,Yoga Bar,Yoga Bar 8G Protein Bar Blueberry Pie,50,A0601,50,g
+12514,Yoga Bar,Yoga Multigrain Energy Bar Orange & Cashew,40,A0601,38,g
+12515,Yoga Bar,Yoga Multigrain Energy Bar Vanilla Almond,40,A0601,38,g
+12516,Surf excel,Surf Excel Quick Wash,10,A0402,60+25,g
+12517,Vim,Vim Dishwash Bar,20,A0402,300,g
+50013,Marlboro,Marlboro Gold,326,A0801,20,n
+12519,Sundrop,Sundrop Peanut Butter Crunchy,50,A0708,100,g
+12520,Sundrop,Sundrop Peanut Butter Creamy,50,A0708,100,g
+12521,Pillsbury,Pillsbury Rich Choco Oven Cake Mix - Egg-free,170,A0706,270,g
+12522,Betty Crocker,Betty Crocker Pancake Mix Original,105,A0706,250,g
+12523,Betty Crocker,Betty Crocker Triple Chocolate Brownie Mix,330,A0706,425,g
+12524,Pillsbury,Pillsbury Cookie Cake,30,A0701,60,g
+12525,Nature Valley,Nature Valley Crunchy Granola Bars - Variety Pack,360,A0702,252,g
+12526,Nature Valley,Nature Valley Crunchy Granola Bars - Apple Crunch,330,A0702,252,g
+12527,Harpic,Harpic Hygienic Toilet Rim Block Lavender,74,A0401,26,n
+12528,Paper Boat,Paper Boat Aamras,20,A0303,150,ml
+12529,Paper Boat,Paper Boat Mixed Fruit,20,A0303,150,ml
+12530,Paper Boat,Paper Boat Coriander Buttermilk,30,A0101,250,ml
+12531,Paper Boat,Paper Boat Southern Masala Buttermilk,30,A0101,250,ml
+12532,Paper Boat,Paper Boat Nimbu Pani,70,A0303,250,ml
+12533,Paper Boat,Paper Boat Aamras,120,A0303,1,L
+12534,Nestle,MAGGI 2- Minute Noodles Masala,5,A0705,32,g
+12535,Mamypoko Pants,MamyPoko Pants Huggies Diapers Small,9,A0901,1,n
+12536,Mamypoko Pants,MamyPoko Pants Huggies Diapers Medium,10,A0901,1,n
+12537,Mamypoko Pants,MamyPoko Pants Huggies Diapers Large,12,A0901,1,n
+12538,Whisper,Whisper Ultra Nights XL+ 7 Pads,85,A0202,7,n
+12539,Whisper,Whisper Choice Regular 7 Pads,30,A0202,7,n
+12540,Stayfree,Stayfree Dry-Max Ultra All Night 14 Pads,175,A0202,14,n
+12541,Stayfree,Stayfree Ultra-Max All Night XL 28 Pads,340,A0202,28,n
+12542,Whisper,Whisper Choice Utral XL 6 Pads,40,A0202,6,n
+12543,Biotique,Biotique Bio White Advance Fairness Face Wash,55,A0207,50,ml
+12544,Biotique,Biotique Bio Neem Advance Ayurveda Purifying Face Wash,100,A0207,100,ml
+12545,Vega,Vega Refrehing Wet Wipes Lemon & Mint,50,A0207,10,n
+12546,Vega,Vega Refreshing Wet Wipes Green Tea & White Lily,50,A0207,10,n
+12547,Vega,"Vega Refreshing Wet Wipes Aloe Vera,Cucumber & Mint Oil",75,A0207,10,n
+12548,Whisper,Whisper Choice Aloe Cottony Soft 7 Pads,28,A0202,7,n
+12549,Whisper,Whiper Utra Nights XXXL 10 Pads,250,A0202,10,n
+12550,Emami,Emami Navratna Advance Hair Oil,1,A0203,2.7,ml
+12551,Pantene,Pantene Hairfall Control Shampoo,2,A0203,5,ml
+12552,Dove,Dove Nutritive Solution Hair Fall Rescue Shampoo,2,A0203,5.5,ml
+12553,Dove,Dove Nutritive Solution Daily Shine Shampoo,2,A0203,6,ml
+12554,Tresemme,Tresemmee Hair Fall Defense Pro Collection Shampoo,55,A0203,85,ml
+12555,Tresemme,Tresemme Hair Fall Defense Conditioner,90,A0203,80,ml
+12556,Emami,Emami Navratna AdvanceCool Hair Oil,40,A0203,50,ml
+12557,Loreal,Loreal Total Repair Advance Repairing Shampoo,3,A0203,5.5,ml
+12558,Himalaya,Himalaya Lip Balm,35,A0207,10,g
+12559,Biotique,Biotique Advance Ayurveda Bio Kelp Hair Fall Shampoo,155,A0203,180,ml
+12560,Biotique,Biotique Advance Ayurveda Bio Neem Anti Dandruff Shampoo & Conditioner,170,A0203,180,ml
+12561,Biotique,Biotique Advance Ayurveda Bio Kelp Hair Fall Shampoo,430,A0203,650,ml
+12562,Biotique,Biotique Advance Ayurveda Bio Neem Anti Dandruff Shampoo & Conditioner,430,A0203,650,ml
+12563,Sensodyne,Sensodyne Sensitive Tooth Brush,50,A0205,1,n
+12564,Sensodyne,Sensodyne Buy 2 Get 1 Free Tooth Brush,100,A0205,1,n
+12565,Gillette,Gillette Double Edge Salon Quality Shave,29,A0206,1,n
+12566,Gillette,Gillette Presto Sata Sat,150,A0206,10,n
+12567,Band-Aid,Band-Aid Flexible Fabiric Strips,200,A0204,130,n
+12568,Dlecta,Dlecta Nacho Cheese Dip,115,A0708,180,g
+12569,Gold Winner,Gold Winner Vanaspati,52,A0504,500,ml
+12570,Parry's,Parrys White label Sugar,60,A0506,1,kg
+12571,Gone Mad,Gone Mad Gand of 5 Premium Coffee Sticks,50,A0703,100,g
+12572,Amul,Amul Mystic Mocha,125,A0703,150,g
+12573,Gone Mad,Gone Mad Gand of 5 Premium Badam Sticks,50,A0703,100,g
+12574,Britannia,Britannia Pure Magic Chocolush,30,A0701,75,g
+12575,Cadbury,Oreo Cadbury Dipped,60,A0701,150,g
+12576,Parle,Parle Melody Chocolaty Pack,50,A0703,195.5,g
+12577,Parle,Parle Poppins Mazelo Fruit Rolls,2,A0703,14.4,g
+12578,Pass Pass,Pulse Kachcha Aam Candy,50,A0703,200,g
+12579,Mogu Mogu,Mogu Mogu Lychee Juice Drink,60,A0303,300,ml
+12580,Mogu Mogu,Mogu Mogu Strawberry Juice Drink,60,A0303,300,ml
+12581,Paper Boat,Paper Boat Aam Panna Juice ,30,A0303,200,ml
+12582,Paper Boat,Paper Boat Lychee Ras Juice,30,A0303,200,ml
+12583,Paper Boat,Paper Boat Alphonso Aam Juice,30,A0303,200,ml
+12584,Paper Boat,Paper Boat Santra Juice,30,A0303,200,ml
+12585,Surfexcel,Surfexcel Matic Top Load ,225,A0402,1,kg
+12586,Pril,Pril Perfect Line Grease Fighter Dish Wash Liquid,98,A0402,425,ml
+12587,Pril,Pril Tamarind Shine Specialist Dish Wash Liquid,100,A0402,425,ml
+12588,All Out,All Out Ultra Power + Refill,72,A0403,45,ml
+12589,Fevikwik,Fevikwik Instant Adhesive Gum,5,A0408,500,mg
+12590,Gillette,Gillette Foam Regular Shave Gel,125,A0206,196,g
+12591,Gillette,Gilltte Foam Regular Shaving Gel,85,A0206,50,g
+12592,Maaza,Maaza Mango juice,20,A0303,250,ml
+12593,Minute Maid,Minute Maid Guava Juice,105,A0303,1,ltr
+12594,Maaza,Maaza Mango juice,10,A0303,150,ml
+12595,Monster,Monster Energy Drink,110,A0302,350,ml
+12596,Coca Cola,Coca Cola Orginal Taste Tin,40,A0302,300,ml
+12597,Thums Up,Thums Up Tin,40,A0302,300,ml
+12598,Amul,Amul Chocolate Cookies ,15,A0701,50,g
+12599,All Out,All Out Sattva Power + Refill,85,A0403,45,ml
+12600,Loreal,Loreal Extraodinary Clay Purifying & Hydrating Shampoo,66,A0203,82.5,ml
+12601,Garnier,Garnier Men Acno Fight Pimple Clearing Whitening Cream,85,A0207,20,g
+12602,Garnier,Garnier Men Power White Anti-Pollution Double Action Face Wash,79,A0207,50,g
+12603,Garnier,Garnier Men OilClear Deep Cleansing Icy Face Wash,90,A0207,50,g
+12604,Garnier,Garnier Block Naturals Oil Enriched Cream Color 2.0 Orginal Black,37,A0203,20,g
+12605,Garnier,Garnier Block Naturals Oil Enriched Cream Color 4.0 Natrual Brown,37,A0203,20,g
+12606,Garnier,Garnier Color Naturals Cream Permanent Hair Color,69,A0203,35,ml
+12607,Loreal,Loreal Total Reair 5 Advance Repairing Conditioner Damaged Hair,85,A0203,71.5,ml
+12608,Loreal,Loreal Total Reair 5 Advance Repairing Shampoo Damaged Hair,60,A0203,82.5,ml
+12609,Loreal,Loreal Colour Protecting Shampoo Linseed Oil,66,A0203,82.5,ml
+50014,Stellar,Stellar Define Cigarettes,200,A0801,20,n
+12610,Himalaya,Himalaya Moisturizing Aloe Vera Face Wash,120,A0207,100,ml
+12611,Choki Choki,Choki Choki Chocomilk Stick,100,A0703,250,g
+12612,Milky Mist,Milky Mist Paneer ,99,A0101,200,g
+12613,Milky Mist,Milky Mist Fresh Cream Medium Fat,75,A0101,200,g
+12614,Milky Mist,Milky Mist Cheddar Cheese,150,A0101,200,g
+12615,Milky Mist,Milky Mist Cheese Cubes,130,A0101,200,g
+12616,Milky Mist,Milky Mist Mozzarella Pizza Cheese,140,A0101,200,g
+12617,Milky Mist,Milky Mist Pouch Curd,40,A0101,500,g
+12618,Milky Mist,Milky Mist Bucket Curd,120,A0101,1,kg
+12619,Milky Mist,Milky Mist Farm Fresh Curd,60,A0101,400,g
+12620,Milky Mist,Milky Mist Shrikhand Elaichi,35,A0101,100,g
+12621,Milky Mist,Milky Mist Shrikhand Mango,35,A0101,100,g
+12622,Milky Mist,Milky Mist Shrikhand Elaichi,110,A0101,400,g
+12623,Milky Mist,Milky Mist Shrikhand Mango,110,A0101,400,g
+12624,Milky Mist,Milky Mist Cheese Slices,75,A0101,100,g
+12625,Milky Mist,Milky Mist Cheese Slices,140,A0101,200,g
+12626,Milky Mist,Milky Mist Garlic Cheese Spread,90,A0101,180,g
+12627,Milky Mist,Milky Mist Papper Cheese Spread,90,A0101,200,g
+12628,Milky Mist,Mliky Mist Plain Cheese Spread,90,A0101,180,g
+12629,Milky Mist,Milky Mist Cooking Unsalted Pasteurised Butter,58,A0101,100,g
+12630,Milky Mist,Milky Mist Cooking Unsalted Pasteurised Butter,115,A0101,200,g
+12631,Milky Mist,Milky Mist Table Salted Butter,55,A0101,100,g
+12632,Milky Mist,Milky Mist AG Mark Ghee Pouch,72,A0504,100,ml
+12633,Milky Mist,Milky Mist AG Mark Ghee Jar,145,A0504,200,ml
+12634,Milky Mist,Milky Mist AG Mark Ghee Jar,335,A0504,500,ml
+12635,Milky Mist,Mliky Mist Fruit Yogurt Strawberry,30,A0101,100+100,g
+12636,Milky Mist,Milky Mist Fruit Yogurt  Peach,30,A0101,100+100,g
+12637,Milky Mist,Milky Mist Fruit Yogurt Blueberry,30,A0101,100+100,g
+12638,Milky Mist,Milky Mist Fruit Yogurt Pineapple,30,A0101,100+100,g
+12639,Milky Mist,Milky Mist Fruit Yogurt Mango,30,A0101,100+100,g
+12640,Milky Mist,Milky Mist Misthi Doi,30,A0101,100,g
+12641,Milky Mist,Milky Mist Misthi Doi,60,A0101,275,g
+12642,Milky Mist,Milky Mist  Milk Shake Chocolate,25,A0101,180,ml
+12643,Milky Mist,Milky Mist Milk Shake Strawberry,25,A0101,180,ml
+12644,Milky Mist,Milky Mist Milk Shake Vanilla,25,A0101,180,ml
+12645,Milky Mist,Milky Mist Double Toned Milk,15,A0101,200,ml
+12646,Milky Mist,Milky Mist Toned Milk,68,A0101,1,ltr
+12647,Milky Mist,Milky Mist Skimmed Milk,75,A0101,1,ltr
+12648,Milky Mist,Milky Mist Dairy Whitener,90,A0101,200,g
+12649,Haldiram,Haldiram's Moong Dal ,100,A0707,400,g
+12650,Haldiram,Haldiram's Tasty Nuts,45,A0707,200,g
+12651,Nandini,Nandini Slim Skimmed Milk,24,A0101,500,ml
+12652,Dettol,Dettol Orginal Soap,50,A0201,125,g
+12653,Dettol,Dettol Intense Cool Soap,206,A0201,5*125,g
+12654,Veet,Veet Hair Removal Cream Aloe Vera & Vitamin E,125,A0202,50,g
+12655,Nivea,Nivea Deodorant Fresh Natural Spray,199,A0208,150,ml
+12656,Veet,Veet Hair Removal Cream Lotus Milk & Jasmine Fragrance,125,A0202,50,g
+12657,Fair & Lovely,Fair & Lovely Advanced Multi Vitamin High Definition Glow,102,A0207,50,g
+12658,Whisper,Whisper Ultra Nights 15 Pads,175,A0202,15,n
+12659,Fair & Lovely,Fair & Lovely Advanced Multi Vitamin High Definition Glow,5,A0207,4.5,g
+12660,Stayfree,Stayfree Secure Extra Large 7 Pads,40,A0202,7,n
+12661,Gillette,Gillette Venus Aloe Extracts ,220,A0202,1,n
+12662,Vega,Vega Wet Wipes Lemon & Mint ,50,A0207,10,n
+12663,Vega,Vega Wet Wipes Green Tea & White Lily,50,A0207,10,n
+12664,Gillette,Gillette Simply Venus 3 Blades,60,A0202,1,n
+12665,Pariz,Pariz Multi - Purpose Wipes,70,A0207,10,n
+12666,Dove,Dove Orginal Moisturiising Cream,225,A0207,150,ml
+12667,Vwash,Vwash Hygiene Sea Buckhorn Oil & Tea Tree Oil,180,A0202,100,ml
+12668,Nivea,Nivea Fresh Flower Deodorant,199,A0208,150,ml
+12669,Veet,Veet Hair Removal Cream Aloe Vera & Vitamin E,82,A0202,32,g
+12670,Veet,Veet Hair Removal Cream Lotus Milk & Jasmine Fragrance,82,A0202,32,g
+12671,Lifebuoy,Lifebuoy Total Active Silver Forula Soap,5,A0201,34,g
+12672,Lux,Lux Rose Bloom Soap ,5,A0201,29,g
+12673,Head&Shoulders,Head&Shoulders Anti - Dandruff Smooth & Silky Shampoo,275,A0203,340,ml
+12674,Sunsilk,Sunsilk Co-Creations Stunning Black Shine Shampoo,180,A0203,340,ml
+12675,Head&Shoulders,Head&Shoulders Anti - Dandruff Anti - Hairfall Shampoo,275,A0203,340,ml
+12676,Dove,Dove Hair Fall Rescue Shampoo,4,A0203,8.5,ml
+12677,Vaseline,Vaseline Deep Restore Body Lotion,75,A0207,100,ml
+12678,Cinthol,Cinthol Lime Refreshing Deo Soap,96,A0201,125*3,g
+12679,Lifebuoy,Lifebuoy Total Hand Sanitizer,25,A0201,50,ml
+12680,Pond's,Pond's Cold Cream Soft Glowing Skin,52,A0207,26,g
+12681,Listerine,Listerine Cool Mint Mouth Freshner ,55,A0205,80,ml
+12682,Lakme,Lakme Sun Expert Ultramatte Lotion,210,A0207,60,ml
+12683,Dove,Dove Go Fresh Moisture Beauty Bathing Bar,49,A0201,75,g
+12684,TRESemme,Tresemme Smooth & Shine With Vitamin H Shampoo,120,A0203,185,ml
+12685,Parachute,Parachute Advansed Body Lotion Coconut Milk Deep Nourish,75,A0207,100,ml
+12686,Cinthol,Cinthol Cool Menthol + Active Deo Soap,99,A0201,100*3,g
+12687,Colgate,Colgate Kids Extra Soft Toothbrush,79,A0205,1,n
+12688,Colgate,Colgate Visible White Sparkling Mint Tooth Paste,59,A0205,50,g
+12689,Colgate,Colgate Barbie  Kids Toothbrush for Girl,79,A0205,1,n
+12690,Colgate,Colgate Swarna Vedshakti Complete Ayurvedic Protection,49,A0205,100,g
+12691,TRESemme,Tresemee Smooth & Shine Conditiner,4,A0203,7,ml
+12692,Nivea,Nivea Cream Jar,29,A0207,20,ml
+12693,TRESemme,Tresemme Hair Fall Defense Conditioner ,4,A0203,7,ml
+12694,Medimix,Medimix Deep Hydration Lakshadi Oil & Aloe Veer Soap,40,A0201,100,g
+12695,Loreal,Loreal Fall Resist 3X Anti Hair Fall Shampoo,3,A0203,5.5,ml
+12696,Nivea,Nivea Fresh Protect Gas Free Body Deodorizer Ice Cool,250,A0208,120,ml
+12697,Nivea,Nivea Fresh Protect Gas Free Body Deodorizer Energy,250,A0208,120,ml
+12698,Nivea,Nivea Lip Care Total Moisture,45,A0207,10,g
+12699,Head&Shoulders,Head&Shoulders Anti - dandruff 2 in 1 Smooth Silky Shampoo + Conditioner,4,A0203,9,ml
+12700,Head&Shoulders,Head&Shoulders Anti - Dandruff 2 in 1 Silky Black Shampoo + Conditioner,4,A0203,9,ml
+12701,Pantene,Pantene Total Damage Care Shampoo,4,A0203,8.5,ml
+12702,Dove,Dove Dryness Care Shampoo for Dry Hair,4,A0203,8.5,ml
+12703,Indulekha,Indulekha Neemraj Oil,234,A0203,50,ml
+12704,Biotique,Biotique Sun Shield Bio Pink Lentils ayurvedic Recipe,273,A0207,50,ml
+12705,Sensodyne,Sensodyne Repair & Protect Tooth Paste,175,A0205,70,g
+12706,Sensodyne,Sensodyne Fresh Gel Cooling Freshness,190,A0205,150,g
+12707,Jovan,Jovan Musk Pour Homme Deodorant Body Spray,220,A0208,150,ml
+12708,Park Avenue,Park Avenue Signature Collection,240,A0208,150,ml
+12709,Engage,Engage Man Urge Body Spray,190,A0208,150,ml
+12710,Fogg,Fogg Fresh Woody Body Spray,275,A0208,150,ml
+12711,Fogg,Fogg Fresh Spicy Body Spray,275,A0208,150,ml
+12712,Fogg,Fogg Bleu Mountain Body Spray,255,A0208,120,ml
+12713,Bombay,Bombay Charcoal Shaving Creme 2X Creamier Foam,245,A0206,266,ml
+12714,Old Spice,Old Spice Krakengard Deodorant Body Spray,249,A0208,140,ml
+12715,Old Spice,Old Spice Wolfthorn Deodorant Body Spray,249,A0208,140,ml
+12716,Lizol,Lizol 10X Disinfectant Surface Cleaner Citrus,179,A0401,975,ml
+12717,Lizol,Lizol Disinfectant Surface Cleaner Lavender,179,A0401,975,ml
+12718,Whisper,Whisper Ultra Nights 30 Pads,319,A0202,30,n
+12719,Milky Mist,Milky Mist Curd Pouch,10,A0101,200,g
+12720,Kellogg's,Kellogg's Chocos Variety Pack,60,A0702,156,g
+12721,Kellogg's,Kellogg's Special K Original,140,A0702,290,g
+12722,Emami,Emami Mentho Plus Balm,32,A0204,9,ml
+12723,Emami,Emami Fair & Handsome Cream,65,A0207,30,g
+12724,Boro Plus,Boro Plus Hand Sanitizer,50,A0201,100,ml
+12725,Navratna,Navratna Ayurvedic Oil,78,A0203,100,ml
+12726,Emami,Emami KeshKing Anti Hairfall Shampoo,120,A0203,200,ml
+12727,Emami,Emami KeshKing Ayurvedic Oil,160,A0203,100,ml
+12728,Boro Plus,Boro Plus Healthy Skin Ayurvedic Antiseptic Cream,38,A0207,19,ml
+12729,ID,ID Idly & Dosa Batter,75,A0706,1,kg
+12730,ID,ID Natural Paneer,100,A0101,200,g
+12731,Epigamia,Epigamia Mango Greek Yogurt With Chunky Granola,80,A0602,112,g
+12732,Epigamia,Epigamia Strawberry Greek Yogurt With Chunky Granola,80,A0602,112,g
+12733,Epigamia,Epigamia Greek Yogurt Wild Raspberry,45,A0602,90,g
+12734,Epigamia,Epigamia Greek Yogurt Natural,45,A0602,90,g
+12735,Epigamia,Epigamia Greek Yogurt Vanilla Bean,45,A0602,90,g
+12736,Epigamia,Epigamia Greek Yogurt Blueberry,45,A0602,90,g
+12737,Epigamia,Epigamia Greek Yogurt Alphonso Mango,45,A0602,90,g
+12738,Epigamia,Epigamia Artisanal Curd,80,A0101,400,g
+12739,Epigamia,Epigamia Artisanal Mishti Doi,30,A0602,85,g
+12740,Epigamia,Epigamia Greek Yogurt Smoothie Blueberry,70,A0602,200,ml
+12741,Epigamia,Epigamia Greek Yogurt Smoothie Alphonso Mango,70,A0602,200,ml
+12742,Epigamia,Epigamia Greek Yogurt Smoothie Mulberry,70,A0602,200,ml
+12743,Epigamia,Epigamia Greek Yogurt Smoothie Strawberry,70,A0602,200,ml
+12744,Epigamia,Epigamia Spreads Ghee Meets Banana Caramel,350,A0602,250,g
+12745,Epigamia,Epigamia Greek Yogurt Zero Added Sugar Strawberry,70,A0602,120,g
+12746,Epigamia,Epigamia Greek Yogurt Zero Added Sugar Mango,70,A0602,120,g
+12747,Epigamia,Epigamia Greek Yogurt Zero Added Sugar Mixed Berry,70,A0602,120,g
+12748,Aachi,Aachi Rasam Powder,10,A0507,20,g
+12749,Aachi,Aachi Tomato Rice Powder,10,A0507,20,g
+12750,Aachi,Aachi Schezuan Fried Rice Masala Powder,10,A0507,20,g
+12751,Aachi,Aachi Orginal Fried Rice Masala Powder,10,A0507,20,g
+12752,Aachi,Aachi Cumin Powder,10,A0507,15,g
+12753,Aachi,Aachi Coriander Powder,10,A0507,25,g
+12754,Aachi,Aachi Turmeric Powder,10,A0507,30,g
+12755,Aachi,Aachi Pepper Powder,10,A0507,10,g
+12756,Maggi,Nestle Maggi Masala e Magic,5,A0507,6,g
+12757,Maggi,Nestle Maggi Rich Tomato Sauce,102,A0708,500,g
+12758,Maggi,Nestle Maggi Hot & Sweet Tomato Chilli Sauce,105,A0708,500,g
+12759,Nescafe,Nescafe Sunrise Rich Aroma,90,A0301,50,g
+12760,Nandini,Nandini Pure Ghee Jar,40,A0504,50,ml
+12761,ID ,ID Wheat Parota 5 Pcs,75,A0706,450,g
+12762,ID ,ID Malabar Parota 5 Pcs,75,A0706,450,g
+12763,ID ,ID Wheat Chapati 10 Pcs,70,A0706,390,g
+12764,Maxo,Maxo Agrade Mosquitoes Coil,34,A0403,14,n
+12765,Popular Essentials,Popular Essentials Toor Dal,70,A0503,500,g
+12766,Popular Essentials,Popular Essentials Chana Dal,55,A0503,500,g
+12767,Popular Essentials,Popular Essentials Black Chana,50,A0503,500,g
+12768,Popular Essentials,Popular Essentials Fried Gram,35,A0503,250,g
+12769,Popular Essentials,Popular Essentials Urad Black Chilka,70,A0503,500,g
+12770,Popular Essentials,Popular Essentails Refined Sugar,60,A0506,1,kg
+12771,India Gate,India Gate Classic Basmati Rice ,216,A0505,1,kg
+12772,India Gate,India Gate Dubar Basmati Rice,123,A0505,1,kg
+12773,India Gate,India Gate Dubar Basmati Rice,610,A0505,5,kg
+12774,India Gate,India Gate Feast Rozzana Basmati Rice,89,A0505,1,kg
+12775,India Gate,India Gate Feast Rozzana Basmati Rice,440,A0505,5,kg
+12776,India Gate,India Gate Regular Choice Basmati Rice,445,A0505,5,kg
+12777,India Gate,India Gate Tibar Basmati Rice,130,A0505,1,kg
+12778,Sting,Sting Energy,20,A0302,250,ml
+12779,Tropicana,Tropicana Mixed Fruit Delight,20,A0303,200,ml
+12780,Tropicana,Tropicana Pineapple Delight,20,A0303,200,ml
+12781,Pepsico - CSD,Mirinda Orange Flavour,40,A0302,750,ml
+12782,Brooke Bond,Red Label Natural Care,52,A0305,100,g
+12783,Lipton,Lipton Green Tea Pure & Light,150,A0305,25,n
+12784,Nestle,Maggie 2 Minute Noodles Desi Cheesy,15,A0705,60.5,g
+12785,Dettol,Dettol Antiseptic Liquid,160,A0204,550,ml
+12786,Dettol,Dettol Antiseptic Liquid,27,A0204,60,ml
+12787,Parry's,Parry's Pure Refined Sugar Cubes,65,A0506,500,g
+12788,Wai Wai,Wai Wai X-Press Noodles,10,A0705,55,g
+12789,Wai Wai,Wai Wai Ready To Eat Chicken Noodles,12,A0705,70,g
+12790,Vanish,Vanish Oxi Action Colour Safe Detergent,59,A0402,180,ml
+12791,Britannia,Britannia Nice Time,25,A0701,150,g
+12792,Mountain Dew,Mountain Dew Tin,25,A0302,250,ml
+12793,Loreal,Loreal  Anti - Hair Fall Fall Resist 3X Conditioner,185,A0203,192.5,ml
+12794,Iodex,Iodex Body Pain Expert Balm,10,A0204,4,g
+12795,Sugar Free,Sugar Free Zero Calories Natura Sweetener for Calorie,135,A0506,17,g
+12796,Sugar Free,Sugar Free Gold Sweetener for Calorie,180,A0506,30,g
+12797,Anil,Anil Rice Vermicelli,27,A0705,200,g
+12798,Bambino,Bambino Vermicelli Premium,40,A0705,400,g
+12799,Sri Bhagyalakshmi,Bhagyalakshmi Moong Dal,114,A0503,500,g
+12800,Malkist,Malkist Chocolate Crunchy Crackers ,5,A0701,23,g
+12801,Malkist,Malkist Cheese Cruncy Crackers,5,A0701,23,g
+12802,Boost,Boost 3X More Stamina Clinically Proven Box,234,A0304,500,g
+12803,Surf Excel,Surf Excel Easy Wash  Powder,496,A0402,4,kg
+12804,Tide,Tide Extra Power Jasmine & Rose Detergent Powder,212,A0402,2,kg
+12805,Vanish,Vanish Oxi Action All in One Colour Detergent Booster,105,A0402,400,ml
+12806,Surf Excel,Surf Excel Quick Wash Detergent Powder,2,A0402,12,g
+12807,Wheel,Wheel Active 2 in 1 Detergent Bar,5,A0402,130,g
+12808,Rin,Rin Detergent Powder,5,A0402,55,g
+12809,Vanish,Vanish Oxi Action All in One Colour Detergent Booster Pouch,17,A0402,25,g
+12810,Ariel,Ariel Perfect Wash,2,A0402,12,g
+12811,Surf Excel,Surf Excel Matic Liquid Front Load,390,A0402,2,ltr
+12812,Ariel,Ariel Matic Top Load,379,A0402,6,kg
+12813,Tide,Tide Extra Power Jasmine & Rose Detergent Powder,10,A0402,85+20,g
+12814,Tide,Tide Extra Power Jasmine & Rose Detergent Powder,10,A0402,85+20,g
+12815,Comfort,Comfort Fabric Conditioner Royale,65,A0402,220,ml
+12816,Comfort,Comfort Fabric Conditioner Glamour,65,A0402,220,ml
+12817,Pitambari,Pitambari Shining Powder,200,A0402,1,kg
+12818,Mr Muscle,Mr Muscle Floor Cleaner Citrus,172,A0401,1050,ml
+12819,Scotch Brite,Scotch Brite Long Sponge Wipe,195,A0407,1,n
+12820,Scotch Brite,Scotch Brite Scrub Sponge 3m,65,A0407,2,n
+12821,Mr Muscle,Mr Muscle Floor Cleaner Lavender,172,A0401,1050,ml
+12822,Lizol,Lizol Kitchen Power Cleaner,136,A0401,450,ml
+12823,Scotch Brite,Scotch Brite Scrub Pad With Stain Cutters,15,A0407,1,n
+12824,Scotch Brite,Scotch Brite Stainless Stell Scrub Combo,35,A0407,2,n
+12825,Scotch Brite,Scotch Brite Scrub Pad With Stain Cutters,10,A0407,1,n
+12826,Vim,Vim Lemon Dish Wash Liquid,155,A0402,750,ml
+12827,Odonil,Odonil Gelz 3x Fragrance,75,A0403,75+50,g
+12828,Odonil,Odonil Room Spray Jasmine Fresh,99,A0403,190,ml
+12829,Odonil,Odonil Room Spray Lavender Mist,99,A0403,190,ml
+12830,Iris,Iris Home Fragrances Light Candles Unscented,60,A0405,10,n
+12831,Tarrington House,Tarrington House Candle Long Pack Of 8,100,A0405,8,n
