@@ -29,3 +29,6 @@ body {
     align-items: start;
 }
 
+.product-panel-block {
+    justify-content: space-between;
+}

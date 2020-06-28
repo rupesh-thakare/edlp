@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 
 {% block page_content %}
-<!--<a href="{{ url_for('main.category') }}" class="button is-dark mb-3">back</a>-->
 <form action="{{ url_for('main.submit_order') }}" method="post">
   {{ form.hidden_tag() }}
   <div class="container mt-5">
@@ -12,11 +11,15 @@
       </p>
 
       {% for product in products %}
-            <label class="checkbox is-fullwidth panel-block">
-              <input type="checkbox" name="product" multiple value={{ product.product_id }}>
-              {{ product.description }}
-            </label>
+      <div class="field panel-block product-panel-block">
+        <label class="checkbox" style="display: block">
+          <input type="checkbox" name="product" multiple value={{ product.product_id }}>
+          <span>{{ product.description }}</span>
+        </label>
+        <button class="button is-static">Rs {{product.mrp}}</button>
+      </div>
       {% endfor %}
+
       <div class="panel-block">
         <button class="button is-link is-fullwidth" type="submit">Save</button>
       </div>
