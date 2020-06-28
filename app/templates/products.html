@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 
 {% block page_content %}
-<form action="{{ url_for('main.submit_order') }}" method="post">
-  {{ form.hidden_tag() }}
-  <div class="container mt-5">
-    <div class="panel">
+<div class="container listing-container">
+  <form action="{{ url_for('main.submit_order') }}" method="post">
+    {{ form.hidden_tag() }}
+    <div class="panel listing-panel">
       <p class="panel-heading">
         <a href="{{ url_for('main.category') }}"><i class="material-icons">arrow_back_ios </i></a>
         {{ category.category_name }}
@@ -24,7 +24,6 @@
         <button class="button is-link is-fullwidth" type="submit">Save</button>
       </div>
     </div>
-  </div>
-
-</form>
+  </form>
+</div>
 {% endblock %}

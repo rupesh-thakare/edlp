@@ -32,3 +32,14 @@ body {
 .product-panel-block {
     justify-content: space-between;
 }
+
+.listing-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.listing-container.categories .panel {
+    width: 100%;
+    max-width: 425px;
+}
