@@ -4,7 +4,6 @@ from flask_mail import Mail
 from flask_moment import Moment
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
-from config import config
 from flask_wtf.csrf import CSRFProtect
 
 bootstrap = Bootstrap()
@@ -17,11 +16,10 @@ login_manager = LoginManager()
 login_manager.login_view = 'auth.login'
 
 
-def create_app(config_name):
-    app = Flask(__name__)
-    app.config.from_object(config[config_name])
-
-    config[config_name].init_app(app)
+def create_app():
+    app = Flask(__name__, instance_relative_config=True)
+    app.config.from_object('config.settings')
+    app.config.from_pyfile('settings.py', silent=True)
 
     bootstrap.init_app(app)
     moment.init_app(app)
