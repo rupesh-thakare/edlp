@@ -1,5 +1,5 @@
-database_user = 'rupeshthakare'
-database_password = 'dbpassword'
+database_user = '<put-dbusername-here>'
+database_password = '<put-dbpassword-here>'
 
 DEBUG = False
 
