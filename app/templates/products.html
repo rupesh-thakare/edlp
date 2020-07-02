@@ -9,9 +9,8 @@
           <a href="{{ url_for('main.category') }}"><i class="material-icons">arrow_back_ios </i></a>
           {{ category.category_name }}
         </p>
-
-        {% for product in products %}
-          {% if product.inventory.inventory > 0 %}
+        {% for product in products | sort(attribute = 'description') %}
+{#          {% if product.inventory.inventory > 0 %}#}
             <div class="field panel-block product-panel-block">
               <label class="checkbox" style="display: block">
                 <input multiple name="product" product.product_id type="checkbox" value={{ product.product_id }}>
@@ -19,7 +18,7 @@
               </label>
               <button class="button is-static">Rs {{ product.mrp }}</button>
             </div>
-          {% endif %}
+{#          {% endif %}#}
         {% endfor %}
 
         {% if products|length > 0 %}
