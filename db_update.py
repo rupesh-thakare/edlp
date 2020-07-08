@@ -7,7 +7,7 @@ def update_category(catalog_file, db, Category):
             category_id = record['category_id']
             if not Category.query.get(category_id):
                 try:
-                    db.session.add(Catalog(
+                    db.session.add(Category(
                         category_id=category_id,
                         category_name=record['category_name'],
                     ))
