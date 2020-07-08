@@ -15,6 +15,7 @@ def update_category(catalog_file, db, Catalog):
                 except Exception as e:
                     print(e)
 
+
 def update_catalog(catalog_file, db, Catalog):
     with open(catalog_file, mode='r') as catalog_file:
         csv_reader = csv.DictReader(catalog_file)
