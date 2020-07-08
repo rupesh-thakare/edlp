@@ -5,7 +5,7 @@ def update_category(catalog_file, db, Catalog):
         csv_reader = csv.DictReader(catalog_file)
         for record in csv_reader:
             category_id = record['category_id']
-            if not Catalog.query.get(category_id):
+            if not Category.query.get(category_id):
                 try:
                     db.session.add(Catalog(
                         category_id=category_id,
