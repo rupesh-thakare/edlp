@@ -1,6 +1,6 @@
 import csv
 
-def update_category(catalog_file, db, Catalog):
+def update_category(catalog_file, db, Category):
     with open(catalog_file, mode='r') as catalog_file:
         csv_reader = csv.DictReader(catalog_file)
         for record in csv_reader:
