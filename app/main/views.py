@@ -6,6 +6,7 @@ from .. import db
 from ..models import Category, ProductInventory, Orders, Catalog
 from datetime import datetime
 import pytz
+import csv
 
 india_timezone = pytz.timezone('Asia/Kolkata')
 
@@ -44,9 +45,19 @@ def submit_order():
     if form.validate_on_submit():
         # parse form
         products = request.form.getlist('product')
-        db.session.add_all([
-            Orders(user_id=current_user.shop_id, date_created=get_aware_current_datetime(), pid=pid) for pid in products
-        ])
-        db.session.commit()
+        try:
+            db.session.add_all([
+                Orders(user_id=current_user.shop_id, date_created=get_aware_current_datetime(), pid=pid) for pid in products
+            ])
+            db.session.commit()
+        except Exception as e:
+            db.session.rollback()
+            date_now = get_aware_current_datetime()
+            date_for_file = f'{date_now.year}-{date_now.month}-{date_now.day}-{date_now.hour}-{date_now.minute}'
+            with open(f'missed-orders/missed-orders-{date_for_file}.csv', 'a+', newline='\n', encoding='utf-8') as f:
+                fields = ['user_id', 'date_created', 'pid']
+                writer = csv.DictWriter(f, fieldnames=fields)
+                for pid in products:
+                    writer.writerow(dict(user_id=current_user.shop_id, date_created=date_now, pid=pid))
         return redirect(url_for('main.category'))
     return redirect(url_for('main.category'))
