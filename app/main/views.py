@@ -47,7 +47,7 @@ def submit_order():
         products = request.form.getlist('product')
         try:
             db.session.add_all([
-                Oders(user_id=current_user.shop_id, date_created=get_aware_current_datetime(), pid=pid) for pid in products
+                Orders(user_id=current_user.shop_id, date_created=get_aware_current_datetime(), pid=pid) for pid in products
             ])
             db.session.commit()
         except Exception as e:
