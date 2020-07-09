@@ -47,7 +47,7 @@ def submit_order():
         products = request.form.getlist('product')
         try:
             db.session.add_all([
-                Orders(user_id=current_user.shop_id, date_created=get_aware_current_datetime(), pid=pid) for pid in products
+                Oders(user_id=current_user.shop_id, date_created=get_aware_current_datetime(), pid=pid) for pid in products
             ])
             db.session.commit()
         except Exception as e:
@@ -58,6 +58,6 @@ def submit_order():
                 fields = ['user_id', 'date_created', 'pid']
                 writer = csv.DictWriter(f, fieldnames=fields)
                 for pid in products:
-                    writer.writerow(dict(user_id=current_user.shop_id, date_created=date_now, pid=pid))
+                    writer.writerow(dict(user_id=current_user.shop_id, date_created=date_for_file, pid=pid))
         return redirect(url_for('main.category'))
     return redirect(url_for('main.category'))
