@@ -7,9 +7,12 @@ def db_init(db):
 
 
 def db_init_data(db):
-    db.session.add_all(get_users())
-    db.session.add_all(get_categories())
-    db.session.commit()
+    try:
+        db.session.add_all(get_users())
+        db.session.add_all(get_categories())
+        db.session.commit()
+    except:
+        db.session.rollback()
 
 
 def get_users():
