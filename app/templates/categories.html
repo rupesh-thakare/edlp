@@ -22,3 +22,24 @@
     </div>
 
 {% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+      const searchCatalogInput = document.getElementById('search-catalog-input');
+      searchCatalogInput.focus()
+      searchCatalogInput.selectionStart = searchCatalogInput.selectionEnd = searchCatalogInput.value.length;
+      let timeout = null;
+      const searchForm = document.getElementById('search-form');
+      searchCatalogInput.addEventListener('input', (event) => {
+          clearTimeout(timeout);
+          const target = event.target;
+          if (target.value.length > 2) {
+              timeout = setTimeout((str) => {
+                      searchForm.submit();
+                  },
+                  400, target.value)
+          }
+      })
+  </script>
+{% endblock %}
