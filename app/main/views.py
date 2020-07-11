@@ -109,5 +109,7 @@ def get_matched_data(search_string):
             for search_term in search_terms
         ]
         return Catalog.query.filter(and_(*and_filter_on_search_terms)).all()
+    else:
+        return []
 
 
