@@ -16,7 +16,7 @@ def login():
             login_user(user, remember=True)
             next = request.args.get('next')
             if next is None or not next.startswith('/'):
-                next = url_for('main.category')
+                next = url_for('main.search')
             return redirect(next)
         flash('Invalid email or password.')
     return render_template('auth/login.html', form=form)

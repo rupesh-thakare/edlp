@@ -13,6 +13,7 @@ def update_category(catalog_file, db, Category):
                     ))
                     db.session.commit()
                 except Exception as e:
+                    db.session.rollback()
                     print(e)
 
 
@@ -34,4 +35,5 @@ def update_catalog(catalog_file, db, Catalog):
                     ))
                     db.session.commit()
                 except Exception as e:
+                    db.session.rollback()
                     print(e)
