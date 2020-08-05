@@ -33,4 +33,8 @@ def create_app():
     from .auth import auth as auth_blueprint
     app.register_blueprint(auth_blueprint, url_prefix='/auth')
 
+    from .pos_logging import pos as pos_blueprint
+    app.register_blueprint(pos_blueprint, url_prefix='/pos')
+    csrf.exempt(pos_blueprint)
+
     return app
