@@ -1,7 +1,43 @@
-{% extends "base.html" %}
-
-{% block page_content %}
-<div class="page-header">
-    <h1>Hello</h1>
-</div>
-{% endblock %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zaroor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home-styles.css') }}">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+  <nav>
+    <p class="site-logo"><a href="index.html">zaroor</a></p>
+    <ul class="main-nav">
+      <li><a href="{{ url_for('main.search') }}">login</a></li>
+    </ul>
+  </nav>
+  <div class="hero-text-box">
+    <h1>Welcome to the new era of modern trade</h1>
+    <p class="subheading">Faster, Higher, Stronger</p>
+  </div>
+</header>
+<section class="section-about-us">
+  <h2 class="section-heading">About us</h2>
+  <div class="about-us">
+    <div class="about-us-feature">
+      <h3 class="feature-heading">What</h3>
+      <p>Zaroor, our trademarked retail solutions,  aims to transform existing Kirana shops into Just In Time inventory enabled modern convenience stores. This will truly bring modern retail in nooks and corners of India </p>
+    </div>
+    <div class="about-us-feature">
+      <h3 class="feature-heading">How</h3>
+      <p>Using technology, analytics and automation, s-mart will convert general trades in to modern trades. Technology will help in creating customer delight via personalized offers, hassle-free ordering. Analytics will help in JIT inventory.  Automation will help in managing complex operations.</p>
+    </div>
+    <div class="about-us-feature">
+      <h3 class="feature-heading">Why</h3>
+      <p>General trade kirana stores are fighting  proverbial David vs Goliath battle against well funded, large, modern trade companies. We, at s-mart, believe although local shops have great sales skills they need help on shop operations. We enable them to fight and win this battle.  </p>
+    </div>
+  </div>
+</section>
+</body>
+</html>
