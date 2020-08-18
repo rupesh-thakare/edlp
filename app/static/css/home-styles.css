@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/store-bg-2.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding: 0 1em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.site-logo {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.main-nav li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: white;
+    padding: 0.2em 0;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.hero-text-box {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.hero-text-box .subheading {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+.section-about-us {
+
+}
+
+section .section-heading {
+    font-size: 2em;
+    text-align: center;
+}
+
+section .section-heading:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5em 1em;
+    text-align: justify;
+}
+
+.about-us-feature {
+    width: 100%;
+    line-height: 140%;
+}
+
+.about-us-feature + .about-us-feature {
+    margin-top: 2em;
+}
+
+.about-us-feature .feature-heading {
+    margin-bottom: 0.4em;
+}
+
+
+@media screen and (min-width: 769px) {
+     header {
+         padding: 0 2em;
+     }
+
+    .hero-text-box {
+        padding: 0 3em;
+    }
+
+    .about-us {
+        flex-wrap: initial;
+        padding: 3em 4em;
+        justify-content: space-evenly;
+    }
+
+    .about-us-feature {
+        width: 25%;
+    }
+
+    .about-us-feature + .about-us-feature {
+        margin-top: 0;
+    }
+
+    section {
+        padding: 4em 0;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        font-size: 24px;
+    }
+
+    .hero-text-box h1 {
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    body {
+
+    }
+
+    header {
+        padding: 0 8em;
+    }
+
+    .hero-text-box {
+        padding: 0 8em;
+    }
+
+    .hero-text-box h1 {
+        font-size: 2.5em;
+    }
+}
