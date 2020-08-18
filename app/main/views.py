@@ -1,11 +1,11 @@
 from flask import render_template, url_for, redirect, request, jsonify
-from sqlalchemy import and_
+from sqlalchemy import and_, func
 from . import main
 from flask_login import login_required, current_user
 from .forms import CSRFForm, SearchForm
 from .. import db
 from ..models import Category, ProductInventory, Orders, Catalog
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import csv
 
@@ -39,6 +39,13 @@ def product(category_id):
     products = category.products
     form = CSRFForm()
     return render_template('products.html', category=category, products=products, form=form)
+
+
+@main.route('/downloadorder')
+@login_required
+def download_orders():
+    orderList = Orders.query.filter(func.DATE(Orders.date_created) > ((datetime.utcnow() - timedelta(days=3))))
+    return render_template('view_order.html', orders=orderList)
 
 
 @main.route('/submit-order', methods=['post'])

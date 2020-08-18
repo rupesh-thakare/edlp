@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}EDLP - Displaying orders {% endblock %}
+
+{% block page_content %}
+    <div class="page-header">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Date created</th>
+                <th>Product Id</th>
+                <th>shop ID</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for order in orders %}
+                <tr>
+                    <td>{{ order.date_created }}</td>
+                    <td> {{ order.pid }}</td>
+                    <td>{{ order.user_id }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
