@@ -49,3 +49,12 @@ body {
     justify-content: center;
     width: 100%;
 }
+
+.qty-input {
+    display: none;
+    width: 20%;
+}
+
+.qty-input.shown {
+    display: initial;
+}

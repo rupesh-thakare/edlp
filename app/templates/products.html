@@ -13,10 +13,14 @@
 {#          {% if product.inventory.inventory > 0 %}#}
             <div class="field panel-block product-panel-block">
               <label class="checkbox" style="display: block">
-                <input multiple name="product" product.product_id type="checkbox" value={{ product.product_id }}>
+                <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
                 <span>{{ product.description }}</span>
               </label>
               <button class="button is-static">Rs {{ product.mrp }}</button>
+                <label class="label qty-input">
+                    <span>Qty</span>
+                    <input required type="number" step="1" min="0" name="product-qty-{{ product.product_id }}" class="input" value="0">
+                </label>
             </div>
 {#          {% endif %}#}
         {% endfor %}
@@ -33,4 +37,21 @@
       </div>
     </form>
   </div>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script>
+        const form = document.querySelector('form');
+        form.addEventListener('change', (ev) => {
+            if (ev.target.classList.contains('product-input-check')) {
+                let inputBox = ev.target.closest('.panel-block').querySelector('.qty-input');
+                if (ev.target.checked) {
+                    inputBox.classList.add('shown');
+                } else {
+                    inputBox.classList.remove('shown');
+                }
+            }
+        })
+    </script>
 {% endblock %}

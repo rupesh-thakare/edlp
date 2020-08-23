@@ -48,6 +48,7 @@ class Orders(db.Model):
     user_id = db.Column(db.String(64), db.ForeignKey('users.shop_id'))
     date_created = db.Column(db.DateTime)
     pid = db.Column(db.String(64), db.ForeignKey('catalog.product_id'))
+    quantity = db.Column(db.Integer, default=0)
 
 
 @login_manager.user_loader
