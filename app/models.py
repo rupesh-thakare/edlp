@@ -53,4 +53,8 @@ class Orders(db.Model):
 
 @login_manager.user_loader
 def load_user(shop_id):
-    return User.query.get(shop_id)
+    try:
+        return User.query.get(shop_id)
+    except Exception as e:
+        db.session.rollback()
+        return None
