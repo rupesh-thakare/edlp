@@ -11,7 +11,7 @@ def db_save(object: 'list or db model'):
     try:
         db_add(object)
         db.session.commit()
-    except:
+    except Exception as e:
         db.session.rollback()
 
 
