@@ -1,8 +1,10 @@
 from flask import render_template, url_for, redirect, request, jsonify
+from flask_wtf import FlaskForm
 from sqlalchemy import and_, func
 from . import main
 from flask_login import login_required, current_user
 from .forms import CSRFForm, SearchForm
+from .utils import db_save, find_new_categories, find_new_catalog_entries
 from .. import db
 from ..models import Category, ProductInventory, Orders, Catalog
 from datetime import datetime, timedelta
@@ -123,4 +125,20 @@ def get_matched_data(search_string):
     else:
         return []
 
+
+@main.route('/upload', methods=['get', 'post'])
+@login_required
+def upload():
+    form = FlaskForm()
+    if form.validate_on_submit():
+        action = request.form.get('action')
+        file = request.files.get('file')
+        if action == 'category':
+            db_save(find_new_categories(file))
+        elif action == 'catalog':
+            db_save(find_new_catalog_entries(file))
+        else:
+            pass
+        return redirect(url_for('main.upload'))
+    return render_template('upload.html', form=form)
 

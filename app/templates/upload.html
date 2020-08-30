@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block page_content %}
+  <div class="section">
+    <div class="container">
+      <form action="" method="post" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <label for="">
+          Category
+          <input type="file" required name="file">
+        </label>
+        <input type="hidden" name="action" value="category">
+        <button>Upload</button>
+      </form>
+    </div>
+    <div class="container">
+      <form action="" method="post" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <label for="">
+          Catalog
+          <input type="file" required name="file">
+        </label>
+        <input type="hidden" name="action" value="catalog">
+        <button>Upload</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}
