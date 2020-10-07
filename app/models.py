@@ -29,7 +29,7 @@ class Catalog(db.Model):
     product_id = db.Column(db.String(128), primary_key=True)
     brand = db.Column(db.String(128))
     description = db.Column(db.String(1024))
-    mrp = db.Column(db.Integer)
+    mrp = db.Column(db.Float)
     category_id = db.Column(db.String(64), db.ForeignKey('categories.category_id'))
     size = db.Column(db.String(128))
     unit = db.Column(db.String(64))
@@ -49,6 +49,17 @@ class Orders(db.Model):
     date_created = db.Column(db.DateTime)
     pid = db.Column(db.String(64), db.ForeignKey('catalog.product_id'))
     quantity = db.Column(db.Integer, default=0)
+
+
+class UploadErrors(db.Model):
+    __tablename__ = 'upload_errors'
+
+    id = db.Column(db.Integer, primary_key=True)
+    datetime = db.Column(db.DATETIME)
+
+    model = db.Column(db.String(64))
+    details = db.Column(db.TEXT)
+    error = db.Column(db.TEXT)
 
 
 @login_manager.user_loader
