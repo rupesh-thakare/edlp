@@ -1,6 +1,13 @@
 from app import db
 import csv
-from app.models import Category, Catalog
+from app.models import Category, Catalog, ProductInventory
+
+
+def strip(x):
+    if isinstance(x, str):
+        return x.strip()
+    else:
+        return x
 
 
 def db_save(object: 'list or db model'):
@@ -42,3 +49,63 @@ def find_new_catalog_entries(file):
                 unit=record['unit']
             ))
     return new_entries
+
+
+def add_categories_from_google_sheet(values):
+    header = values[0]
+    errors = []
+    for record in values[1:]:
+        if not Category.query.get(strip(record[0])):
+            try:
+                db_save(Category(
+                    category_id=strip(record[0]),
+                    category_name=strip(record[1])
+                ))
+            except Exception as e:
+                errors.append({'record': record, 'exception': e})
+
+    return errors
+
+
+def add_catalog_from_google_sheet(values):
+    header = values[0]
+    errors = []
+    for record in values[1:]:
+        if not Catalog.query.get(strip(record[0])):
+            try:
+                db_save(Catalog(
+                    product_id=strip(record[0]),
+                    brand=strip(record[1]),
+                    description=strip(record[2]),
+                    mrp=float(strip(record[3])),
+                    category_id=strip(record[4]),
+                    size=strip(record[5]),
+                    unit=strip(record[6])
+                ))
+            except Exception as e:
+                errors.append({'record': record, 'exception': e})
+
+    return errors
+
+
+def add_inventory_from_google_sheet(values):
+    header = values[0]
+    errors = []
+    ProductInventory.query.delete()
+
+    try:
+        db.session.commit()
+    except Exception as e:
+        errors.append({'record': None, 'exception': e})
+        return errors
+
+    for record in values[1:]:
+        try:
+            db_save(ProductInventory(
+                product_id=strip(record[0]),
+                inventory=int(strip(record[1]))
+            ))
+        except Exception as e:
+            errors.append({'record': record, 'exception': e})
+
+    return errors

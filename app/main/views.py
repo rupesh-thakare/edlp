@@ -1,12 +1,19 @@
+import os
+import pickle
+
 from flask import render_template, url_for, redirect, request, jsonify
 from flask_wtf import FlaskForm
+from google.auth.transport.requests import Request
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
 from sqlalchemy import and_, func
 from . import main
 from flask_login import login_required, current_user
 from .forms import CSRFForm, SearchForm
-from .utils import db_save, find_new_categories, find_new_catalog_entries
+from .utils import db_save, find_new_categories, find_new_catalog_entries, add_categories_from_google_sheet, \
+    add_catalog_from_google_sheet, add_inventory_from_google_sheet
 from .. import db
-from ..models import Category, ProductInventory, Orders, Catalog
+from ..models import Category, ProductInventory, Orders, Catalog, UploadErrors
 from datetime import datetime, timedelta
 import pytz
 import csv
@@ -125,20 +132,83 @@ def get_matched_data(search_string):
     else:
         return []
 
+#
+# @main.route('/upload', methods=['get', 'post'])
+# @login_required
+# def upload():
+#     form = FlaskForm()
+#     if form.validate_on_submit():
+#         action = request.form.get('action')
+#         file = request.files.get('file')
+#         if action == 'category':
+#             db_save(find_new_categories(file))
+#         elif action == 'catalog':
+#             db_save(find_new_catalog_entries(file))
+#         else:
+#             pass
+#         return redirect(url_for('main.upload'))
+#     return render_template('upload.html', form=form)
 
-@main.route('/upload', methods=['get', 'post'])
+
+@main.route('/upload')
 @login_required
 def upload():
-    form = FlaskForm()
-    if form.validate_on_submit():
-        action = request.form.get('action')
-        file = request.files.get('file')
-        if action == 'category':
-            db_save(find_new_categories(file))
-        elif action == 'catalog':
-            db_save(find_new_catalog_entries(file))
-        else:
-            pass
-        return redirect(url_for('main.upload'))
-    return render_template('upload.html', form=form)
+    return render_template('upload.html')
 
+
+@main.route('/google_sheets_upload')
+@login_required
+def google_sheets_upload():
+    creds = None
+
+    SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+    SPREADSHEET_ID = '1NPMXQxzw1D1AfhDpNJvRc8fmREGY35oCTEdFO3kjaQs'
+    SHEETS = [{'name': 'category', 'action': add_categories_from_google_sheet},
+              {'name': 'catalog', 'action': add_catalog_from_google_sheet},
+              {'name': 'inventory', 'action': add_inventory_from_google_sheet}]
+
+    UploadErrors.query.delete()
+    db.session.commit()
+
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                'credentials.json',
+                SCOPES
+            )
+            creds = flow.run_local_server(port=0)
+        with open('token.pickle', 'wb') as token:
+            pickle.dump(creds, token)
+            # return render_template('upload.html', message='Credentials invalid. Contact admin')
+
+    service = build('sheets', 'v4', credentials=creds)
+
+    sheet = service.spreadsheets()
+    for sheet_data in SHEETS:
+        sheet_result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,
+                                          range=sheet_data['name']).execute()
+        print(sheet_result)
+        values = sheet_result.get('values', [])
+
+        if not values:
+            return render_template('upload.html', message=f'No data found in {sheet}')
+        else:
+            errors = sheet_data['action'](values)
+            sheet_data['errors'] = errors
+            db_save([
+                UploadErrors(
+                    datetime=datetime.now(),
+                    model=sheet_data['name'],
+                    details=str(error['record']),
+                    error=str(error['exception'])
+                )
+                for error in errors
+            ])
+
+    return render_template('upload.html', message=f'Successfully uploaded sheets data', sheet_data=SHEETS)

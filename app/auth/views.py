@@ -14,11 +14,12 @@ def login():
         user = User.query.filter_by(shop_id=form.shop_id.data.lower()).first()
         if user is not None and user.verify_password(form.password.data):
             login_user(user, remember=True)
-            next = request.args.get('next')
+            next = request.form.get('next')
             if next is None or not next.startswith('/'):
                 next = url_for('main.search')
             return redirect(next)
-        flash('Invalid email or password.')
+        else:
+            return redirect(url_for('auth.login', next=request.form.get('next', '')))
     return render_template('auth/login.html', form=form)
 
 

@@ -1,28 +1,29 @@
 {% extends 'base.html' %}
 
+
+
 {% block page_content %}
-  <div class="section">
-    <div class="container">
-      <form action="" method="post" enctype="multipart/form-data">
-        {{ form.hidden_tag() }}
-        <label for="">
-          Category
-          <input type="file" required name="file">
-        </label>
-        <input type="hidden" name="action" value="category">
-        <button>Upload</button>
-      </form>
-    </div>
-    <div class="container">
-      <form action="" method="post" enctype="multipart/form-data">
-        {{ form.hidden_tag() }}
-        <label for="">
-          Catalog
-          <input type="file" required name="file">
-        </label>
-        <input type="hidden" name="action" value="catalog">
-        <button>Upload</button>
-      </form>
-    </div>
+<div class="section">
+  <a class="button is-primary" href="{{ url_for('main.google_sheets_upload') }}">Upload</a>
+  <div>
+    {% if message %}
+    {{ message }}
+    {% endif %}
   </div>
+  {% if sheet_data %}
+  <div>
+    <h2>Errors found</h2>
+
+    {% for sheet in sheet_data %}
+    <h3>{{ sheet['name'] }}</h3>
+    <ul>
+      {% for e in sheet['errors'] %}
+      <li>{{ e['record'] }} - {{ e['exception'] }}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+</div>
 {% endblock %}
