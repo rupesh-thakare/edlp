@@ -27,7 +27,7 @@
         {% endif %}
       </p>
       {% for product in search_result | sort(attribute = 'description') %}
-      {% if product.inventory.inventory > 0 %}
+{#      {% if product.inventory.inventory > 0 %}#}
       <div class="field panel-block product-panel-block">
         <label class="checkbox" style="display: block">
           <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
@@ -40,7 +40,7 @@
                  value="0">
         </label>
       </div>
-      {% endif %}
+{#      {% endif %}#}
       {% endfor %}
 
       {% if search_result|length > 0 %}
