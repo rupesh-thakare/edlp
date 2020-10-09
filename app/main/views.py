@@ -193,7 +193,6 @@ def google_sheets_upload():
     for sheet_data in SHEETS:
         sheet_result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,
                                           range=sheet_data['name']).execute()
-        print(sheet_result)
         values = sheet_result.get('values', [])
 
         if not values:

@@ -10,7 +10,7 @@
           {{ category.category_name }}
         </p>
         {% for product in products | sort(attribute = 'description') %}
-{#          {% if product.inventory.inventory > 0 %}#}
+          {% if product.inventory.inventory > 0 %}
             <div class="field panel-block product-panel-block">
               <label class="checkbox" style="display: block">
                 <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
@@ -22,7 +22,7 @@
                     <input required type="number" step="1" min="0" name="product-qty-{{ product.product_id }}" class="input" value="0">
                 </label>
             </div>
-{#          {% endif %}#}
+          {% endif %}
         {% endfor %}
 
         {% if products|length > 0 %}
