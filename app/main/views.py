@@ -46,6 +46,7 @@ def category():
 def product(category_id):
     category = Category.query.filter(Category.category_id == category_id).first()
     products = category.products
+    products = [p for p in products if p.inventory and p.inventory.inventory > 0]
     form = CSRFForm()
     return render_template('products.html', category=category, products=products, form=form)
 
