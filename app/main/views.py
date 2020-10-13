@@ -119,6 +119,7 @@ def search():
     if form.validate_on_submit():
         q = form.q.data
         search_result = get_matched_data(q)
+        search_result = [s for s in search_result if s.inventory and s.inventory.inventory > 0]
     return render_template('search.html', search_result=search_result, form=form)
 
 
