@@ -13,3 +13,5 @@ pos-data/post-data*
 
 token.pickle
 credentials.json
+
+instance/settings.py
