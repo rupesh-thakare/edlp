@@ -1,5 +1,6 @@
 import os
 import pickle
+from pprint import pprint
 
 from flask import render_template, url_for, redirect, request, jsonify
 from flask_wtf import FlaskForm
@@ -7,13 +8,15 @@ from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from sqlalchemy import and_, func
+from werkzeug.exceptions import InternalServerError
+
 from . import main
 from flask_login import login_required, current_user
 from .forms import CSRFForm, SearchForm
 from .utils import db_save, find_new_categories, find_new_catalog_entries, add_categories_from_google_sheet, \
-    add_catalog_from_google_sheet, add_inventory_from_google_sheet
+    add_catalog_from_google_sheet, add_inventory_from_google_sheet, get_google_sheets_credentials
 from .. import db
-from ..models import Category, ProductInventory, Orders, Catalog, UploadErrors
+from ..models import Category, ProductInventory, Orders, Catalog, UploadErrors, ShopSalesData
 from datetime import datetime, timedelta
 import pytz
 import csv
@@ -134,23 +137,6 @@ def get_matched_data(search_string):
     else:
         return []
 
-#
-# @main.route('/upload', methods=['get', 'post'])
-# @login_required
-# def upload():
-#     form = FlaskForm()
-#     if form.validate_on_submit():
-#         action = request.form.get('action')
-#         file = request.files.get('file')
-#         if action == 'category':
-#             db_save(find_new_categories(file))
-#         elif action == 'catalog':
-#             db_save(find_new_catalog_entries(file))
-#         else:
-#             pass
-#         return redirect(url_for('main.upload'))
-#     return render_template('upload.html', form=form)
-
 
 @main.route('/upload')
 @login_required
@@ -213,3 +199,87 @@ def google_sheets_upload():
             ])
 
     return render_template('upload.html', message=f'Successfully uploaded sheets data', sheet_data=SHEETS)
+
+
+@main.route('/shop_data_export')
+def shop_data_export():
+    google_sheets_credentials = get_google_sheets_credentials()
+    if not google_sheets_credentials:
+        raise InternalServerError('Google sheets credentials invalid')
+
+    SPREADSHEET_ID = '1EVAHeUcqszrtAftpv8jN3lJtrBHnCM-F2MNej1Izy7o'
+    service = build('sheets', 'v4', credentials=google_sheets_credentials)
+
+    workbook = service.spreadsheets()
+    workbook_data = workbook.get(spreadsheetId=SPREADSHEET_ID).execute()
+
+    new_shop_ids = db.session.query(ShopSalesData.shop_id.distinct()).filter(
+        ShopSalesData.date > (datetime.today().date() - timedelta(days=10))
+    ).all()
+    new_shop_ids = [i[0] for i in new_shop_ids]
+
+    previous_sheet_delete_requests = [
+        {
+            "deleteSheet": {
+                "sheetId": sheet['properties']['sheetId']
+            }
+         }
+        for sheet in workbook_data['sheets']
+        if sheet['properties']['title'] != 'the-one-you-cant-delete'
+    ]
+    add_new_sheet_requests = [
+        {
+            "addSheet": {
+                "properties": {
+                    "title": sheet_name,
+                }
+            }
+        }
+        for sheet_name in new_shop_ids
+    ]
+
+    requests = previous_sheet_delete_requests + add_new_sheet_requests
+
+    batch_update_spreadsheet_request_body = {
+        'requests': requests
+    }
+
+    response = workbook.batchUpdate(
+        spreadsheetId=SPREADSHEET_ID,
+        body=batch_update_spreadsheet_request_body
+    ).execute()
+
+    shop_sales_data = ShopSalesData.query.filter(
+        ShopSalesData.shop_id.in_(new_shop_ids),
+        ShopSalesData.date > (datetime.today().date() - timedelta(days=10))
+    ).all()
+
+    sales_divided_by_shop = {}
+
+    for sales_data in shop_sales_data:
+        shop_data = sales_divided_by_shop.setdefault(
+            sales_data.shop_id,
+            [['shop_id', 'date', 'barcode', 'product_description', 'quantity', 'amount']]
+        )
+        shop_data.append([sales_data.shop_id, str(sales_data.date), sales_data.barcode,
+                           sales_data.product_description, sales_data.sales_quantity, sales_data.amount])
+
+    sales_data_for_sheet_body = [
+        {
+            'range': key,
+            'values': sales_divided_by_shop[key]
+        }
+        for key in sales_divided_by_shop
+    ]
+
+    sheet_request_body = {
+        'valueInputOption': 'USER_ENTERED',
+        'data': sales_data_for_sheet_body
+    }
+
+    workbook.values().batchUpdate(
+        spreadsheetId=SPREADSHEET_ID,
+        body=sheet_request_body
+    ).execute()
+
+    return {'result': 'success'}

@@ -62,6 +62,35 @@ class UploadErrors(db.Model):
     error = db.Column(db.TEXT)
 
 
+class ShopSalesData(db.Model):
+    __tablename_ = 'shop_sales_data'
+
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.DATE)
+    timestamp = db.Column(db.DATETIME)
+    shop_id = db.Column(db.String(64))
+    bill_number = db.Column(db.String(64))
+    barcode = db.Column(db.String(64))
+    product_description = db.Column(db.String(1024))
+    sales_quantity = db.Column(db.Integer)
+    amount = db.Column(db.Float)
+
+
+class ShopSalesDataLog(db.Model):
+    __tablename_ = 'shop_sales_data_log'
+
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.DATE)
+    timestamp = db.Column(db.DATETIME)
+    shop_id = db.Column(db.String(64))
+    bill_number = db.Column(db.String(64))
+    barcode = db.Column(db.String(64))
+    product_description = db.Column(db.String(1024))
+    sales_quantity = db.Column(db.Integer)
+    amount = db.Column(db.Float)
+    created_timestamp = db.Column(db.DATETIME)
+
+
 @login_manager.user_loader
 def load_user(shop_id):
     try:

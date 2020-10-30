@@ -1,3 +1,8 @@
+import os
+from google.auth.transport.requests import Request
+from google_auth_oauthlib.flow import InstalledAppFlow
+import pickle
+
 from app import db
 import csv
 from app.models import Category, Catalog, ProductInventory
@@ -109,3 +114,27 @@ def add_inventory_from_google_sheet(values):
             errors.append({'record': record, 'exception': e})
 
     return errors
+
+
+def get_google_sheets_credentials():
+    creds = None
+
+    SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                'credentials.json',
+                SCOPES
+            )
+            creds = flow.run_local_server(port=0)
+        with open('token.pickle', 'wb') as token:
+            pickle.dump(creds, token)
+
+    return creds
