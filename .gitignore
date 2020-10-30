@@ -10,3 +10,6 @@ pos-data/post-data*
 
 *.sqlite
 .env
+
+token.pickle
+credentials.json
