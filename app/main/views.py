@@ -26,7 +26,7 @@ DEFAULT_ROUTE = 'main.search'
 
 
 def get_aware_current_datetime():
-    return india_timezone.localize(datetime.now())
+    return datetime.now(india_timezone)
 
 
 @main.route('/')
@@ -190,7 +190,7 @@ def google_sheets_upload():
             sheet_data['errors'] = errors
             db_save([
                 UploadErrors(
-                    datetime=datetime.now(),
+                    datetime=datetime.now(pytz.timezone('Asia/Kolkata')),
                     model=sheet_data['name'],
                     details=str(error['record']),
                     error=str(error['exception'])
