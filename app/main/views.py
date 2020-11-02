@@ -259,9 +259,9 @@ def shop_data_export():
     for sales_data in shop_sales_data:
         shop_data = sales_divided_by_shop.setdefault(
             sales_data.shop_id,
-            [['shop_id', 'date', 'barcode', 'product_description', 'quantity', 'amount']]
+            [['shop_id', 'date', 'bill_number', 'barcode', 'product_description', 'quantity', 'amount']]
         )
-        shop_data.append([sales_data.shop_id, str(sales_data.date), sales_data.barcode,
+        shop_data.append([sales_data.shop_id, str(sales_data.date), sales_data.bill_number, sales_data.barcode,
                            sales_data.product_description, sales_data.sales_quantity, sales_data.amount])
 
     sales_data_for_sheet_body = [
