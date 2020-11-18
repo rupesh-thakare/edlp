@@ -2,7 +2,7 @@ import os
 import click
 from flask_migrate import Migrate
 from app import create_app, db
-from app.models import User, Category, ProductInventory, Catalog, Orders
+from app.models import User, Category, ProductInventory, Catalog, Orders, ShopSalesData
 
 app = create_app()
 migrate = Migrate(app, db)
@@ -15,7 +15,8 @@ def make_shell_context():
                 Category=Category,
                 Catalog=Catalog,
                 ProductInventory=ProductInventory,
-                Orders=Orders)
+                Orders=Orders,
+                ShopSalesData=ShopSalesData)
 
 
 @app.cli.command()

@@ -50,11 +50,6 @@ def shop_data():
         db_save(sales_data_log)
         db_save(sales_data)
     except Exception as e:
-        # try:
-        #     now = datetime.now(ist_tz).strftime('%Y-%m-%d %H-%M-%S')
-        #     with open(f'pos-data/post-data-{now}.json', 'w') as file:
-        #         json.dump(request_data, file)
-        # except Exception as e:
         return dict(status='error'), 500
     return dict(status='successful'), 201
 

@@ -213,9 +213,10 @@ def shop_data_export():
     workbook = service.spreadsheets()
     workbook_data = workbook.get(spreadsheetId=SPREADSHEET_ID).execute()
 
-    new_shop_ids = db.session.query(ShopSalesData.shop_id.distinct()).filter(
-        ShopSalesData.date > (datetime.today().date() - timedelta(days=10))
-    ).all()
+    # new_shop_ids = db.session.query(ShopSalesData.shop_id.distinct()).filter(
+    #     ShopSalesData.date > (datetime.today().date() - timedelta(days=10))
+    # ).all()
+    new_shop_ids = db.sesison.query(ShopSalesData.shop_id.distinct()).all()
     new_shop_ids = [i[0] for i in new_shop_ids]
 
     previous_sheet_delete_requests = [
@@ -249,10 +250,11 @@ def shop_data_export():
         body=batch_update_spreadsheet_request_body
     ).execute()
 
-    shop_sales_data = ShopSalesData.query.filter(
-        ShopSalesData.shop_id.in_(new_shop_ids),
-        ShopSalesData.date > (datetime.today().date() - timedelta(days=10))
-    ).all()
+    # shop_sales_data = ShopSalesData.query.filter(
+    #     ShopSalesData.shop_id.in_(new_shop_ids),
+    #     ShopSalesData.date > (datetime.today().date() - timedelta(days=10))
+    # ).all()
+    shop_sales_data = ShopSalesData.query.filter(ShopSalesData.shop_id.in_(new_shop_ids)).all()
 
     sales_divided_by_shop = {}
 
