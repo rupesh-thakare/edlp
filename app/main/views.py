@@ -216,7 +216,7 @@ def shop_data_export():
     # new_shop_ids = db.session.query(ShopSalesData.shop_id.distinct()).filter(
     #     ShopSalesData.date > (datetime.today().date() - timedelta(days=10))
     # ).all()
-    new_shop_ids = db.sesison.query(ShopSalesData.shop_id.distinct()).all()
+    new_shop_ids = db.session.query(ShopSalesData.shop_id.distinct()).all()
     new_shop_ids = [i[0] for i in new_shop_ids]
 
     previous_sheet_delete_requests = [
