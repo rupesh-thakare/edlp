@@ -75,6 +75,15 @@ def add_categories_from_google_sheet(values):
 def add_catalog_from_google_sheet(values):
     header = values[0]
     errors = []
+
+    # clear catalog before uploading new data
+    try:
+        Catalog.query.delete()
+        db.session.commit()
+    except:
+        errors.append({'records': 'all', 'exception': 'could not clear catalog'})
+        return errors
+
     for record in values[1:]:
         if not Catalog.query.get(strip(record[0])):
             try:

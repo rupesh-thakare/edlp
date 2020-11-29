@@ -10,19 +10,20 @@
           {{ category.category_name }}
         </p>
         {% for product in products | sort(attribute = 'description') %}
-{#          {% if product.inventory.inventory > 0 %}#}
-            <div class="field panel-block product-panel-block">
-              <label class="checkbox" style="display: block">
-                <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
-                <span>{{ product.description }}</span>
-              </label>
-              <button class="button is-static">Rs {{ product.mrp }}</button>
-                <label class="label qty-input">
-                    <span>Qty</span>
-                    <input required type="number" step="1" min="0" name="product-qty-{{ product.product_id }}" class="input" value="0">
-                </label>
-            </div>
-{#          {% endif %}#}
+          {#          {% if product.inventory.inventory > 0 %}#}
+          <div class="field panel-block product-panel-block">
+            <label class="checkbox" style="display: block">
+              <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
+              <span>{{ product.description }} - {{ product.size }} {{ product.unit }}</span>
+            </label>
+            <button class="button is-static">Rs {{ product.mrp }}</button>
+            <label class="label qty-input">
+              <span>Qty</span>
+              <input required type="number" step="1" min="0" name="product-qty-{{ product.product_id }}" class="input"
+                     value="0">
+            </label>
+          </div>
+          {#          {% endif %}#}
         {% endfor %}
 
         {% if products|length > 0 %}
@@ -40,18 +41,18 @@
 {% endblock %}
 
 {% block scripts %}
-    {{ super() }}
-    <script>
-        const form = document.querySelector('form');
-        form.addEventListener('change', (ev) => {
-            if (ev.target.classList.contains('product-input-check')) {
-                let inputBox = ev.target.closest('.panel-block').querySelector('.qty-input');
-                if (ev.target.checked) {
-                    inputBox.classList.add('shown');
-                } else {
-                    inputBox.classList.remove('shown');
-                }
-            }
-        })
-    </script>
+  {{ super() }}
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('change', (ev) => {
+      if (ev.target.classList.contains('product-input-check')) {
+        let inputBox = ev.target.closest('.panel-block').querySelector('.qty-input');
+        if (ev.target.checked) {
+          inputBox.classList.add('shown');
+        } else {
+          inputBox.classList.remove('shown');
+        }
+      }
+    })
+  </script>
 {% endblock %}

@@ -1,94 +1,94 @@
 {% extends 'base.html' %}
 
 {% block page_content %}
-<div class="container listing-container mt-5">
-  <form id="search-form" action="/search" method="post">
-    {{ form.hidden_tag() }}
-    <div class="field">
-      <div class="control has-icons-left">
-        {{ form.q(id='search-catalog-input', autofocus='true', class="input", autocomplete='off') }}
-        <span class="icon is-left"><i class="material-icons">search</i></span>
+  <div class="container listing-container mt-5">
+    <form id="search-form" action="/search" method="post">
+      {{ form.hidden_tag() }}
+      <div class="field">
+        <div class="control has-icons-left">
+          {{ form.q(id='search-catalog-input', autofocus='true', class="input", autocomplete='off') }}
+          <span class="icon is-left"><i class="material-icons">search</i></span>
+        </div>
       </div>
-    </div>
-  </form>
-</div>
+    </form>
+  </div>
 
-{#  {% if search_result|length %}#}
-<div class="container listing-container">
-  <form action="{{ url_for('main.submit_order') }}" method="post" class="product-form">
-    {{ form.hidden_tag() }}
-    <div class="panel listing-panel">
-      <p class="panel-heading">
-        Results for:
-        {% if form.q.data %}
-        {{ form.q.data }} ({{ search_result|length }})
+  {#  {% if search_result|length %}#}
+  <div class="container listing-container">
+    <form action="{{ url_for('main.submit_order') }}" method="post" class="product-form">
+      {{ form.hidden_tag() }}
+      <div class="panel listing-panel">
+        <p class="panel-heading">
+          Results for:
+          {% if form.q.data %}
+            {{ form.q.data }} ({{ search_result|length }})
+          {% else %}
+            {{ '' }}
+          {% endif %}
+        </p>
+        {% for product in search_result | sort(attribute = 'description') %}
+          {#      {% if product.inventory.inventory > 0 %}#}
+          <div class="field panel-block product-panel-block">
+            <label class="checkbox" style="display: block">
+              <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
+              <span>{{ product.description }} - {{ product.size }} {{ product.unit }}</span>
+            </label>
+            <button class="button is-static">Rs {{ product.mrp }}</button>
+            <label for="" class="label qty-input">
+              <span>Qty</span>
+              <input type="number" required step="1" min="0" name="product-qty-{{ product.product_id }}" class="input"
+                     value="0">
+            </label>
+          </div>
+          {#      {% endif %}#}
+        {% endfor %}
+
+        {% if search_result|length > 0 %}
+          <div class="panel-block">
+            <button class="button is-link is-fullwidth" type="submit">Save</button>
+          </div>
         {% else %}
-        {{ '' }}
+          <div class="panel-block has-text-centered">
+            <p>No entries found</p>
+          </div>
         {% endif %}
-      </p>
-      {% for product in search_result | sort(attribute = 'description') %}
-{#      {% if product.inventory.inventory > 0 %}#}
-      <div class="field panel-block product-panel-block">
-        <label class="checkbox" style="display: block">
-          <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
-          <span>{{ product.description }}</span>
-        </label>
-        <button class="button is-static">Rs {{ product.mrp }}</button>
-        <label for="" class="label qty-input">
-          <span>Qty</span>
-          <input type="number" required step="1" min="0" name="product-qty-{{ product.product_id }}" class="input"
-                 value="0">
-        </label>
       </div>
-{#      {% endif %}#}
-      {% endfor %}
-
-      {% if search_result|length > 0 %}
-      <div class="panel-block">
-        <button class="button is-link is-fullwidth" type="submit">Save</button>
-      </div>
-      {% else %}
-      <div class="panel-block has-text-centered">
-        <p>No entries found</p>
-      </div>
-      {% endif %}
-    </div>
-  </form>
-</div>
-{#  {% endif %}#}
+    </form>
+  </div>
+  {#  {% endif %}#}
 {% endblock %}
 
 {% block scripts %}
-{{ super() }}
-<script>
-  const searchCatalogInput = document.getElementById('search-catalog-input');
-  searchCatalogInput.focus()
-  searchCatalogInput.selectionStart = searchCatalogInput.selectionEnd = searchCatalogInput.value.length;
-  let timeout = null;
-  const searchForm = document.getElementById('search-form');
-  searchCatalogInput.addEventListener('input', (event) => {
-    clearTimeout(timeout);
-    const target = event.target;
-    if (target.value.length > 2) {
-      timeout = setTimeout((str) => {
-            searchForm.submit();
-          },
-          400, target.value)
-    }
-  })
-
-  const form = document.querySelector('form.product-form');
-  debugger;
-  form.addEventListener('change', (ev) => {
-    console.log(ev);
-    if (ev.target.classList.contains('product-input-check')) {
-      let inputBox = ev.target.closest('.panel-block').querySelector('.qty-input');
-      if (ev.target.checked) {
-        inputBox.classList.add('shown');
-      } else {
-        inputBox.classList.remove('shown');
+  {{ super() }}
+  <script>
+    const searchCatalogInput = document.getElementById('search-catalog-input');
+    searchCatalogInput.focus()
+    searchCatalogInput.selectionStart = searchCatalogInput.selectionEnd = searchCatalogInput.value.length;
+    let timeout = null;
+    const searchForm = document.getElementById('search-form');
+    searchCatalogInput.addEventListener('input', (event) => {
+      clearTimeout(timeout);
+      const target = event.target;
+      if (target.value.length > 2) {
+        timeout = setTimeout((str) => {
+              searchForm.submit();
+            },
+            400, target.value)
       }
-    }
-  })
-</script>
+    })
+
+    const form = document.querySelector('form.product-form');
+    debugger;
+    form.addEventListener('change', (ev) => {
+      console.log(ev);
+      if (ev.target.classList.contains('product-input-check')) {
+        let inputBox = ev.target.closest('.panel-block').querySelector('.qty-input');
+        if (ev.target.checked) {
+          inputBox.classList.add('shown');
+        } else {
+          inputBox.classList.remove('shown');
+        }
+      }
+    })
+  </script>
 {% endblock %}

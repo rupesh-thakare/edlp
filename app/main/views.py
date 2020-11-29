@@ -49,7 +49,6 @@ def category():
 def product(category_id):
     category = Category.query.filter(Category.category_id == category_id).first()
     products = category.products
-    products = [p for p in products if p.inventory and p.inventory.inventory > 0]
     form = CSRFForm()
     return render_template('products.html', category=category, products=products, form=form)
 
@@ -122,7 +121,6 @@ def search():
     if form.validate_on_submit():
         q = form.q.data
         search_result = get_matched_data(q)
-        search_result = [s for s in search_result if s.inventory and s.inventory.inventory > 0]
     return render_template('search.html', search_result=search_result, form=form)
 
 
