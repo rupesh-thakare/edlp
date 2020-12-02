@@ -107,8 +107,7 @@ def search_catalog(q):
             unit=item.unit,
             description=item.description,
             product_id=item.product_id,
-            size=item.size,
-            inventory=dict(inventory=item.inventory.inventory)
+            size=item.size
         ) for item in matched_entries]
     return jsonify(matched_entries_list)
 
