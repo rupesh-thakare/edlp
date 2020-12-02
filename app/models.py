@@ -47,7 +47,7 @@ class Orders(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     user_id = db.Column(db.String(64), db.ForeignKey('users.shop_id'))
     date_created = db.Column(db.DateTime)
-    pid = db.Column(db.String(64), db.ForeignKey('catalog.product_id'))
+    pid = db.Column(db.String(64))
     quantity = db.Column(db.Integer, default=0)
 
 
