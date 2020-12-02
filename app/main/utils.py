@@ -105,12 +105,12 @@ def add_catalog_from_google_sheet(values):
 def add_inventory_from_google_sheet(values):
     header = values[0]
     errors = []
-    ProductInventory.query.delete()
 
     try:
+        ProductInventory.query.delete()
         db.session.commit()
     except Exception as e:
-        errors.append({'record': None, 'exception': e})
+        errors.append({'record': 'could not clear inventory', 'exception': e})
         return errors
 
     for record in values[1:]:
