@@ -80,8 +80,8 @@ def add_catalog_from_google_sheet(values):
     try:
         Catalog.query.delete()
         db.session.commit()
-    except:
-        errors.append({'records': 'all', 'exception': 'could not clear catalog'})
+    except Exception as e:
+        errors.append({'records': 'all', 'exception': f'could not clear catalog. {str(e)}'})
         return errors
 
     for record in values[1:]:
