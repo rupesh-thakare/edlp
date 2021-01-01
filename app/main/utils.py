@@ -94,7 +94,8 @@ def add_catalog_from_google_sheet(values):
                     mrp=float(strip(record[3])),
                     category_id=strip(record[4]),
                     size=strip(record[5]),
-                    unit=strip(record[6])
+                    unit=strip(record[6]),
+                    discount=float(strip(record[7]))
                 ))
             except Exception as e:
                 errors.append({'record': record, 'exception': e})

@@ -48,9 +48,18 @@ def category():
 @login_required
 def product(category_id):
     category = Category.query.filter(Category.category_id == category_id).first()
-    products = category.products
+    # products = category.products
+    products = Catalog.query.filter(Catalog.category_id == category_id, Catalog.discount == 0).order_by(Catalog.description.asc()).all()
+    discounted_products = Catalog.query.filter(Catalog.category_id == category_id, Catalog.discount > 0)\
+        .order_by(Catalog.description.asc()).all()
+    discounted_products = list(map(set_discounted_price, discounted_products))
     form = CSRFForm()
-    return render_template('products.html', category=category, products=products, form=form)
+    return render_template('products.html', category=category, products=products, form=form, discounted_products=discounted_products)
+
+
+def set_discounted_price(product):
+    product.discounted_price = round(product.mrp * (1 - product.discount), 2)
+    return product
 
 
 @main.route('/downloadorder')
@@ -67,6 +76,7 @@ def submit_order():
     if form.validate_on_submit():
         # parse form
         products = request.form.getlist('product')
+        next = request.form.get('next', 'category')
         try:
             db.session.add_all([
                 Orders(user_id=current_user.shop_id,
@@ -85,6 +95,8 @@ def submit_order():
                 writer = csv.DictWriter(f, fieldnames=fields)
                 for pid in products:
                     writer.writerow(dict(user_id=current_user.shop_id, date_created=date_for_file, pid=pid))
+    if next == 'discount':
+        return redirect(url_for('main.discounted_items_home'))
     return redirect(url_for('main.category'))
 
 
@@ -117,10 +129,14 @@ def search_catalog(q):
 def search():
     form = SearchForm()
     search_result = []
+    result = {'discounted_products': [], 'products': []}
     if form.validate_on_submit():
         q = form.q.data
         search_result = get_matched_data(q)
-    return render_template('search.html', search_result=search_result, form=form)
+        result['discounted_products'] = list(filter(lambda x: x.discount > 0, search_result))
+        result['products'] = list(filter(lambda x: x.discount == 0, search_result))
+        result['discounted_products'] = list(map(set_discounted_price, result['discounted_products']))
+    return render_template('search.html', search_result=result, form=form)
 
 
 def get_matched_data(search_string):
@@ -289,3 +305,6 @@ def shop_data_export():
     ).execute()
 
     return {'result': 'success'}
+
+
+from .views_discounted_items import *

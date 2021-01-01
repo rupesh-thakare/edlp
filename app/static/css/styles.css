@@ -58,3 +58,7 @@ body {
 .qty-input.shown {
     display: initial;
 }
+
+.discount-panel-block {
+    background: rgba(255, 165, 0, 0.75);
+}

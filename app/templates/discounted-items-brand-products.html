@@ -4,10 +4,11 @@
   <div class="container listing-container">
     <form action="{{ url_for('main.submit_order') }}" method="post" class="product-form">
       {{ form.hidden_tag() }}
+      <input type="hidden" name="next" value="discount">
       <div class="panel listing-panel">
         <p class="panel-heading">
-          <a href="{{ url_for('main.category') }}"><i class="material-icons">arrow_back_ios </i></a>
-          {{ category.category_name }}
+          <a href="{{ url_for('main.discounted_items_home') }}"><i class="material-icons">arrow_back_ios </i></a>
+          {{ brand_name }}
         </p>
         {% for product in discounted_products %}
           {#          {% if product.inventory.inventory > 0 %}#}
@@ -31,24 +32,8 @@
           </div>
           {#          {% endif %}#}
         {% endfor %}
-        {% for product in products %}
-          {#          {% if product.inventory.inventory > 0 %}#}
-          <div class="field panel-block product-panel-block">
-            <label class="checkbox" style="display: block">
-              <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
-              <span>{{ product.description }} - {{ product.size }} {{ product.unit }}</span>
-            </label>
-            <button class="button is-static">Rs {{ product.mrp }}</button>
-            <label class="label qty-input">
-              <span>Qty</span>
-              <input required type="number" step="1" min="0" name="product-qty-{{ product.product_id }}" class="input"
-                     value="0">
-            </label>
-          </div>
-          {#          {% endif %}#}
-        {% endfor %}
 
-        {% if products|length > 0 or discounted_products|length > 0 %}
+        {% if discounted_products|length > 0 %}
           <div class="panel-block">
             <button class="button is-link is-fullwidth" type="submit">Save</button>
           </div>

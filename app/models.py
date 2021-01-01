@@ -33,6 +33,7 @@ class Catalog(db.Model):
     category_id = db.Column(db.String(64), db.ForeignKey('categories.category_id'))
     size = db.Column(db.String(128))
     unit = db.Column(db.String(64))
+    discount = db.Column(db.Float, default=0)
 
 
 class ProductInventory(db.Model):

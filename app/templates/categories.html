@@ -12,34 +12,35 @@
       </div>
     </form>
   </div>
-    <div class="container listing-container">
-        <div class="panel">
-            <p class="panel-heading"> Categories </p>
-            {% for category in categories %}
-            <a class="panel-block py-3 pl-5" href="{{ url_for('main.product', category_id=category.category_id) }}"> {{ category.category_name | title }}</a>
-            {% endfor %}
-        </div>
+  <div class="container listing-container">
+    <div class="panel">
+      <p class="panel-heading"> Categories </p>
+      {% for category in categories %}
+        <a class="panel-block py-3 pl-5"
+           href="{{ url_for('main.product', category_id=category.category_id) }}"> {{ category.category_name | title }}</a>
+      {% endfor %}
     </div>
+  </div>
 
 {% endblock %}
 
 {% block scripts %}
   {{ super() }}
   <script>
-      const searchCatalogInput = document.getElementById('search-catalog-input');
-      searchCatalogInput.focus()
-      searchCatalogInput.selectionStart = searchCatalogInput.selectionEnd = searchCatalogInput.value.length;
-      let timeout = null;
-      const searchForm = document.getElementById('search-form');
-      searchCatalogInput.addEventListener('input', (event) => {
-          clearTimeout(timeout);
-          const target = event.target;
-          if (target.value.length > 2) {
-              timeout = setTimeout((str) => {
-                      searchForm.submit();
-                  },
-                  400, target.value)
-          }
-      })
+    const searchCatalogInput = document.getElementById('search-catalog-input');
+    searchCatalogInput.focus()
+    searchCatalogInput.selectionStart = searchCatalogInput.selectionEnd = searchCatalogInput.value.length;
+    let timeout = null;
+    const searchForm = document.getElementById('search-form');
+    searchCatalogInput.addEventListener('input', (event) => {
+      clearTimeout(timeout);
+      const target = event.target;
+      if (target.value.length > 2) {
+        timeout = setTimeout((str) => {
+              searchForm.submit();
+            },
+            400, target.value)
+      }
+    })
   </script>
 {% endblock %}

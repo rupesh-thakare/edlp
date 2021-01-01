@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block style %}
+  {#  <link rel="stylesheet" href="{{ url_for('static', filename='css/semantic.min.css') }}">#}
+{% endblock %}
+
+{% block page_content %}
+  {#<div class="container">#}
+  {#  <div class="ui cards">#}
+  {#    {% for product in discounted_products %}#}
+  {#      <div class="ui card">#}
+  {#        <div class="content">#}
+  {#          <div class="header">{{ product.brand }}</div>#}
+  {#          <div class="meta">{{ product.description }}</div>#}
+  {#        </div>#}
+  {#      </div>#}
+  {#    {% endfor %}#}
+  {#    <div class="ui relaxed divided list">#}
+  {#      {% for brand in discounted_brands %}#}
+  {#      <div class="item">#}
+  {#        <div class="content">#}
+  {#          <a class="header">{{ brand }}</a>#}
+  {#          <div class="description">Updated 10 mins ago</div>#}
+  {#        </div>#}
+  {#      </div>#}
+  {#    {% endfor %}#}
+  {#    </div>#}
+  {##}
+  {##}
+  {#  </div>#}
+  {#</div>#}
+  <div class="container listing-container">
+    <div class="panel">
+      <p class="panel-heading"> Brands </p>
+      {% for brand in discounted_brands %}
+        <a class="panel-block py-3 pl-5"
+           href="{{ url_for('main.discounted_items_brand_products', brand_name=brand[0]) }}">
+          {{ brand[0] }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

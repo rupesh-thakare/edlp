@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/bulma.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
   <title>EDLP</title>
+  
+  {% block style %}
+  
+  {% endblock %}
 </head>
 <body>
 {% block navbar %}
@@ -21,6 +25,9 @@
       </div>
       <div class="nav-menu">
         {% if current_user.is_authenticated %}
+          <div class="navbar-item">
+            <a href="{{ url_for('main.discounted_items_home') }}" class="button is-primary">Discounted Items</a>
+          </div>
           <div class="navbar-item">
             <a href="{{ url_for('main.category') }}" class="button is-primary">Categories</a>
           </div>
