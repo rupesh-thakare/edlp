@@ -15,10 +15,12 @@
   <div class="container listing-container">
     <div class="panel">
       <p class="panel-heading"> Categories </p>
-      {% for category in categories %}
-        <a class="panel-block py-3 pl-5"
-           href="{{ url_for('main.product', category_id=category.category_id) }}"> {{ category.category_name | title }}</a>
-      {% endfor %}
+      <div class="panel-blocks-container">
+        {% for category in categories %}
+          <a class="panel-block py-3 pl-5"
+             href="{{ url_for('main.product', category_id=category.category_id) }}"> {{ category.category_name | title }}</a>
+        {% endfor %}
+      </div>
     </div>
   </div>
 

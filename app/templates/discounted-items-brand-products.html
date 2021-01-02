@@ -10,29 +10,34 @@
           <a href="{{ url_for('main.discounted_items_home') }}"><i class="material-icons">arrow_back_ios </i></a>
           {{ brand_name }}
         </p>
-        {% for product in discounted_products %}
-          {#          {% if product.inventory.inventory > 0 %}#}
-          <div class="field panel-block product-panel-block discount-panel-block">
-            <label class="checkbox" style="display: block">
-              <input class="product-input-check" multiple name="product" type="checkbox" value={{ product.product_id }}>
-              <span>{{ product.description }} - {{ product.size }} {{ product.unit }}</span>
-            </label>
-            {#            <button class="button is-static">Rs <span style="text-decoration: line-through"> {{ product.mrp }} </span> {{ product.discounted_price }}</button>#}
-            <button class="button is-static"><span style="text-decoration: line-through"> {{ product.mrp }} </span>
-            </button>
-            <button class="button is-static">Rs {{ product.discounted_price }}</button>
+        <div class="panel-blocks-container">
 
-            <div>
-              <label class="label qty-input">
-                <span>Qty</span>
-                <input required type="number" step="1" min="0" name="product-qty-{{ product.product_id }}" class="input"
-                       value="0">
+          {% for product in discounted_products %}
+            {#          {% if product.inventory.inventory > 0 %}#}
+            <div class="field panel-block product-panel-block discount-panel-block">
+              <label class="checkbox" style="display: block">
+                <input class="product-input-check" multiple name="product" type="checkbox"
+                       value={{ product.product_id }}>
+                <span>{{ product.description }} - {{ product.size }} {{ product.unit }}</span>
               </label>
-            </div>
-          </div>
-          {#          {% endif %}#}
-        {% endfor %}
+              {#            <button class="button is-static">Rs <span style="text-decoration: line-through"> {{ product.mrp }} </span> {{ product.discounted_price }}</button>#}
+              <button class="button is-static"><span style="text-decoration: line-through"> {{ product.mrp }} </span>
+              </button>
+              <button class="button is-static">Rs {{ product.discounted_price }}</button>
 
+              <div>
+                <label class="label qty-input">
+                  <span>Qty</span>
+                  <input required type="number" step="1" min="0" name="product-qty-{{ product.product_id }}"
+                         class="input"
+                         value="0">
+                </label>
+              </div>
+            </div>
+            {#          {% endif %}#}
+          {% endfor %}
+
+        </div>
         {% if discounted_products|length > 0 %}
           <div class="panel-block">
             <button class="button is-link is-fullwidth" type="submit">Save</button>

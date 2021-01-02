@@ -62,3 +62,15 @@ body {
 .discount-panel-block {
     background: rgba(255, 165, 0, 0.75);
 }
+
+.panel-blocks-container {
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.brands-panel-blocks-container {
+    /*    override max-height here if required */
+}
+
+.search-panel-block-container {
+}
