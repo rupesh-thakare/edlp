@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/bulma.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
   <title>EDLP</title>
-  
+
   {% block style %}
-  
+
   {% endblock %}
 </head>
 <body>
@@ -22,21 +22,30 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="{{ url_for('main.index') }}">EDLP</a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
-      <div class="nav-menu">
+      <div class="navbar-menu" id="navbarBasicExample">
         {% if current_user.is_authenticated %}
-          <div class="navbar-item">
-            <a href="{{ url_for('main.discounted_items_home') }}" class="button is-primary">Discounted Items</a>
-          </div>
-          <div class="navbar-item">
-            <a href="{{ url_for('main.category') }}" class="button is-primary">Categories</a>
-          </div>
-          <div class="navbar-item">
-            <a class="button is-light" href="{{ url_for('auth.logout') }}">Log Out</a>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a href="{{ url_for('main.discounted_items_home') }}" class="button is-primary">Discounted Items</a>
+                <a href="{{ url_for('main.category') }}" class="button is-primary">Categories</a>
+              </div>
+            </div>
+            <div class="navbar-item">
+              <a class="button is-light" href="{{ url_for('auth.logout') }}">Log Out</a>
+            </div>
           </div>
         {% else %}
-          <div class="navbar-item">
-            <a class="button is-light" href="{{ url_for('auth.login') }}">Log In</a>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <a class="button is-light" href="{{ url_for('auth.login') }}">Log In</a>
+            </div>
           </div>
         {% endif %}
       </div>
@@ -52,8 +61,35 @@
   {% endblock %}
 </main>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+
+  });
+</script>
+
 {% block scripts %}
-  {#{{ moment.include_moment() }}#}
 {% endblock %}
 </body>
 </html>

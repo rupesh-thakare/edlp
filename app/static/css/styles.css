@@ -3,14 +3,14 @@ body {
     flex-direction: column;
 }
 
-.navbar > .container {
-    display: flex;
-}
+/*.navbar > .container {*/
+/*    display: flex;*/
+/*}*/
 
-.nav-menu {
-    display: flex;
-    margin-left: auto;
-}
+/*.nav-menu {*/
+/*    display: flex;*/
+/*    margin-left: auto;*/
+/*}*/
 
 .user-account-page__input-card {
     background-color: #ececec;
